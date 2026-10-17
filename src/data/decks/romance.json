@@ -1,0 +1,227 @@
+{
+  "id": "romance",
+  "name": "Romance & Flirting",
+  "emoji": "🔥",
+  "description": "Sweet talk, flirting and dating phrases.",
+  "phase": 3,
+  "order": 90,
+  "cards": [
+    {
+      "id": "romance:te-amo",
+      "spanish": "Te amo",
+      "english": "I love you (deep)",
+      "pronunciation": "teh AH-moh",
+      "example": "Te amo con todo mi corazón.",
+      "example_en": "I love you with all my heart.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "Serious, deep love. Not for a first date."
+    },
+    {
+      "id": "romance:te-quiero",
+      "spanish": "Te quiero",
+      "english": "I love you (casual)",
+      "pronunciation": "teh KYEH-roh",
+      "example": "Te quiero mucho.",
+      "example_en": "I love you a lot.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "Also used with friends and family."
+    },
+    {
+      "id": "romance:me-gustas-neta",
+      "spanish": "Me gustas, neta",
+      "english": "I like you, for real",
+      "pronunciation": "meh GOOS-tahs, NEH-tah",
+      "example": "Me gustas, neta. No es broma.",
+      "example_en": "I like you, for real. It's not a joke.",
+      "region": "Mexico",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:me-tienes-loco",
+      "spanish": "Me tienes loco",
+      "english": "You drive me crazy",
+      "pronunciation": "meh TYEH-nehs LOH-koh",
+      "example": "Me tienes loco, mami.",
+      "example_en": "You're driving me crazy, babe.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "A woman would say \"Me tienes loca\"."
+    },
+    {
+      "id": "romance:me-estás-matando",
+      "spanish": "Me estás matando",
+      "english": "You're killing me",
+      "pronunciation": "meh ehs-TAHS mah-TAHN-doh",
+      "example": "Con ese vestido me estás matando.",
+      "example_en": "You're killing me in that dress.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:quiero-verte",
+      "spanish": "Quiero verte",
+      "english": "I want to see you",
+      "pronunciation": "KYEH-roh BEHR-teh",
+      "example": "Quiero verte esta noche.",
+      "example_en": "I want to see you tonight.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "\"verte\", never \"ver tu\". The pronoun attaches to the verb."
+    },
+    {
+      "id": "romance:cuándo-nos-vemos",
+      "spanish": "¿Cuándo nos vemos?",
+      "english": "When are we meeting? / When will we see each other?",
+      "pronunciation": "KWAHN-doh nohs BEH-mohs",
+      "example": "¿Cuándo nos vemos otra vez?",
+      "example_en": "When are we seeing each other again?",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:bésame",
+      "spanish": "Bésame",
+      "english": "Kiss me",
+      "pronunciation": "BEH-sah-meh",
+      "example": "Bésame otra vez.",
+      "example_en": "Kiss me again.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:dame-un-beso",
+      "spanish": "Dame un beso",
+      "english": "Give me a kiss",
+      "pronunciation": "DAH-meh oon BEH-soh",
+      "example": "Dame un beso antes de irte.",
+      "example_en": "Give me a kiss before you go.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "\"Dame\" = da + me. Never \"dar mi\"."
+    },
+    {
+      "id": "romance:quédate-conmigo",
+      "spanish": "Quédate conmigo",
+      "english": "Stay with me",
+      "pronunciation": "KEH-dah-teh kohn-MEE-goh",
+      "example": "Quédate conmigo esta noche.",
+      "example_en": "Stay with me tonight.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:mi-reina",
+      "spanish": "Mi reina",
+      "english": "My queen",
+      "pronunciation": "mee RAY-nah",
+      "example": "Buenos días, mi reina.",
+      "example_en": "Good morning, my queen.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:mi-corazón",
+      "spanish": "Mi corazón",
+      "english": "My heart / darling",
+      "pronunciation": "mee koh-rah-SOHN",
+      "example": "¿Cómo estás, mi corazón?",
+      "example_en": "How are you, darling?",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:eres-hermosa",
+      "spanish": "Eres hermosa",
+      "english": "You're beautiful",
+      "pronunciation": "EH-rehs ehr-MOH-sah",
+      "example": "Eres hermosa, ¿lo sabías?",
+      "example_en": "You're beautiful, did you know that?",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:qué-linda",
+      "spanish": "¡Qué linda!",
+      "english": "How pretty!",
+      "pronunciation": "keh LEEN-dah",
+      "example": "¡Qué linda te ves hoy!",
+      "example_en": "You look so pretty today!",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:y-tú-más",
+      "spanish": "Y tú más",
+      "english": "And you even more",
+      "pronunciation": "ee too mahs",
+      "example": "—Te ves bien. —Y tú más.",
+      "example_en": "\"You look good.\" \"You even more.\"",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:es-la-verdad",
+      "spanish": "Es la verdad",
+      "english": "It's the truth",
+      "pronunciation": "ehs lah behr-DAHD",
+      "example": "—Gracias por el cumplido. —Es la verdad.",
+      "example_en": "\"Thanks for the compliment.\" \"It's the truth.\"",
+      "region": "General",
+      "register": "romantic",
+      "notes": "A smooth reply when she says \"gracias\"."
+    },
+    {
+      "id": "romance:te-ves-bien",
+      "spanish": "Te ves bien",
+      "english": "You look good",
+      "pronunciation": "teh behs byehn",
+      "example": "Te ves bien con ese color.",
+      "example_en": "You look good in that color.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:estás-buenísima",
+      "spanish": "Estás buenísima",
+      "english": "You look really good",
+      "pronunciation": "ehs-TAHS bweh-NEE-see-mah",
+      "example": "Mami, estás buenísima.",
+      "example_en": "Babe, you look really good.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "🌶️ Very direct (it's about her body). Only with someone you're already close to."
+    },
+    {
+      "id": "romance:qué-coqueta",
+      "spanish": "¡Qué coqueta!",
+      "english": "What a tease! / What a flirt!",
+      "pronunciation": "keh koh-KEH-tah",
+      "example": "¡Ay, qué coqueta eres!",
+      "example_en": "Oh, you're such a flirt!",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:no-me-lo-puedo-sacar-de-la-cabeza",
+      "spanish": "No me lo puedo sacar de la cabeza",
+      "english": "I can't get it out of my head",
+      "pronunciation": "noh meh loh PWEH-doh sah-KAHR deh lah kah-BEH-sah",
+      "example": "Ese beso... no me lo puedo sacar de la cabeza.",
+      "example_en": "That kiss... I can't get it out of my head.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "romance:dulces-sueños",
+      "spanish": "Dulces sueños",
+      "english": "Sweet dreams",
+      "pronunciation": "DOOL-sehs SWEH-nyohs",
+      "example": "Buenas noches, dulces sueños.",
+      "example_en": "Good night, sweet dreams.",
+      "region": "General",
+      "register": "romantic"
+    }
+  ]
+}

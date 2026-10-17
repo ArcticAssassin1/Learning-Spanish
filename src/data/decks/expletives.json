@@ -1,0 +1,157 @@
+{
+  "id": "expletives",
+  "name": "Expletives & Insults",
+  "emoji": "🔞",
+  "description": "What people actually say when they're mad. Know it, use it carefully.",
+  "phase": 3,
+  "order": 120,
+  "cards": [
+    {
+      "id": "expletives:coño",
+      "spanish": "¡Coño!",
+      "english": "damn! (strong; Caribbean/Spain)",
+      "pronunciation": "KOH-nyoh",
+      "example": "¡Coño, qué calor!",
+      "example_en": "Damn, it's hot!",
+      "region": "Caribbean",
+      "register": "vulgar",
+      "notes": "Super common in DR, PR, Cuba and Spain. Never drop the ñ: \"cono\" = cone."
+    },
+    {
+      "id": "expletives:ay-cabrón",
+      "spanish": "¡Ay cabrón!",
+      "english": "oh damn! / you bastard!",
+      "pronunciation": "eye kah-BROHN",
+      "example": "¡Ay cabrón, se me cayó el teléfono!",
+      "example_en": "Oh damn, I dropped my phone!",
+      "region": "General",
+      "register": "vulgar",
+      "notes": "Between close friends \"cabrón\" can be friendly (like \"dude\")."
+    },
+    {
+      "id": "expletives:ay-chingado",
+      "spanish": "¡Ay chingado!",
+      "english": "oh sh*t!",
+      "pronunciation": "eye cheen-GAH-doh",
+      "example": "¡Ay chingado, perdí las llaves!",
+      "example_en": "Oh sh*t, I lost the keys!",
+      "region": "Mexico",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:mierda",
+      "spanish": "¡Mierda!",
+      "english": "sh*t!",
+      "pronunciation": "MYEHR-dah",
+      "example": "¡Mierda, se me olvidó!",
+      "example_en": "Sh*t, I forgot!",
+      "region": "General",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:me-vale-madre-me-vale-mierda",
+      "spanish": "Me vale madre / Me vale mierda",
+      "english": "I don't give a damn / I don't give a sh*t",
+      "pronunciation": "meh BAH-leh MAH-dreh / meh BAH-leh MYEHR-dah",
+      "example": "Me vale madre lo que digan.",
+      "example_en": "I don't give a damn what they say.",
+      "region": "General",
+      "register": "vulgar",
+      "notes": "\"Me vale madre\" is Mexican; \"me vale mierda\" is heard everywhere."
+    },
+    {
+      "id": "expletives:vete-a-la-mierda",
+      "spanish": "¡Vete a la mierda!",
+      "english": "f*** off / go to hell",
+      "pronunciation": "BEH-teh ah lah MYEHR-dah",
+      "example": "Si no te gusta, ¡vete a la mierda!",
+      "example_en": "If you don't like it, f*** off!",
+      "region": "General",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:pinche",
+      "spanish": "Pinche",
+      "english": "damn / f***ing",
+      "pronunciation": "PEEN-cheh",
+      "example": "Este pinche tráfico.",
+      "example_en": "This damn traffic.",
+      "region": "Mexico",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:huevos",
+      "spanish": "Huevos",
+      "english": "eggs / balls",
+      "pronunciation": "WEH-bohs",
+      "example": "Tiene huevos para decir eso.",
+      "example_en": "He has the balls to say that.",
+      "region": "General",
+      "register": "vulgar",
+      "notes": "Careful ordering eggs in Mexico! People say \"blanquillos\" to avoid the joke."
+    },
+    {
+      "id": "expletives:una-perra",
+      "spanish": "Una perra",
+      "english": "female dog / b*tch",
+      "pronunciation": "OO-nah PEH-rrah",
+      "example": "Ella es una perra.",
+      "example_en": "She's a b*tch.",
+      "region": "General",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:le-apesta-el-hocico",
+      "spanish": "Le apesta el hocico",
+      "english": "his/her mouth stinks",
+      "pronunciation": "leh ah-PEHS-tah ehl oh-SEE-koh",
+      "example": "A ese tipo le apesta el hocico.",
+      "example_en": "That guy's mouth stinks.",
+      "region": "General",
+      "register": "vulgar",
+      "notes": "\"Hocico\" = an animal's snout. Insulting when said about a person."
+    },
+    {
+      "id": "expletives:te-meo",
+      "spanish": "Te meo",
+      "english": "I pee on you (insult)",
+      "pronunciation": "teh MEH-oh",
+      "example": "Cállate o te meo.",
+      "example_en": "Shut up or I'll pee on you.",
+      "region": "General",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:coger",
+      "spanish": "Coger",
+      "english": "to grab (Spain) / to have sex (Latin America)",
+      "pronunciation": "koh-HEHR",
+      "example": "En España: \"Voy a coger el bus.\"",
+      "example_en": "In Spain: \"I'm going to catch the bus.\"",
+      "region": "Spain",
+      "register": "vulgar",
+      "notes": "In Latin America use \"agarrar\" or \"tomar\" instead."
+    },
+    {
+      "id": "expletives:tetas",
+      "spanish": "Tetas",
+      "english": "boobs (vulgar)",
+      "pronunciation": "TEH-tahs",
+      "example": "Deja de mirarle las tetas.",
+      "example_en": "Stop staring at her boobs.",
+      "region": "General",
+      "register": "vulgar"
+    },
+    {
+      "id": "expletives:nalgas-culo",
+      "spanish": "Nalgas / Culo",
+      "english": "butt (informal / vulgar)",
+      "pronunciation": "NAHL-gahs / KOO-loh",
+      "example": "Me duele el culo de tanto sentarme.",
+      "example_en": "My butt hurts from sitting so much.",
+      "region": "General",
+      "register": "vulgar",
+      "notes": "\"Nalgas\" is informal; \"culo\" is vulgar."
+    }
+  ]
+}

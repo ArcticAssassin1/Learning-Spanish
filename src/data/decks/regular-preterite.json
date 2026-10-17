@@ -1,0 +1,163 @@
+{
+  "id": "regular-preterite",
+  "name": "Regular Preterite",
+  "emoji": "⏪",
+  "description": "Completed past actions with regular -ar / -er / -ir verbs: hablar, comer, vivir.",
+  "phase": 1,
+  "order": 20,
+  "cards": [
+    {
+      "id": "regular-preterite:hablé",
+      "spanish": "hablé",
+      "english": "I spoke",
+      "pronunciation": "ah-BLEH",
+      "example": "Hablé con mi mamá anoche.",
+      "example_en": "I spoke with my mom last night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:hablaste",
+      "spanish": "hablaste",
+      "english": "you spoke",
+      "pronunciation": "ah-BLAHS-teh",
+      "example": "¿Hablaste con ella?",
+      "example_en": "Did you talk to her?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:habló",
+      "spanish": "habló",
+      "english": "he/she spoke",
+      "pronunciation": "ah-BLOH",
+      "example": "Ella habló muy rápido.",
+      "example_en": "She spoke very fast.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Accent matters: \"hablo\" = I speak, \"habló\" = he/she spoke."
+    },
+    {
+      "id": "regular-preterite:hablamos",
+      "spanish": "hablamos",
+      "english": "we spoke",
+      "pronunciation": "ah-BLAH-mohs",
+      "example": "Hablamos por teléfono ayer.",
+      "example_en": "We talked on the phone yesterday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Same form as the present \"we speak\". Context tells you which."
+    },
+    {
+      "id": "regular-preterite:hablaron",
+      "spanish": "hablaron",
+      "english": "they spoke",
+      "pronunciation": "ah-BLAH-rohn",
+      "example": "Hablaron toda la noche.",
+      "example_en": "They talked all night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:comí",
+      "spanish": "comí",
+      "english": "I ate",
+      "pronunciation": "koh-MEE",
+      "example": "Comí tacos en Ybor.",
+      "example_en": "I ate tacos in Ybor.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:comiste",
+      "spanish": "comiste",
+      "english": "you ate",
+      "pronunciation": "koh-MEES-teh",
+      "example": "¿Ya comiste?",
+      "example_en": "Did you eat already?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:comió",
+      "spanish": "comió",
+      "english": "he/she ate",
+      "pronunciation": "koh-MYOH",
+      "example": "Mi pana comió dos platos.",
+      "example_en": "My buddy ate two plates.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:comimos",
+      "spanish": "comimos",
+      "english": "we ate",
+      "pronunciation": "koh-MEE-mohs",
+      "example": "Comimos arroz con habichuelas.",
+      "example_en": "We ate rice and beans.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:comieron",
+      "spanish": "comieron",
+      "english": "they ate",
+      "pronunciation": "koh-MYEH-rohn",
+      "example": "¿Dónde comieron ellos?",
+      "example_en": "Where did they eat?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:viví",
+      "spanish": "viví",
+      "english": "I lived",
+      "pronunciation": "bee-BEE",
+      "example": "Viví en Miami dos años.",
+      "example_en": "I lived in Miami for two years.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:viviste",
+      "spanish": "viviste",
+      "english": "you lived",
+      "pronunciation": "bee-BEES-teh",
+      "example": "¿Viviste en Nueva York?",
+      "example_en": "Did you live in New York?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:vivió",
+      "spanish": "vivió",
+      "english": "he/she lived",
+      "pronunciation": "bee-BYOH",
+      "example": "Mi abuela vivió en Santo Domingo.",
+      "example_en": "My grandma lived in Santo Domingo.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "regular-preterite:vivimos",
+      "spanish": "vivimos",
+      "english": "we lived",
+      "pronunciation": "bee-BEE-mohs",
+      "example": "Vivimos en Orlando el año pasado.",
+      "example_en": "We lived in Orlando last year.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Same form as the present \"we live\"."
+    },
+    {
+      "id": "regular-preterite:vivieron",
+      "spanish": "vivieron",
+      "english": "they lived",
+      "pronunciation": "bee-BYEH-rohn",
+      "example": "Vivieron juntos un año.",
+      "example_en": "They lived together for a year.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

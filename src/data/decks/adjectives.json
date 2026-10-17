@@ -1,0 +1,265 @@
+{
+  "id": "adjectives",
+  "name": "Adjectives",
+  "emoji": "🎨",
+  "description": "Describe people and things. Most change -o / -a to match gender, and usually go after the noun.",
+  "phase": 1,
+  "order": 50,
+  "cards": [
+    {
+      "id": "adjectives:malo-mala",
+      "spanish": "malo / mala",
+      "english": "bad",
+      "pronunciation": "MAH-loh / MAH-lah",
+      "example": "Fue un mal momento.",
+      "example_en": "It was a bad moment.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Before a masculine noun \"malo\" becomes \"mal\": un mal momento."
+    },
+    {
+      "id": "adjectives:bueno-buena",
+      "spanish": "bueno / buena",
+      "english": "good",
+      "pronunciation": "BWEH-noh / BWEH-nah",
+      "example": "La comida está buena.",
+      "example_en": "The food is good.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Before a masculine noun \"bueno\" becomes \"buen\": un buen día."
+    },
+    {
+      "id": "adjectives:grande",
+      "spanish": "grande",
+      "english": "big / large",
+      "pronunciation": "GRAHN-deh",
+      "example": "Es una casa grande.",
+      "example_en": "It's a big house.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:pequeño-pequeña",
+      "spanish": "pequeño / pequeña",
+      "english": "little / small",
+      "pronunciation": "peh-KEH-nyoh / peh-KEH-nyah",
+      "example": "Tengo un perro pequeño.",
+      "example_en": "I have a small dog.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:interesante",
+      "spanish": "interesante",
+      "english": "interesting",
+      "pronunciation": "een-teh-reh-SAHN-teh",
+      "example": "Es una historia interesante.",
+      "example_en": "It's an interesting story.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:triste",
+      "spanish": "triste",
+      "english": "sad",
+      "pronunciation": "TREES-teh",
+      "example": "Esa canción es muy triste.",
+      "example_en": "That song is really sad.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:feliz",
+      "spanish": "feliz",
+      "english": "happy",
+      "pronunciation": "feh-LEES",
+      "example": "Estoy feliz contigo.",
+      "example_en": "I'm happy with you.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:viejo-vieja",
+      "spanish": "viejo / vieja",
+      "english": "old",
+      "pronunciation": "BYEH-hoh / BYEH-hah",
+      "example": "Mi carro es viejo.",
+      "example_en": "My car is old.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:joven",
+      "spanish": "joven",
+      "english": "young",
+      "pronunciation": "HOH-behn",
+      "example": "Ella es muy joven.",
+      "example_en": "She's very young.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:divertido-divertida",
+      "spanish": "divertido / divertida",
+      "english": "fun",
+      "pronunciation": "dee-behr-TEE-doh / dee-behr-TEE-dah",
+      "example": "La fiesta fue muy divertida.",
+      "example_en": "The party was a lot of fun.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:aburrido-aburrida",
+      "spanish": "aburrido / aburrida",
+      "english": "bored / boring",
+      "pronunciation": "ah-boo-RREE-doh / ah-boo-RREE-dah",
+      "example": "Estoy aburrido. / Es aburrido.",
+      "example_en": "I'm bored. / It's boring.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "estar aburrido = bored, ser aburrido = boring."
+    },
+    {
+      "id": "adjectives:lindo-linda",
+      "spanish": "lindo / linda",
+      "english": "pretty / cute",
+      "pronunciation": "LEEN-doh / LEEN-dah",
+      "example": "¡Qué lindo!",
+      "example_en": "How cute!",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:hermoso-hermosa",
+      "spanish": "hermoso / hermosa",
+      "english": "beautiful",
+      "pronunciation": "ehr-MOH-soh / ehr-MOH-sah",
+      "example": "La playa es hermosa.",
+      "example_en": "The beach is beautiful.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:guapo-guapa",
+      "spanish": "guapo / guapa",
+      "english": "good-looking",
+      "pronunciation": "GWAH-poh / GWAH-pah",
+      "example": "Tu hermano es guapo.",
+      "example_en": "Your brother is good-looking.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:feo-fea",
+      "spanish": "feo / fea",
+      "english": "ugly",
+      "pronunciation": "FEH-oh / FEH-ah",
+      "example": "Ese carro está feo.",
+      "example_en": "That car is ugly.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:caro-cara",
+      "spanish": "caro / cara",
+      "english": "expensive",
+      "pronunciation": "KAH-roh / KAH-rah",
+      "example": "Los tragos aquí son caros.",
+      "example_en": "The drinks here are expensive.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:lento-lenta",
+      "spanish": "lento / lenta",
+      "english": "slow",
+      "pronunciation": "LEHN-toh / LEHN-tah",
+      "example": "El internet está lento.",
+      "example_en": "The internet is slow.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:duro-dura",
+      "spanish": "duro / dura",
+      "english": "hard / tough",
+      "pronunciation": "DOO-roh / DOO-rah",
+      "example": "El entrenamiento fue duro.",
+      "example_en": "The workout was tough.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:peligroso-peligrosa",
+      "spanish": "peligroso / peligrosa",
+      "english": "dangerous",
+      "pronunciation": "peh-lee-GROH-soh / peh-lee-GROH-sah",
+      "example": "Esa calle es peligrosa de noche.",
+      "example_en": "That street is dangerous at night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:fiel",
+      "spanish": "fiel",
+      "english": "faithful / loyal",
+      "pronunciation": "fyehl",
+      "example": "Mi perro es muy fiel.",
+      "example_en": "My dog is very loyal.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:seguro-segura",
+      "spanish": "seguro / segura",
+      "english": "sure / safe / confident",
+      "pronunciation": "seh-GOO-roh / seh-GOO-rah",
+      "example": "¿Estás seguro?",
+      "example_en": "Are you sure?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:listo-lista",
+      "spanish": "listo / lista",
+      "english": "ready / smart",
+      "pronunciation": "LEES-toh / LEES-tah",
+      "example": "¿Estás lista? / Ella es lista.",
+      "example_en": "Are you ready? / She is smart.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "estar listo = ready, ser listo = smart."
+    },
+    {
+      "id": "adjectives:tonto-tonta",
+      "spanish": "tonto / tonta",
+      "english": "silly / dumb",
+      "pronunciation": "TOHN-toh / TOHN-tah",
+      "example": "No seas tonto.",
+      "example_en": "Don't be silly.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "adjectives:borracho-borracha",
+      "spanish": "borracho / borracha",
+      "english": "drunk",
+      "pronunciation": "boh-RRAH-choh / boh-RRAH-chah",
+      "example": "Él estaba borracho anoche.",
+      "example_en": "He was drunk last night.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "adjectives:sudoroso-sudorosa",
+      "spanish": "sudoroso / sudorosa",
+      "english": "sweaty",
+      "pronunciation": "soo-doh-ROH-soh / soo-doh-ROH-sah",
+      "example": "Estoy sudoroso después de entrenar.",
+      "example_en": "I'm sweaty after working out.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In casual speech you will also hear \"sudado\"."
+    }
+  ]
+}

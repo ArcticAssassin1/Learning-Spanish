@@ -1,0 +1,141 @@
+{
+  "id": "connectors",
+  "name": "Connector Words",
+  "emoji": "🔗",
+  "description": "Glue words that make your sentences sound natural.",
+  "phase": 1,
+  "order": 60,
+  "cards": [
+    {
+      "id": "connectors:siempre",
+      "spanish": "siempre",
+      "english": "always",
+      "pronunciation": "SYEHM-preh",
+      "example": "Siempre llego tarde.",
+      "example_en": "I'm always late.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:nunca",
+      "spanish": "nunca",
+      "english": "never",
+      "pronunciation": "NOON-kah",
+      "example": "Nunca bebo café de noche.",
+      "example_en": "I never drink coffee at night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:jamás",
+      "spanish": "jamás",
+      "english": "never ever (stronger)",
+      "pronunciation": "hah-MAHS",
+      "example": "¡Jamás te voy a olvidar!",
+      "example_en": "I'll never ever forget you!",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:a-veces",
+      "spanish": "a veces",
+      "english": "sometimes",
+      "pronunciation": "ah BEH-sehs",
+      "example": "A veces entreno por la noche.",
+      "example_en": "Sometimes I work out at night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:a-menudo",
+      "spanish": "a menudo",
+      "english": "often",
+      "pronunciation": "ah meh-NOO-doh",
+      "example": "Vamos a la playa a menudo.",
+      "example_en": "We go to the beach often.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:también",
+      "spanish": "también",
+      "english": "also / too",
+      "pronunciation": "tahm-BYEHN",
+      "example": "Yo también.",
+      "example_en": "Me too.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:tampoco",
+      "spanish": "tampoco",
+      "english": "neither / not either",
+      "pronunciation": "tahm-POH-koh",
+      "example": "Yo tampoco.",
+      "example_en": "Me neither.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:además",
+      "spanish": "además",
+      "english": "in addition / besides",
+      "pronunciation": "ah-deh-MAHS",
+      "example": "Además, es muy barato.",
+      "example_en": "Besides, it's really cheap.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:sin-embargo",
+      "spanish": "sin embargo",
+      "english": "however",
+      "pronunciation": "seen ehm-BAHR-goh",
+      "example": "Es caro; sin embargo, vale la pena.",
+      "example_en": "It's expensive; however, it's worth it.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:por-lo-tanto",
+      "spanish": "por lo tanto",
+      "english": "therefore",
+      "pronunciation": "pohr loh TAHN-toh",
+      "example": "Estoy cansado, por lo tanto me quedo en casa.",
+      "example_en": "I'm tired, so I'm staying home.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:entonces",
+      "spanish": "entonces",
+      "english": "then / so",
+      "pronunciation": "ehn-TOHN-sehs",
+      "example": "Entonces, ¿qué hacemos?",
+      "example_en": "So, what do we do?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:aunque",
+      "spanish": "aunque",
+      "english": "although / even though",
+      "pronunciation": "OWN-keh",
+      "example": "Voy aunque llueva.",
+      "example_en": "I'm going even if it rains.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "connectors:por-lo-menos",
+      "spanish": "por lo menos",
+      "english": "at least",
+      "pronunciation": "pohr loh MEH-nohs",
+      "example": "Por lo menos llegamos a tiempo.",
+      "example_en": "At least we arrived on time.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Fixed expression: \"por lo menos\", never \"por los menos\"."
+    }
+  ]
+}

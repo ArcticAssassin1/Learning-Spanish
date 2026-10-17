@@ -1,0 +1,465 @@
+{
+  "id": "irregular-preterite",
+  "name": "Irregular Preterite",
+  "emoji": "🌀",
+  "description": "The must-know irregular past forms (the quiz you paused). No accents on these!",
+  "phase": 1,
+  "order": 30,
+  "cards": [
+    {
+      "id": "irregular-preterite:fui",
+      "spanish": "fui (ir/ser)",
+      "english": "I went / I was",
+      "pronunciation": "fwee",
+      "example": "Fui a la playa ayer.",
+      "example_en": "I went to the beach yesterday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Ir and ser share the same preterite. Context tells you which."
+    },
+    {
+      "id": "irregular-preterite:fuiste",
+      "spanish": "fuiste (ir/ser)",
+      "english": "you went / you were",
+      "pronunciation": "FWEES-teh",
+      "example": "¿Fuiste a la fiesta?",
+      "example_en": "Did you go to the party?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:fue",
+      "spanish": "fue (ir/ser)",
+      "english": "he/she went / he/she was / it was",
+      "pronunciation": "fweh",
+      "example": "Fue una noche increíble.",
+      "example_en": "It was an incredible night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:fuimos",
+      "spanish": "fuimos (ir/ser)",
+      "english": "we went / we were",
+      "pronunciation": "FWEE-mohs",
+      "example": "Fuimos a bailar a Ybor.",
+      "example_en": "We went dancing in Ybor.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:fueron",
+      "spanish": "fueron (ir/ser)",
+      "english": "they went / they were",
+      "pronunciation": "FWEH-rohn",
+      "example": "Fueron al cine.",
+      "example_en": "They went to the movies.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:tuve",
+      "spanish": "tuve (tener)",
+      "english": "I had",
+      "pronunciation": "TOO-beh",
+      "example": "Tuve un día largo.",
+      "example_en": "I had a long day.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:tuviste",
+      "spanish": "tuviste (tener)",
+      "english": "you had",
+      "pronunciation": "too-BEES-teh",
+      "example": "¿Tuviste tiempo para comer?",
+      "example_en": "Did you have time to eat?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:tuvo",
+      "spanish": "tuvo (tener)",
+      "english": "he/she had",
+      "pronunciation": "TOO-boh",
+      "example": "Ella tuvo un bebé.",
+      "example_en": "She had a baby.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:tuvimos",
+      "spanish": "tuvimos (tener)",
+      "english": "we had",
+      "pronunciation": "too-BEE-mohs",
+      "example": "Tuvimos un problema con el carro.",
+      "example_en": "We had a problem with the car.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:tuvieron",
+      "spanish": "tuvieron (tener)",
+      "english": "they had",
+      "pronunciation": "too-BYEH-rohn",
+      "example": "Tuvieron que irse temprano.",
+      "example_en": "They had to leave early.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:hice",
+      "spanish": "hice (hacer)",
+      "english": "I did / I made",
+      "pronunciation": "EE-seh",
+      "example": "Hice la cena anoche.",
+      "example_en": "I made dinner last night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:hiciste",
+      "spanish": "hiciste (hacer)",
+      "english": "you did / you made",
+      "pronunciation": "ee-SEES-teh",
+      "example": "¿Qué hiciste el fin de semana?",
+      "example_en": "What did you do on the weekend?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:hizo",
+      "spanish": "hizo (hacer)",
+      "english": "he/she did / he/she made",
+      "pronunciation": "EE-soh",
+      "example": "Mi mamá hizo un pastel.",
+      "example_en": "My mom made a cake.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Spelled with z (hizo), not c."
+    },
+    {
+      "id": "irregular-preterite:hicimos",
+      "spanish": "hicimos (hacer)",
+      "english": "we did / we made",
+      "pronunciation": "ee-SEE-mohs",
+      "example": "Hicimos una fiesta en la casa.",
+      "example_en": "We threw a party at the house.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:hicieron",
+      "spanish": "hicieron (hacer)",
+      "english": "they did / they made",
+      "pronunciation": "ee-SYEH-rohn",
+      "example": "¿Qué hicieron anoche?",
+      "example_en": "What did they do last night?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:estuve",
+      "spanish": "estuve (estar)",
+      "english": "I was (temporary / location)",
+      "pronunciation": "ehs-TOO-beh",
+      "example": "Estuve en el gym dos horas.",
+      "example_en": "I was at the gym for two hours.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:estuviste",
+      "spanish": "estuviste (estar)",
+      "english": "you were (temporary / location)",
+      "pronunciation": "ehs-too-BEES-teh",
+      "example": "¿Dónde estuviste?",
+      "example_en": "Where were you?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:estuvo",
+      "spanish": "estuvo (estar)",
+      "english": "he/she was / it was (temporary)",
+      "pronunciation": "ehs-TOO-boh",
+      "example": "La fiesta estuvo jevi.",
+      "example_en": "The party was awesome.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:estuvimos",
+      "spanish": "estuvimos (estar)",
+      "english": "we were (temporary / location)",
+      "pronunciation": "ehs-too-BEE-mohs",
+      "example": "Estuvimos en Miami el fin de semana.",
+      "example_en": "We were in Miami for the weekend.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:estuvieron",
+      "spanish": "estuvieron (estar)",
+      "english": "they were (temporary / location)",
+      "pronunciation": "ehs-too-BYEH-rohn",
+      "example": "Estuvieron enfermos.",
+      "example_en": "They were sick.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:pude",
+      "spanish": "pude (poder)",
+      "english": "I could / I managed to",
+      "pronunciation": "POO-deh",
+      "example": "No pude dormir.",
+      "example_en": "I couldn't sleep.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:pudiste",
+      "spanish": "pudiste (poder)",
+      "english": "you could / you managed to",
+      "pronunciation": "poo-DEES-teh",
+      "example": "¿Pudiste hablar con él?",
+      "example_en": "Were you able to talk to him?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:pudo",
+      "spanish": "pudo (poder)",
+      "english": "he/she could / he/she managed to",
+      "pronunciation": "POO-doh",
+      "example": "Ella no pudo venir.",
+      "example_en": "She couldn't come.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:pudimos",
+      "spanish": "pudimos (poder)",
+      "english": "we could / we managed to",
+      "pronunciation": "poo-DEE-mohs",
+      "example": "Por fin pudimos entrar.",
+      "example_en": "We finally managed to get in.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:pudieron",
+      "spanish": "pudieron (poder)",
+      "english": "they could / they managed to",
+      "pronunciation": "poo-DYEH-rohn",
+      "example": "No pudieron encontrar parqueo.",
+      "example_en": "They couldn't find parking.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:quise",
+      "spanish": "quise (querer)",
+      "english": "I wanted / I tried to",
+      "pronunciation": "KEE-seh",
+      "example": "Quise llamarte, pero no tenía batería.",
+      "example_en": "I tried to call you, but I didn't have battery.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:quisiste",
+      "spanish": "quisiste (querer)",
+      "english": "you wanted / you tried to",
+      "pronunciation": "kee-SEES-teh",
+      "example": "¿Por qué no quisiste ir?",
+      "example_en": "Why didn't you want to go?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:quiso",
+      "spanish": "quiso (querer)",
+      "english": "he/she wanted / he/she tried to",
+      "pronunciation": "KEE-soh",
+      "example": "Ella no quiso bailar conmigo.",
+      "example_en": "She refused to dance with me.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:quisimos",
+      "spanish": "quisimos (querer)",
+      "english": "we wanted / we tried to",
+      "pronunciation": "kee-SEE-mohs",
+      "example": "Quisimos ayudar.",
+      "example_en": "We wanted to help.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:quisieron",
+      "spanish": "quisieron (querer)",
+      "english": "they wanted / they tried to",
+      "pronunciation": "kee-SYEH-rohn",
+      "example": "No quisieron pagar.",
+      "example_en": "They refused to pay.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:supe",
+      "spanish": "supe (saber)",
+      "english": "I found out / I knew",
+      "pronunciation": "SOO-peh",
+      "example": "Ayer supe la verdad.",
+      "example_en": "Yesterday I found out the truth.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In the preterite, saber usually means \"found out\"."
+    },
+    {
+      "id": "irregular-preterite:supiste",
+      "spanish": "supiste (saber)",
+      "english": "you found out / you knew",
+      "pronunciation": "soo-PEES-teh",
+      "example": "¿Cómo supiste?",
+      "example_en": "How did you find out?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:supo",
+      "spanish": "supo (saber)",
+      "english": "he/she found out / he/she knew",
+      "pronunciation": "SOO-poh",
+      "example": "Nadie supo qué decir.",
+      "example_en": "Nobody knew what to say.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:supimos",
+      "spanish": "supimos (saber)",
+      "english": "we found out / we knew",
+      "pronunciation": "soo-PEE-mohs",
+      "example": "Supimos la noticia anoche.",
+      "example_en": "We found out the news last night.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:supieron",
+      "spanish": "supieron (saber)",
+      "english": "they found out / they knew",
+      "pronunciation": "soo-PYEH-rohn",
+      "example": "¿Cuándo lo supieron?",
+      "example_en": "When did they find out?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:dije",
+      "spanish": "dije (decir)",
+      "english": "I said / I told",
+      "pronunciation": "DEE-heh",
+      "example": "Te dije que sí.",
+      "example_en": "I told you yes.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:dijiste",
+      "spanish": "dijiste (decir)",
+      "english": "you said / you told",
+      "pronunciation": "dee-HEES-teh",
+      "example": "¿Qué dijiste?",
+      "example_en": "What did you say?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:dijo",
+      "spanish": "dijo (decir)",
+      "english": "he/she said / he/she told",
+      "pronunciation": "DEE-hoh",
+      "example": "Ella me dijo que sí.",
+      "example_en": "She told me yes.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:dijimos",
+      "spanish": "dijimos (decir)",
+      "english": "we said / we told",
+      "pronunciation": "dee-HEE-mohs",
+      "example": "Le dijimos la verdad.",
+      "example_en": "We told him the truth.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:dijeron",
+      "spanish": "dijeron (decir)",
+      "english": "they said / they told",
+      "pronunciation": "dee-HEH-rohn",
+      "example": "Dijeron que vienen.",
+      "example_en": "They said they're coming.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "No \"i\": dijeron, not dijieron."
+    },
+    {
+      "id": "irregular-preterite:vine",
+      "spanish": "vine (venir)",
+      "english": "I came",
+      "pronunciation": "BEE-neh",
+      "example": "Vine a verte.",
+      "example_en": "I came to see you.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:viniste",
+      "spanish": "viniste (venir)",
+      "english": "you came",
+      "pronunciation": "bee-NEES-teh",
+      "example": "¿Por qué no viniste?",
+      "example_en": "Why didn't you come?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:vino",
+      "spanish": "vino (venir)",
+      "english": "he/she came",
+      "pronunciation": "BEE-noh",
+      "example": "Mi primo vino de Puerto Rico.",
+      "example_en": "My cousin came from Puerto Rico.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also \"vino\" = wine!"
+    },
+    {
+      "id": "irregular-preterite:vinimos",
+      "spanish": "vinimos (venir)",
+      "english": "we came",
+      "pronunciation": "bee-NEE-mohs",
+      "example": "Vinimos temprano.",
+      "example_en": "We came early.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "irregular-preterite:vinieron",
+      "spanish": "vinieron (venir)",
+      "english": "they came",
+      "pronunciation": "bee-NYEH-rohn",
+      "example": "Vinieron todos mis panas.",
+      "example_en": "All my buddies came.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

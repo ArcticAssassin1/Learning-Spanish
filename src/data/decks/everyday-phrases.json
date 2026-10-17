@@ -1,0 +1,384 @@
+{
+  "id": "everyday-phrases",
+  "name": "Everyday Phrases",
+  "emoji": "💬",
+  "description": "Natural things people actually say every day.",
+  "phase": 2,
+  "order": 80,
+  "cards": [
+    {
+      "id": "everyday-phrases:qué-te-pasa",
+      "spanish": "¿Qué te pasa?",
+      "english": "What's wrong with you? / What's up with you?",
+      "pronunciation": "keh teh PAH-sah",
+      "example": "¿Qué te pasa? Estás muy callado.",
+      "example_en": "What's up with you? You're really quiet.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:qué-es-esto",
+      "spanish": "¿Qué es esto?",
+      "english": "What is this?",
+      "pronunciation": "keh ehs EHS-toh",
+      "example": "¿Qué es esto? Huele rico.",
+      "example_en": "What is this? It smells good.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "everyday-phrases:qué-desea",
+      "spanish": "¿Qué desea?",
+      "english": "What would you like? (formal)",
+      "pronunciation": "keh deh-SEH-ah",
+      "example": "Buenas noches, ¿qué desea?",
+      "example_en": "Good evening, what would you like?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "What a waiter or cashier says to you."
+    },
+    {
+      "id": "everyday-phrases:a-qué-te-dedicas",
+      "spanish": "¿A qué te dedicas?",
+      "english": "What do you do (for work)?",
+      "pronunciation": "ah keh teh deh-DEE-kahs",
+      "example": "Mucho gusto. ¿A qué te dedicas?",
+      "example_en": "Nice to meet you. What do you do?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:cómo-te-va",
+      "spanish": "¿Cómo te va?",
+      "english": "How's it going?",
+      "pronunciation": "KOH-moh teh bah",
+      "example": "Hola, ¿cómo te va?",
+      "example_en": "Hi, how's it going?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:todo-bien",
+      "spanish": "Todo bien",
+      "english": "All good",
+      "pronunciation": "TOH-doh byehn",
+      "example": "Todo bien, gracias.",
+      "example_en": "All good, thanks.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:no-pasa-nada",
+      "spanish": "No pasa nada",
+      "english": "No worries / It's okay",
+      "pronunciation": "noh PAH-sah NAH-dah",
+      "example": "Tranquilo, no pasa nada.",
+      "example_en": "Relax, it's no big deal.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:está-bien",
+      "spanish": "Está bien",
+      "english": "It's okay / fine",
+      "pronunciation": "ehs-TAH byehn",
+      "example": "Está bien, nos vemos mañana.",
+      "example_en": "Okay, see you tomorrow.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:es-verdad",
+      "spanish": "Es verdad",
+      "english": "It's true",
+      "pronunciation": "ehs behr-DAHD",
+      "example": "Es verdad, tienes razón.",
+      "example_en": "It's true, you're right.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:en-serio",
+      "spanish": "En serio",
+      "english": "Seriously / For real",
+      "pronunciation": "ehn SEH-ryoh",
+      "example": "¿En serio? No te creo.",
+      "example_en": "Seriously? I don't believe you.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:quién-sabe",
+      "spanish": "Quién sabe",
+      "english": "Who knows",
+      "pronunciation": "kyehn SAH-beh",
+      "example": "¿Va a llover? Quién sabe.",
+      "example_en": "Is it going to rain? Who knows.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:no-sé",
+      "spanish": "No sé",
+      "english": "I don't know",
+      "pronunciation": "noh seh",
+      "example": "No sé qué hacer.",
+      "example_en": "I don't know what to do.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Accent on sé (I know). \"se\" is a different word."
+    },
+    {
+      "id": "everyday-phrases:supongo",
+      "spanish": "Supongo",
+      "english": "I guess / I suppose",
+      "pronunciation": "soo-POHN-goh",
+      "example": "Supongo que sí.",
+      "example_en": "I guess so.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:depende-de-mi-humor",
+      "spanish": "Depende de mi humor",
+      "english": "Depends on my mood",
+      "pronunciation": "deh-PEHN-deh deh mee oo-MOHR",
+      "example": "¿Salir esta noche? Depende de mi humor.",
+      "example_en": "Go out tonight? Depends on my mood.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:a-ver",
+      "spanish": "A ver",
+      "english": "Let's see",
+      "pronunciation": "ah behr",
+      "example": "A ver, ¿qué tenemos aquí?",
+      "example_en": "Let's see, what do we have here?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:espera",
+      "spanish": "Espera",
+      "english": "Wait / Hold on",
+      "pronunciation": "ehs-PEH-rah",
+      "example": "Espera, ya voy.",
+      "example_en": "Hold on, I'm coming.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:otra-vez",
+      "spanish": "Otra vez",
+      "english": "Again",
+      "pronunciation": "OH-trah behs",
+      "example": "¿Otra vez llegas tarde?",
+      "example_en": "You're late again?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:dime",
+      "spanish": "Dime",
+      "english": "Tell me",
+      "pronunciation": "DEE-meh",
+      "example": "Dime la verdad.",
+      "example_en": "Tell me the truth.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:explícamelo",
+      "spanish": "Explícamelo",
+      "english": "Explain it to me",
+      "pronunciation": "ehks-PLEE-kah-meh-loh",
+      "example": "No entiendo, explícamelo otra vez.",
+      "example_en": "I don't get it, explain it to me again.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:pregúntale",
+      "spanish": "Pregúntale",
+      "english": "Ask him / Ask her",
+      "pronunciation": "preh-GOON-tah-leh",
+      "example": "Pregúntale a ella.",
+      "example_en": "Ask her.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:que-no-se-te-olvide",
+      "spanish": "Que no se te olvide",
+      "english": "Don't forget",
+      "pronunciation": "keh noh seh teh ohl-BEE-deh",
+      "example": "Que no se te olvide la llave.",
+      "example_en": "Don't forget the key.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:lo-sabía",
+      "spanish": "Lo sabía",
+      "english": "I knew it",
+      "pronunciation": "loh sah-BEE-ah",
+      "example": "¡Lo sabía! Ella te gusta.",
+      "example_en": "I knew it! You like her.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:espero-que-estés-bien",
+      "spanish": "Espero que estés bien",
+      "english": "I hope you're well",
+      "pronunciation": "ehs-PEH-roh keh ehs-TEHS byehn",
+      "example": "Hola, espero que estés bien.",
+      "example_en": "Hi, I hope you're well.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Subjunctive set phrase: \"estés\", not \"estás\"."
+    },
+    {
+      "id": "everyday-phrases:que-te-vaya-bien",
+      "spanish": "Que te vaya bien",
+      "english": "Take care / Hope it goes well",
+      "pronunciation": "keh teh BAH-yah byehn",
+      "example": "Bueno, ¡que te vaya bien!",
+      "example_en": "Well, take care!",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Subjunctive set phrase."
+    },
+    {
+      "id": "everyday-phrases:de-nada",
+      "spanish": "De nada",
+      "english": "You're welcome",
+      "pronunciation": "deh NAH-dah",
+      "example": "—Gracias. —De nada.",
+      "example_en": "\"Thanks.\" \"You're welcome.\"",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "everyday-phrases:mi-culpa",
+      "spanish": "Mi culpa",
+      "english": "My fault / My bad",
+      "pronunciation": "mee KOOL-pah",
+      "example": "Perdón, mi culpa.",
+      "example_en": "Sorry, my bad.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:valió-la-pena",
+      "spanish": "Valió la pena",
+      "english": "It was worth it",
+      "pronunciation": "bah-LYOH lah PEH-nah",
+      "example": "Estuvo caro, pero valió la pena.",
+      "example_en": "It was expensive, but it was worth it.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:necesito-un-descanso",
+      "spanish": "Necesito un descanso",
+      "english": "I need a break",
+      "pronunciation": "neh-seh-SEE-toh oon dehs-KAHN-soh",
+      "example": "Necesito un descanso, estoy muerto.",
+      "example_en": "I need a break, I'm dead.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:tengo-hambre",
+      "spanish": "Tengo hambre",
+      "english": "I'm hungry",
+      "pronunciation": "TEHN-goh AHM-breh",
+      "example": "Tengo hambre, vamos a comer.",
+      "example_en": "I'm hungry, let's go eat.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:no-sé-qué-comer",
+      "spanish": "No sé qué comer",
+      "english": "I don't know what to eat",
+      "pronunciation": "noh seh keh koh-MEHR",
+      "example": "Tengo hambre, pero no sé qué comer.",
+      "example_en": "I'm hungry, but I don't know what to eat.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:me-encanta",
+      "spanish": "Me encanta",
+      "english": "I love it",
+      "pronunciation": "meh ehn-KAHN-tah",
+      "example": "¡Me encanta esta canción!",
+      "example_en": "I love this song!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:me-muero-de-risa",
+      "spanish": "Me muero de risa",
+      "english": "I'm dying of laughter / I'm dying laughing",
+      "pronunciation": "meh MWEH-roh deh REE-sah",
+      "example": "Me muero de risa contigo.",
+      "example_en": "You make me die laughing.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:me-quedé-dormido",
+      "spanish": "Me quedé dormido",
+      "english": "I fell asleep / I overslept",
+      "pronunciation": "meh keh-DEH dohr-MEE-doh",
+      "example": "Perdón, me quedé dormido.",
+      "example_en": "Sorry, I overslept.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:voy-a-ir-al-gimnasio-a-entrenar-y-bailar",
+      "spanish": "Voy a ir al gimnasio a entrenar y bailar",
+      "english": "I'm going to the gym to work out and dance",
+      "pronunciation": "boy ah eer ahl heem-NAH-syoh ah ehn-treh-NAHR ee bye-LAHR",
+      "example": "Hoy voy a ir al gimnasio a entrenar y bailar.",
+      "example_en": "Today I'm going to the gym to work out and dance.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:acabo-de-subirme-al-carro",
+      "spanish": "Acabo de subirme al carro",
+      "english": "I just got in the car",
+      "pronunciation": "ah-KAH-boh deh soo-BEER-meh ahl KAH-rroh",
+      "example": "Acabo de subirme al carro, llego en diez.",
+      "example_en": "I just got in the car, I'll be there in ten.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:avísame-cuando-llegues",
+      "spanish": "Avísame cuando llegues",
+      "english": "Let me know when you arrive / Let me know when you get there",
+      "pronunciation": "ah-BEE-sah-meh KWAHN-doh YEH-gehs",
+      "example": "Maneja con cuidado y avísame cuando llegues.",
+      "example_en": "Drive safe and let me know when you get there.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "everyday-phrases:me-puedes-hablar-más-despacio",
+      "spanish": "¿Me puedes hablar más despacio?",
+      "english": "Can you speak more slowly?",
+      "pronunciation": "meh PWEH-dehs ah-BLAHR mahs dehs-PAH-syoh",
+      "example": "Perdón, ¿me puedes hablar más despacio?",
+      "example_en": "Sorry, can you speak more slowly?",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

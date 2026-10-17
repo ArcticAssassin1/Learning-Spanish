@@ -1,0 +1,125 @@
+{
+  "id": "mexican-slang",
+  "name": "Mexican Slang",
+  "emoji": "🇲🇽",
+  "description": "Common Mexican expressions you'll hear everywhere.",
+  "phase": 3,
+  "order": 110,
+  "cards": [
+    {
+      "id": "mexican-slang:no-manches",
+      "spanish": "¡No manches!",
+      "english": "No way! (mild)",
+      "pronunciation": "noh MAHN-chehs",
+      "example": "¡No manches! ¿En serio ganaste?",
+      "example_en": "No way! You seriously won?",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "The clean version of \"no mames\"."
+    },
+    {
+      "id": "mexican-slang:no-mames",
+      "spanish": "¡No mames!",
+      "english": "No way! (strong)",
+      "pronunciation": "noh MAH-mehs",
+      "example": "¡No mames, güey, qué caro!",
+      "example_en": "No way, dude, that's so expensive!",
+      "region": "Mexico",
+      "register": "vulgar"
+    },
+    {
+      "id": "mexican-slang:qué-onda",
+      "spanish": "¿Qué onda?",
+      "english": "What's up?",
+      "pronunciation": "keh OHN-dah",
+      "example": "¿Qué onda, güey? ¿Cómo estás?",
+      "example_en": "What's up, dude? How are you?",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:neta",
+      "spanish": "Neta",
+      "english": "for real",
+      "pronunciation": "NEH-tah",
+      "example": "¿Neta? No te creo.",
+      "example_en": "For real? I don't believe you.",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:qué-pedo",
+      "spanish": "¿Qué pedo?",
+      "english": "What's up? / What's the deal?",
+      "pronunciation": "keh PEH-doh",
+      "example": "¿Qué pedo, carnal?",
+      "example_en": "What's up, bro?",
+      "region": "Mexico",
+      "register": "vulgar",
+      "notes": "Literally \"what fart?\". Tone decides if it's friendly or aggressive."
+    },
+    {
+      "id": "mexican-slang:no-hay-pedo",
+      "spanish": "No hay pedo",
+      "english": "no problem",
+      "pronunciation": "noh eye PEH-doh",
+      "example": "—Perdón por llegar tarde. —No hay pedo.",
+      "example_en": "\"Sorry I'm late.\" \"No problem.\"",
+      "region": "Mexico",
+      "register": "vulgar"
+    },
+    {
+      "id": "mexican-slang:qué-peda",
+      "spanish": "¡Qué peda!",
+      "english": "What a party! / What a drunk night!",
+      "pronunciation": "keh PEH-dah",
+      "example": "¡Qué peda la de anoche!",
+      "example_en": "What a wild night of drinking last night!",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "\"La peda\" = a drinking party."
+    },
+    {
+      "id": "mexican-slang:híjole",
+      "spanish": "¡Híjole!",
+      "english": "Oh man! / Wow!",
+      "pronunciation": "EE-hoh-leh",
+      "example": "¡Híjole, se me olvidó la cartera!",
+      "example_en": "Oh man, I forgot my wallet!",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:órale",
+      "spanish": "¡Órale!",
+      "english": "Wow! / Okay!",
+      "pronunciation": "OH-rah-leh",
+      "example": "¡Órale, qué bien bailas!",
+      "example_en": "Wow, you dance so well!",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:ahorita",
+      "spanish": "Ahorita",
+      "english": "right now / in a bit / eventually",
+      "pronunciation": "ah-oh-REE-tah",
+      "example": "Ahorita voy.",
+      "example_en": "I'm coming in a bit (maybe).",
+      "region": "Mexico",
+      "register": "casual",
+      "notes": "In Mexico \"ahorita\" can mean \"later... maybe\". In the Caribbean it means right now."
+    },
+    {
+      "id": "mexican-slang:popote",
+      "spanish": "Popote",
+      "english": "straw",
+      "pronunciation": "poh-POH-teh",
+      "example": "¿Me das un popote?",
+      "example_en": "Can I have a straw?",
+      "region": "Mexico",
+      "register": "neutral",
+      "notes": "Elsewhere: pajita or sorbete."
+    }
+  ]
+}

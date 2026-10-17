@@ -1,0 +1,91 @@
+{
+  "id": "past-signal-words",
+  "name": "Past-Tense Signal Words",
+  "emoji": "🕰️",
+  "description": "When you hear these, reach for the preterite.",
+  "phase": 1,
+  "order": 40,
+  "cards": [
+    {
+      "id": "past-signal-words:ayer",
+      "spanish": "ayer",
+      "english": "yesterday",
+      "pronunciation": "ah-YEHR",
+      "example": "Ayer fui al gimnasio.",
+      "example_en": "Yesterday I went to the gym.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:anoche",
+      "spanish": "anoche",
+      "english": "last night",
+      "pronunciation": "ah-NOH-cheh",
+      "example": "Anoche salimos a bailar.",
+      "example_en": "Last night we went out dancing.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:la-semana-pasada",
+      "spanish": "la semana pasada",
+      "english": "last week",
+      "pronunciation": "lah seh-MAH-nah pah-SAH-dah",
+      "example": "La semana pasada estuve enfermo.",
+      "example_en": "Last week I was sick.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:el-mes-pasado",
+      "spanish": "el mes pasado",
+      "english": "last month",
+      "pronunciation": "ehl mehs pah-SAH-doh",
+      "example": "El mes pasado empecé a entrenar.",
+      "example_en": "Last month I started working out.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:el-año-pasado",
+      "spanish": "el año pasado",
+      "english": "last year",
+      "pronunciation": "ehl AH-nyoh pah-SAH-doh",
+      "example": "El año pasado viajé a República Dominicana.",
+      "example_en": "Last year I traveled to the Dominican Republic.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:el-fin-de-semana-pasado",
+      "spanish": "el fin de semana pasado",
+      "english": "last weekend",
+      "pronunciation": "ehl feen deh seh-MAH-nah pah-SAH-doh",
+      "example": "El fin de semana pasado fuimos a la playa.",
+      "example_en": "Last weekend we went to the beach.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "past-signal-words:hace-dos-días",
+      "spanish": "hace dos días",
+      "english": "two days ago",
+      "pronunciation": "AH-seh dohs DEE-ahs",
+      "example": "La conocí hace dos días.",
+      "example_en": "I met her two days ago.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"hace\" + time = \"... ago\"."
+    },
+    {
+      "id": "past-signal-words:hace-un-mes",
+      "spanish": "hace un mes",
+      "english": "a month ago",
+      "pronunciation": "AH-seh oon mehs",
+      "example": "Hace un mes que no la veo.",
+      "example_en": "I haven't seen her in a month.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

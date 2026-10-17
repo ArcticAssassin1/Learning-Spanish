@@ -1,0 +1,296 @@
+{
+  "id": "high-frequency",
+  "name": "High-Frequency Words",
+  "emoji": "📺",
+  "description": "Words that keep showing up in the video lessons.",
+  "phase": 1,
+  "order": 70,
+  "cards": [
+    {
+      "id": "high-frequency:pagaban",
+      "spanish": "pagaban",
+      "english": "they were paying / they used to pay",
+      "pronunciation": "pah-GAH-bahn",
+      "example": "Antes me pagaban muy poco.",
+      "example_en": "They used to pay me very little.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:lleven",
+      "spanish": "lleven",
+      "english": "take / carry (command)",
+      "pronunciation": "YEH-behn",
+      "example": "Lleven sus cosas al carro.",
+      "example_en": "Take your things to the car.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:empecé",
+      "spanish": "empecé",
+      "english": "I started",
+      "pronunciation": "ehm-peh-SEH",
+      "example": "Empecé a entrenar en enero.",
+      "example_en": "I started working out in January.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:desde",
+      "spanish": "desde",
+      "english": "since / from",
+      "pronunciation": "DEHS-deh",
+      "example": "Vivo aquí desde 2020.",
+      "example_en": "I've lived here since 2020.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:pásamela",
+      "spanish": "pásamela",
+      "english": "pass it to me",
+      "pronunciation": "PAH-sah-meh-lah",
+      "example": "Pásamela, por favor.",
+      "example_en": "Pass it to me, please.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "pasa + me + la (it). Pronouns attach to commands."
+    },
+    {
+      "id": "high-frequency:llevarle",
+      "spanish": "llevarle",
+      "english": "to take it to him/her",
+      "pronunciation": "yeh-BAHR-leh",
+      "example": "Voy a llevarle comida a mi abuela.",
+      "example_en": "I'm going to take food to my grandma.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:situación",
+      "spanish": "situación",
+      "english": "situation",
+      "pronunciation": "see-twah-SYOHN",
+      "example": "Es una situación difícil.",
+      "example_en": "It's a difficult situation.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:hagan",
+      "spanish": "hagan",
+      "english": "do / make (command)",
+      "pronunciation": "AH-gahn",
+      "example": "Hagan la tarea.",
+      "example_en": "Do the homework. (to a group)",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:tengan",
+      "spanish": "tengan",
+      "english": "have (command)",
+      "pronunciation": "TEHN-gahn",
+      "example": "Tengan cuidado.",
+      "example_en": "Be careful. (to a group)",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:hijos",
+      "spanish": "hijos",
+      "english": "children / sons",
+      "pronunciation": "EE-hohs",
+      "example": "¿Tienes hijos?",
+      "example_en": "Do you have kids?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:tiempo",
+      "spanish": "tiempo",
+      "english": "time / weather",
+      "pronunciation": "TYEHM-poh",
+      "example": "No tengo tiempo. / Hace buen tiempo.",
+      "example_en": "I don't have time. / The weather's nice.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:alguien",
+      "spanish": "alguien",
+      "english": "someone",
+      "pronunciation": "AHL-gyehn",
+      "example": "¿Alguien tiene un cargador?",
+      "example_en": "Does someone have a charger?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:cuando",
+      "spanish": "cuando",
+      "english": "when",
+      "pronunciation": "KWAHN-doh",
+      "example": "Llámame cuando llegues.",
+      "example_en": "Call me when you arrive.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In questions it takes an accent: ¿cuándo?"
+    },
+    {
+      "id": "high-frequency:favor",
+      "spanish": "favor",
+      "english": "favor / please",
+      "pronunciation": "fah-BOHR",
+      "example": "Hazme un favor. / Por favor.",
+      "example_en": "Do me a favor. / Please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:sus",
+      "spanish": "sus",
+      "english": "his / her / their",
+      "pronunciation": "soos",
+      "example": "Ella vino con sus amigas.",
+      "example_en": "She came with her friends.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:papá",
+      "spanish": "papá",
+      "english": "dad",
+      "pronunciation": "pah-PAH",
+      "example": "Mi papá es de Cuba.",
+      "example_en": "My dad is from Cuba.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Without the accent, \"papa\" = potato!"
+    },
+    {
+      "id": "high-frequency:primer",
+      "spanish": "primer",
+      "english": "first",
+      "pronunciation": "pree-MEHR",
+      "example": "Mi primer día de trabajo.",
+      "example_en": "My first day at work.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Short form of \"primero\" before a masculine noun."
+    },
+    {
+      "id": "high-frequency:otros",
+      "spanish": "otros",
+      "english": "others",
+      "pronunciation": "OH-trohs",
+      "example": "Los otros vienen después.",
+      "example_en": "The others are coming later.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:trabajo",
+      "spanish": "trabajo",
+      "english": "work / job",
+      "pronunciation": "trah-BAH-hoh",
+      "example": "Salgo del trabajo a las cinco.",
+      "example_en": "I get off work at five.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:pues",
+      "spanish": "pues",
+      "english": "well / so / then",
+      "pronunciation": "pwehs",
+      "example": "Pues, no sé.",
+      "example_en": "Well, I don't know.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:ejemplo",
+      "spanish": "ejemplo",
+      "english": "example",
+      "pronunciation": "eh-HEHM-ploh",
+      "example": "Por ejemplo...",
+      "example_en": "For example...",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:tomo",
+      "spanish": "tomo",
+      "english": "I take / I drink",
+      "pronunciation": "TOH-moh",
+      "example": "Tomo café todas las mañanas.",
+      "example_en": "I drink coffee every morning.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:eran",
+      "spanish": "eran",
+      "english": "they were",
+      "pronunciation": "EH-rahn",
+      "example": "Eran mis mejores amigos.",
+      "example_en": "They were my best friends.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Imperfect of \"ser\" (describing the past)."
+    },
+    {
+      "id": "high-frequency:tenía",
+      "spanish": "tenía",
+      "english": "I had / he had / she had",
+      "pronunciation": "teh-NEE-ah",
+      "example": "Tenía mucha hambre.",
+      "example_en": "I was really hungry.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Imperfect of \"tener\" (ongoing past)."
+    },
+    {
+      "id": "high-frequency:semestre",
+      "spanish": "semestre",
+      "english": "semester",
+      "pronunciation": "seh-MEHS-treh",
+      "example": "Este semestre tengo cuatro clases.",
+      "example_en": "This semester I have four classes.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:bolsa",
+      "spanish": "bolsa",
+      "english": "bag / purse",
+      "pronunciation": "BOHL-sah",
+      "example": "¿Dónde está mi bolsa?",
+      "example_en": "Where's my bag?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:vida",
+      "spanish": "vida",
+      "english": "life",
+      "pronunciation": "BEE-dah",
+      "example": "¡Así es la vida!",
+      "example_en": "That's life!",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "high-frequency:historia",
+      "spanish": "historia",
+      "english": "history / story",
+      "pronunciation": "ees-TOH-ryah",
+      "example": "Es una historia larga.",
+      "example_en": "It's a long story.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

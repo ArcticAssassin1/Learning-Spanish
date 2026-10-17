@@ -1,0 +1,193 @@
+{
+  "id": "dominican-slang",
+  "name": "Dominican Slang",
+  "emoji": "🇩🇴",
+  "description": "Real Dominican street Spanish. Starter deck, more to come.",
+  "phase": 3,
+  "order": 100,
+  "cards": [
+    {
+      "id": "dominican-slang:qué-lo-qué",
+      "spanish": "¿Qué lo qué? (KLK)",
+      "english": "What's up?",
+      "pronunciation": "keh loh keh",
+      "example": "¡Klk, mi pana! ¿Todo bien?",
+      "example_en": "What's up, my buddy! All good?",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Written \"klk\" in texts. Said fast: \"keh-loh-KEH\".",
+      "accept": [
+        "klk",
+        "que lo que"
+      ]
+    },
+    {
+      "id": "dominican-slang:vaina",
+      "spanish": "Vaina",
+      "english": "thing / stuff / situation",
+      "pronunciation": "BYE-nah",
+      "example": "Pásame esa vaina.",
+      "example_en": "Pass me that thing.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Means almost anything. \"¡Qué vaina!\" = What a mess!"
+    },
+    {
+      "id": "dominican-slang:jevi",
+      "spanish": "Jevi",
+      "english": "cool / awesome",
+      "pronunciation": "HEH-bee",
+      "example": "Esa fiesta estuvo jevi.",
+      "example_en": "That party was awesome.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "From English \"heavy\"."
+    },
+    {
+      "id": "dominican-slang:tíguere",
+      "spanish": "Tíguere",
+      "english": "street-smart person / hustler",
+      "pronunciation": "TEE-geh-reh",
+      "example": "Ese tipo es un tíguere.",
+      "example_en": "That guy's a hustler.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Can be a compliment (smart, smooth) or a warning (a player)."
+    },
+    {
+      "id": "dominican-slang:dime-a-ver",
+      "spanish": "Dime a ver",
+      "english": "tell me what's up",
+      "pronunciation": "DEE-meh ah behr",
+      "example": "Dime a ver, ¿qué pasó anoche?",
+      "example_en": "So tell me, what happened last night?",
+      "region": "Dominican",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:estar-en-olla",
+      "spanish": "Estar en olla",
+      "english": "to be broke",
+      "pronunciation": "ehs-TAHR ehn OH-yah",
+      "example": "No puedo salir, estoy en olla.",
+      "example_en": "I can't go out, I'm broke.",
+      "region": "Dominican",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:pana",
+      "spanish": "Pana",
+      "english": "close friend / buddy",
+      "pronunciation": "PAH-nah",
+      "example": "Él es mi pana desde la escuela.",
+      "example_en": "He's been my buddy since school.",
+      "region": "Caribbean",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:tato",
+      "spanish": "Tato",
+      "english": "all good / alright",
+      "pronunciation": "TAH-toh",
+      "example": "—¿Nos vemos a las ocho? —Tato.",
+      "example_en": "\"See you at eight?\" \"Alright.\"",
+      "region": "Dominican",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:chin",
+      "spanish": "Chin",
+      "english": "a tiny bit / a little",
+      "pronunciation": "cheen",
+      "example": "Dame un chin de arroz.",
+      "example_en": "Give me a little bit of rice.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Also \"chin chin\" = a tiny tiny bit."
+    },
+    {
+      "id": "dominican-slang:corito-sano",
+      "spanish": "Corito sano",
+      "english": "chill hangout / drama-free hangout",
+      "pronunciation": "koh-REE-toh SAH-noh",
+      "example": "Hoy es un corito sano, nada de bochinche.",
+      "example_en": "Today's a chill hangout, no drama.",
+      "region": "Dominican",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:yo-hablo-chino",
+      "spanish": "¿Yo hablo chino?",
+      "english": "Do I speak Chinese? (I don't get it)",
+      "pronunciation": "yoh AH-bloh CHEE-noh",
+      "example": "¿Yo hablo chino? Te dije que no.",
+      "example_en": "Am I speaking Chinese? I told you no.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Said when someone isn't getting what you mean."
+    },
+    {
+      "id": "dominican-slang:yo-estoy-rulay",
+      "spanish": "Yo estoy rulay",
+      "english": "I'm chilling",
+      "pronunciation": "yoh ehs-TOY roo-LYE",
+      "example": "Yo estoy rulay en la casa.",
+      "example_en": "I'm chilling at home.",
+      "region": "Dominican",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:vamo-a-darle",
+      "spanish": "¡Vamo' a darle!",
+      "english": "Let's do it! / Let's go!",
+      "pronunciation": "BAH-moh ah DAHR-leh",
+      "example": "¡Vamo' a darle, que se hace tarde!",
+      "example_en": "Let's go, it's getting late!",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Dropped s: \"vamos\" → \"vamo'\"."
+    },
+    {
+      "id": "dominican-slang:privar-que",
+      "spanish": "Privar que",
+      "english": "to act like / to pretend",
+      "pronunciation": "pree-BAHR keh",
+      "example": "Ella priva en rica, pero vive en olla.",
+      "example_en": "She acts rich, but she's always broke.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Also heard as \"privar en\" / \"privar de\" + adjective."
+    },
+    {
+      "id": "dominican-slang:bochinche",
+      "spanish": "Bochinche",
+      "english": "drama / gossip / big argument",
+      "pronunciation": "boh-CHEEN-cheh",
+      "example": "No quiero bochinche hoy.",
+      "example_en": "I don't want any drama today.",
+      "region": "Caribbean",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:qué-tú-haces",
+      "spanish": "¿Qué tú haces?",
+      "english": "What are you doing?",
+      "pronunciation": "keh too AH-sehs",
+      "example": "¿Qué tú haces aquí tan tarde?",
+      "example_en": "What are you doing here so late?",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "Caribbean word order puts \"tú\" before the verb. Standard: ¿Qué haces tú?"
+    },
+    {
+      "id": "dominican-slang:dale",
+      "spanish": "Dale",
+      "english": "go ahead / let's go / okay",
+      "pronunciation": "DAH-leh",
+      "example": "—¿Vamos a la playa? —¡Dale!",
+      "example_en": "\"Shall we go to the beach?\" \"Let's go!\"",
+      "region": "Caribbean",
+      "register": "casual"
+    }
+  ]
+}
