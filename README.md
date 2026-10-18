@@ -8,7 +8,7 @@ The full plan is in [BRIEF.md](BRIEF.md).
 
 ## What's in it
 
-**27 decks, 727 cards**, plus a conjugation drill, 8 dialogues and a free library,, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
+**27 decks, 727 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
 a region and a register label.
 
 - **Phase 1, foundations:** core verbs (all 100 forms), the top 100 most-used verbs, watch-out pairs (si/sí, tu/tú...),
