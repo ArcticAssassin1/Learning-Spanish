@@ -1,0 +1,280 @@
+{
+  "id": "bachata-dance",
+  "name": "Bachata & the Dance Floor",
+  "emoji": "💃",
+  "description": "Love-song themes (heartbreak, jealousy, missing someone) and what to say at the Latin club. No lyrics, just the words.",
+  "phase": 3,
+  "order": 95,
+  "cards": [
+    {
+      "id": "bachata-dance:bachata",
+      "spanish": "bachata",
+      "english": "bachata (music and dance)",
+      "pronunciation": "bah-CHAH-tah",
+      "example": "Esta noche hay [bachata] en Ybor.",
+      "example_en": "There's bachata in Ybor tonight.",
+      "region": "Dominican",
+      "register": "neutral",
+      "notes": "Born in the Dominican Republic. The word once meant a party / good time."
+    },
+    {
+      "id": "bachata-dance:amargue",
+      "spanish": "amargue",
+      "english": "bitter heartbreak (music)",
+      "pronunciation": "ah-MAHR-geh",
+      "example": "Pon algo de [amargue].",
+      "example_en": "Put on some heartbreak music.",
+      "region": "Dominican",
+      "register": "romantic",
+      "notes": "Old bachata was called \"música de amargue\": songs for drinking away a broken heart."
+    },
+    {
+      "id": "bachata-dance:despecho",
+      "spanish": "despecho",
+      "english": "heartbreak with bitterness",
+      "pronunciation": "dehs-PEH-choh",
+      "example": "Esa canción es puro [despecho].",
+      "example_en": "That song is pure heartbreak.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "The hurt + spite you feel after being dumped. A core bachata feeling."
+    },
+    {
+      "id": "bachata-dance:corazón-roto",
+      "spanish": "corazón roto",
+      "english": "broken heart",
+      "pronunciation": "koh-rah-SOHN ROH-toh",
+      "example": "Tengo el [corazón roto].",
+      "example_en": "My heart is broken.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:te-extraño",
+      "spanish": "Te extraño",
+      "english": "I miss you",
+      "pronunciation": "teh ehks-TRAH-nyoh",
+      "example": "[Te extraño] mucho.",
+      "example_en": "I miss you a lot.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "\"Extrañar\" = to miss someone."
+    },
+    {
+      "id": "bachata-dance:me-haces-falta",
+      "spanish": "Me haces falta",
+      "english": "I miss you / I need you",
+      "pronunciation": "meh AH-sehs FAHL-tah",
+      "example": "Vuelve, [me haces falta].",
+      "example_en": "Come back, I need you.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "Literally \"you are lacking to me\"."
+    },
+    {
+      "id": "bachata-dance:celos",
+      "spanish": "celos",
+      "english": "jealousy",
+      "pronunciation": "SEH-lohs",
+      "example": "Tus [celos] me matan.",
+      "example_en": "Your jealousy is killing me.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "\"Celoso / celosa\" = jealous."
+    },
+    {
+      "id": "bachata-dance:traición",
+      "spanish": "traición",
+      "english": "betrayal",
+      "pronunciation": "trye-SYOHN",
+      "example": "No perdono la [traición].",
+      "example_en": "I don't forgive betrayal.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:engañar",
+      "spanish": "engañar",
+      "english": "to cheat on / to deceive",
+      "pronunciation": "ehn-gah-NYAHR",
+      "example": "Me [engañó] con mi mejor amigo.",
+      "example_en": "She cheated on me with my best friend.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:mentira",
+      "spanish": "mentira",
+      "english": "lie",
+      "pronunciation": "mehn-TEE-rah",
+      "example": "Todo fue [mentira].",
+      "example_en": "It was all a lie.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:olvidar",
+      "spanish": "olvidar",
+      "english": "to forget",
+      "pronunciation": "ohl-bee-DAHR",
+      "example": "No te puedo [olvidar].",
+      "example_en": "I can't forget you.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:llorar",
+      "spanish": "llorar",
+      "english": "to cry",
+      "pronunciation": "yoh-RAHR",
+      "example": "No quiero [llorar] por ti.",
+      "example_en": "I don't want to cry over you.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:sufrir",
+      "spanish": "sufrir",
+      "english": "to suffer",
+      "pronunciation": "soo-FREER",
+      "example": "Ya no quiero [sufrir].",
+      "example_en": "I don't want to suffer anymore.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:vuelve",
+      "spanish": "Vuelve",
+      "english": "Come back",
+      "pronunciation": "BWEHL-beh",
+      "example": "[Vuelve] conmigo.",
+      "example_en": "Come back to me.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "From \"volver\" (to return)."
+    },
+    {
+      "id": "bachata-dance:perdóname",
+      "spanish": "Perdóname",
+      "english": "Forgive me",
+      "pronunciation": "pehr-DOH-nah-meh",
+      "example": "[Perdóname], mi amor.",
+      "example_en": "Forgive me, my love.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:me-enamoré-de-ti",
+      "spanish": "Me enamoré de ti",
+      "english": "I fell in love with you",
+      "pronunciation": "meh eh-nah-moh-REH deh tee",
+      "example": "Desde el primer día [me enamoré de ti].",
+      "example_en": "I fell in love with you from the first day.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:enamorado-enamorada",
+      "spanish": "enamorado / enamorada",
+      "english": "in love",
+      "pronunciation": "eh-nah-moh-RAH-doh / eh-nah-moh-RAH-dah",
+      "example": "Estoy [enamorado] de ella.",
+      "example_en": "I'm in love with her.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:sin-ti",
+      "spanish": "Sin ti",
+      "english": "without you",
+      "pronunciation": "seen tee",
+      "example": "No puedo vivir [sin ti].",
+      "example_en": "I can't live without you.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:piel",
+      "spanish": "piel",
+      "english": "skin",
+      "pronunciation": "pyehl",
+      "example": "Extraño tu [piel].",
+      "example_en": "I miss your skin.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:alma",
+      "spanish": "alma",
+      "english": "soul",
+      "pronunciation": "AHL-mah",
+      "example": "Te quiero con el [alma].",
+      "example_en": "I love you with all my soul.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:cariño",
+      "spanish": "cariño",
+      "english": "affection / honey",
+      "pronunciation": "kah-REE-nyoh",
+      "example": "Hola, [cariño].",
+      "example_en": "Hi, honey.",
+      "region": "General",
+      "register": "romantic"
+    },
+    {
+      "id": "bachata-dance:bailamos",
+      "spanish": "¿Bailamos?",
+      "english": "Shall we dance?",
+      "pronunciation": "bye-LAH-mohs",
+      "example": "[¿Bailamos?] Esta canción me encanta.",
+      "example_en": "Shall we dance? I love this song.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "bachata-dance:sacar-a-bailar",
+      "spanish": "sacar a bailar",
+      "english": "to ask (someone) to dance",
+      "pronunciation": "sah-KAHR ah bye-LAHR",
+      "example": "Voy a [sacarla a bailar].",
+      "example_en": "I'm going to ask her to dance.",
+      "region": "General",
+      "register": "casual",
+      "notes": "\"¿Me sacas a bailar?\" = Will you ask me to dance?"
+    },
+    {
+      "id": "bachata-dance:llevar",
+      "spanish": "llevar",
+      "english": "to lead (in dancing)",
+      "pronunciation": "yeh-BAHR",
+      "example": "Él [lleva] muy bien.",
+      "example_en": "He leads really well.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Also \"to take / carry\". \"Déjate llevar\" = let yourself be led."
+    },
+    {
+      "id": "bachata-dance:me-pisaste",
+      "spanish": "Me pisaste",
+      "english": "You stepped on my foot",
+      "pronunciation": "meh pee-SAHS-teh",
+      "example": "Ay, [me pisaste].",
+      "example_en": "Ouch, you stepped on me.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "bachata-dance:güira",
+      "spanish": "güira",
+      "english": "güira (metal scraper percussion)",
+      "pronunciation": "GWEE-rah",
+      "example": "Escucha la [güira].",
+      "example_en": "Listen to the güira.",
+      "region": "Dominican",
+      "register": "neutral",
+      "notes": "The metal \"chk-chk\" sound in bachata and merengue."
+    }
+  ]
+}

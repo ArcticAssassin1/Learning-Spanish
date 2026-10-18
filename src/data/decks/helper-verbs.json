@@ -1,0 +1,162 @@
+{
+  "id": "helper-verbs",
+  "name": "Helper Verb + Infinitive",
+  "emoji": "🪜",
+  "description": "Conjugate the FIRST verb only; the second stays as -ar / -er / -ir. \"Quiero ir\", never \"Quiero voy\".",
+  "phase": 1,
+  "order": 17,
+  "cards": [
+    {
+      "id": "helper-verbs:quiero-ir",
+      "spanish": "Quiero ir.",
+      "english": "I want to go.",
+      "pronunciation": "KYEH-roh eer",
+      "example": "Quiero [ir] a la playa.",
+      "example_en": "I want to go to the beach.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "querer + infinitive. Not \"quiero voy\"."
+    },
+    {
+      "id": "helper-verbs:puedo-cocinar",
+      "spanish": "Puedo cocinar.",
+      "english": "I can cook.",
+      "pronunciation": "PWEH-doh koh-see-NAHR",
+      "example": "Puedo [cocinar] arroz con pollo.",
+      "example_en": "I can cook chicken and rice.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Not \"puedo cocina\"."
+    },
+    {
+      "id": "helper-verbs:necesito-dormir",
+      "spanish": "Necesito dormir.",
+      "english": "I need to sleep.",
+      "pronunciation": "neh-seh-SEE-toh dohr-MEER",
+      "example": "Necesito [dormir] más.",
+      "example_en": "I need to sleep more.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "helper-verbs:voy-a-dormir",
+      "spanish": "Voy a dormir.",
+      "english": "I'm going to sleep.",
+      "pronunciation": "boy ah dohr-MEER",
+      "example": "Voy a [dormir] temprano.",
+      "example_en": "I'm going to sleep early.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "ir a + infinitive = going to. Not \"estoy voy a dormir\"."
+    },
+    {
+      "id": "helper-verbs:tengo-que-trabajar",
+      "spanish": "Tengo que trabajar.",
+      "english": "I have to work.",
+      "pronunciation": "TEHN-goh keh trah-bah-HAHR",
+      "example": "Tengo que [trabajar] mañana.",
+      "example_en": "I have to work tomorrow.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "tener que + infinitive = have to."
+    },
+    {
+      "id": "helper-verbs:debo-estudiar",
+      "spanish": "Debo estudiar.",
+      "english": "I should study.",
+      "pronunciation": "DEH-boh ehs-too-DYAHR",
+      "example": "Debo [estudiar] más.",
+      "example_en": "I should study more.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "deber + infinitive = should / must."
+    },
+    {
+      "id": "helper-verbs:acabo-de-llegar",
+      "spanish": "Acabo de llegar.",
+      "english": "I just arrived.",
+      "pronunciation": "ah-KAH-boh deh yeh-GAHR",
+      "example": "Acabo de [comer].",
+      "example_en": "I just ate.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "acabar de + infinitive = just did it."
+    },
+    {
+      "id": "helper-verbs:me-gusta-bailar",
+      "spanish": "Me gusta bailar.",
+      "english": "I like to dance.",
+      "pronunciation": "meh GOOS-tah bye-LAHR",
+      "example": "Me gusta [bailar] bachata.",
+      "example_en": "I like to dance bachata.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "helper-verbs:sé-nadar",
+      "spanish": "Sé nadar.",
+      "english": "I know how to swim.",
+      "pronunciation": "seh nah-DAHR",
+      "example": "No sé [bailar] salsa.",
+      "example_en": "I don't know how to dance salsa.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "saber + infinitive = know how to."
+    },
+    {
+      "id": "helper-verbs:empecé-a-entrenar",
+      "spanish": "Empecé a entrenar.",
+      "english": "I started working out.",
+      "pronunciation": "ehm-peh-SEH ah ehn-treh-NAHR",
+      "example": "Empecé a [estudiar] español.",
+      "example_en": "I started studying Spanish.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "empezar a + infinitive."
+    },
+    {
+      "id": "helper-verbs:hay-que-esperar",
+      "spanish": "Hay que esperar.",
+      "english": "You have to wait. / We must wait.",
+      "pronunciation": "eye keh ehs-peh-RAHR",
+      "example": "Hay que [pagar] en efectivo.",
+      "example_en": "You have to pay in cash.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "hay que + infinitive = it is necessary to."
+    },
+    {
+      "id": "helper-verbs:te-vuelvo-a-llamar",
+      "spanish": "Te vuelvo a llamar.",
+      "english": "I'll call you again.",
+      "pronunciation": "teh BWEHL-boh ah yah-MAHR",
+      "example": "No vuelvo a [tomar] tequila.",
+      "example_en": "I'm never drinking tequila again.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "volver a + infinitive = do it again."
+    },
+    {
+      "id": "helper-verbs:dejé-de-fumar",
+      "spanish": "Dejé de fumar.",
+      "english": "I quit smoking.",
+      "pronunciation": "deh-HEH deh foo-MAHR",
+      "example": "Dejé de [tomar] refresco.",
+      "example_en": "I stopped drinking soda.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "dejar de + infinitive = stop doing."
+    },
+    {
+      "id": "helper-verbs:pienso-salir",
+      "spanish": "Pienso salir.",
+      "english": "I'm planning to go out.",
+      "pronunciation": "PYEHN-soh sah-LEER",
+      "example": "Pienso [salir] el sábado.",
+      "example_en": "I'm planning to go out on Saturday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "pensar + infinitive = plan to."
+    }
+  ]
+}

@@ -82,7 +82,7 @@ export default function ProgressView() {
                 </div>
                 <div className="cl-side">
                   <span className="miss-count">✗ {progress[c.id].wrong}</span>
-                  <Speak text={c.spanish} small />
+                  <Speak text={c.say || c.spanish} small />
                 </div>
               </li>
             ))}

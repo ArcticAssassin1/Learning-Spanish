@@ -43,6 +43,16 @@ export default function Settings() {
       </section>
 
       <section className="panel">
+        <div className="field-label">Daily goal (cards per day)</div>
+        <div className="segmented">
+          {[[0, 'Off'], [10, '10'], [20, '20'], [30, '30'], [50, '50']].map(([v, t]) => (
+            <button key={v} className={settings.dailyGoal === v ? 'on' : ''} onClick={() => updateSettings({ dailyGoal: v })}>{t}</button>
+          ))}
+        </div>
+        <p className="muted small">Every 7 days in a row earns a 🧊 streak freeze (max 2). It saves your streak if you miss a day.</p>
+      </section>
+
+      <section className="panel">
         <div className="field-label">Theme</div>
         <div className="segmented">
           {[['dark', '🌙 Dark'], ['light', '☀️ Light'], ['auto', 'Auto']].map(([v, t]) => (

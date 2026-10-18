@@ -1,0 +1,184 @@
+{
+  "id": "ser-estar",
+  "name": "Ser vs Estar",
+  "emoji": "⚖️",
+  "description": "SER = what something IS (origin, job, description, time). ESTAR = how / where it is right now (feelings, location, -ando).",
+  "phase": 2,
+  "order": 130,
+  "cards": [
+    {
+      "id": "ser-estar:soy-de-tampa",
+      "spanish": "Soy de Tampa.",
+      "english": "I'm from Tampa.",
+      "pronunciation": "soy deh TAHM-pah",
+      "example": "Ella [es] de la República Dominicana.",
+      "example_en": "She's from the Dominican Republic.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "SER: origin."
+    },
+    {
+      "id": "ser-estar:estoy-cansado",
+      "spanish": "Estoy cansado.",
+      "english": "I'm tired.",
+      "pronunciation": "ehs-TOY kahn-SAH-doh",
+      "example": "¿[Estás] lista?",
+      "example_en": "Are you ready?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "ESTAR: feelings and conditions."
+    },
+    {
+      "id": "ser-estar:ella-es-muy-bonita",
+      "spanish": "Ella es muy bonita.",
+      "english": "She's very pretty. (she's a pretty person)",
+      "pronunciation": "EH-yah ehs mwee boh-NEE-tah",
+      "example": "Tu hermano [es] alto.",
+      "example_en": "Your brother is tall.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "SER: what someone is like."
+    },
+    {
+      "id": "ser-estar:estás-muy-bonita-hoy",
+      "spanish": "Estás muy bonita hoy.",
+      "english": "You look very pretty today.",
+      "pronunciation": "ehs-TAHS mwee boh-NEE-tah oy",
+      "example": "La comida [está] rica.",
+      "example_en": "The food is delicious.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "ESTAR + adjective = how something looks / tastes / seems right now."
+    },
+    {
+      "id": "ser-estar:ella-es-abogada",
+      "spanish": "Ella es abogada.",
+      "english": "She's a lawyer.",
+      "pronunciation": "EH-yah ehs ah-boh-GAH-dah",
+      "example": "¿Tú [eres] estudiante?",
+      "example_en": "Are you a student?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "SER: jobs. No \"un / una\" before the job."
+    },
+    {
+      "id": "ser-estar:estamos-en-el-club",
+      "spanish": "Estamos en el club.",
+      "english": "We're at the club.",
+      "pronunciation": "ehs-TAH-mohs ehn ehl kloob",
+      "example": "¿Dónde [está] el baño?",
+      "example_en": "Where is the bathroom?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "ESTAR: location of people and things."
+    },
+    {
+      "id": "ser-estar:la-fiesta-es-en-mi-casa",
+      "spanish": "La fiesta es en mi casa.",
+      "english": "The party is at my house.",
+      "pronunciation": "lah FYEHS-tah ehs ehn mee KAH-sah",
+      "example": "El concierto [es] en el estadio.",
+      "example_en": "The concert is at the stadium.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Exception! EVENTS use SER for location."
+    },
+    {
+      "id": "ser-estar:son-las-diez",
+      "spanish": "Son las diez.",
+      "english": "It's ten o'clock.",
+      "pronunciation": "sohn lahs dyehs",
+      "example": "Hoy [es] viernes.",
+      "example_en": "Today is Friday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "SER: time, days, dates."
+    },
+    {
+      "id": "ser-estar:estoy-trabajando",
+      "spanish": "Estoy trabajando.",
+      "english": "I'm working.",
+      "pronunciation": "ehs-TOY trah-bah-HAHN-doh",
+      "example": "¿Qué [estás] haciendo?",
+      "example_en": "What are you doing?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "ESTAR + -ando / -iendo = right now."
+    },
+    {
+      "id": "ser-estar:estoy-aburrido",
+      "spanish": "Estoy aburrido.",
+      "english": "I'm bored.",
+      "pronunciation": "ehs-TOY ah-boo-RREE-doh",
+      "example": "Ella [está] aburrida en casa.",
+      "example_en": "She's bored at home.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "estar aburrido = bored. ser aburrido = BORING!"
+    },
+    {
+      "id": "ser-estar:es-aburrido",
+      "spanish": "Es aburrido.",
+      "english": "It's boring.",
+      "pronunciation": "ehs ah-boo-RREE-doh",
+      "example": "Esta película [es] aburrida.",
+      "example_en": "This movie is boring.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "ser-estar:la-cena-está-lista",
+      "spanish": "La cena está lista.",
+      "english": "Dinner is ready.",
+      "pronunciation": "lah SEH-nah ehs-TAH LEES-tah",
+      "example": "¿[Estás] listo?",
+      "example_en": "Are you ready?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "estar listo = ready. ser listo = smart."
+    },
+    {
+      "id": "ser-estar:ella-es-muy-lista",
+      "spanish": "Ella es muy lista.",
+      "english": "She's very smart.",
+      "pronunciation": "EH-yah ehs mwee LEES-tah",
+      "example": "Mi sobrino [es] listo.",
+      "example_en": "My nephew is smart.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "ser-estar:mi-teléfono-está-muerto",
+      "spanish": "Mi teléfono está muerto.",
+      "english": "My phone is dead.",
+      "pronunciation": "mee teh-LEH-foh-noh ehs-TAH MWEHR-toh",
+      "example": "El pez [está] muerto.",
+      "example_en": "The fish is dead.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Death uses ESTAR (it's a \"state\")."
+    },
+    {
+      "id": "ser-estar:somos-novios",
+      "spanish": "Somos novios.",
+      "english": "We're boyfriend and girlfriend.",
+      "pronunciation": "SOH-mohs NOH-byohs",
+      "example": "[Somos] amigos desde la escuela.",
+      "example_en": "We've been friends since school.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "SER: relationships."
+    },
+    {
+      "id": "ser-estar:estoy-de-acuerdo",
+      "spanish": "Estoy de acuerdo.",
+      "english": "I agree.",
+      "pronunciation": "ehs-TOY deh ah-KWEHR-doh",
+      "example": "¿[Estás] de acuerdo?",
+      "example_en": "Do you agree?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Fixed expression with ESTAR."
+    }
+  ]
+}

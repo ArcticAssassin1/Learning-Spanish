@@ -1,0 +1,175 @@
+{
+  "id": "preterite-imperfect",
+  "name": "Preterite vs Imperfect",
+  "emoji": "🎞️",
+  "description": "PRETERITE = what happened (finished events). IMPERFECT = the background: habits, \"used to\", \"was ___-ing\", descriptions, age, time.",
+  "phase": 2,
+  "order": 150,
+  "cards": [
+    {
+      "id": "preterite-imperfect:ayer-fui-al-gym",
+      "spanish": "Ayer fui al gym.",
+      "english": "Yesterday I went to the gym.",
+      "pronunciation": "ah-YEHR fwee ahl geem",
+      "example": "Anoche [comí] tacos.",
+      "example_en": "Last night I ate tacos.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PRETERITE: one finished action at a specific time."
+    },
+    {
+      "id": "preterite-imperfect:antes-iba-al-gym-todos-los-días",
+      "spanish": "Antes iba al gym todos los días.",
+      "english": "I used to go to the gym every day.",
+      "pronunciation": "AHN-tehs EE-bah ahl geem TOH-dohs lohs DEE-ahs",
+      "example": "De niño [jugaba] béisbol.",
+      "example_en": "As a kid I used to play baseball.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT: habits / \"used to\"."
+    },
+    {
+      "id": "preterite-imperfect:estaba-durmiendo-cuando-llamaste",
+      "spanish": "Estaba durmiendo cuando llamaste.",
+      "english": "I was sleeping when you called.",
+      "pronunciation": "ehs-TAH-bah door-MYEHN-doh KWAHN-doh yah-MAHS-teh",
+      "example": "Yo [estaba] en la ducha cuando sonó el teléfono.",
+      "example_en": "I was in the shower when the phone rang.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT = the background. PRETERITE = the interruption."
+    },
+    {
+      "id": "preterite-imperfect:cuando-llegué-todos-bailaban",
+      "spanish": "Cuando llegué, todos bailaban.",
+      "english": "When I arrived, everyone was dancing.",
+      "pronunciation": "KWAHN-doh yeh-GEH, TOH-dohs bye-LAH-bahn",
+      "example": "Cuando [llegué], ella cantaba.",
+      "example_en": "When I arrived, she was singing.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PRETERITE: the event (llegué). IMPERFECT: what was going on (bailaban)."
+    },
+    {
+      "id": "preterite-imperfect:era-una-noche-bonita",
+      "spanish": "Era una noche bonita.",
+      "english": "It was a beautiful night.",
+      "pronunciation": "EH-rah OO-nah NOH-cheh boh-NEE-tah",
+      "example": "La casa [era] grande.",
+      "example_en": "The house was big.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT: descriptions."
+    },
+    {
+      "id": "preterite-imperfect:tenía-veinte-años",
+      "spanish": "Tenía veinte años.",
+      "english": "I was twenty years old.",
+      "pronunciation": "teh-NEE-ah BAYN-teh AH-nyohs",
+      "example": "Ella [tenía] diez años.",
+      "example_en": "She was ten years old.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT: age in the past."
+    },
+    {
+      "id": "preterite-imperfect:eran-las-dos-de-la-mañana",
+      "spanish": "Eran las dos de la mañana.",
+      "english": "It was two in the morning.",
+      "pronunciation": "EH-rahn lahs dohs deh lah mah-NYAH-nah",
+      "example": "[Eran] las once cuando salimos.",
+      "example_en": "It was eleven when we left.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT: time of day in the past."
+    },
+    {
+      "id": "preterite-imperfect:estaba-cansado",
+      "spanish": "Estaba cansado.",
+      "english": "I was tired.",
+      "pronunciation": "ehs-TAH-bah kahn-SAH-doh",
+      "example": "Ella [estaba] triste.",
+      "example_en": "She was sad.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT: feelings and states (usually)."
+    },
+    {
+      "id": "preterite-imperfect:supe-la-verdad",
+      "spanish": "Supe la verdad.",
+      "english": "I found out the truth.",
+      "pronunciation": "SOO-peh lah behr-DAHD",
+      "example": "Ayer [supe] que te mudaste.",
+      "example_en": "Yesterday I found out you moved.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "saber in PRETERITE = found out."
+    },
+    {
+      "id": "preterite-imperfect:ya-lo-sabía",
+      "spanish": "Ya lo sabía.",
+      "english": "I already knew it.",
+      "pronunciation": "yah loh sah-BEE-ah",
+      "example": "Yo [sabía] que ibas a venir.",
+      "example_en": "I knew you were going to come.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "saber in IMPERFECT = knew (all along)."
+    },
+    {
+      "id": "preterite-imperfect:la-conocí-en-una-fiesta",
+      "spanish": "La conocí en una fiesta.",
+      "english": "I met her at a party.",
+      "pronunciation": "lah koh-noh-SEE ehn OO-nah FYEHS-tah",
+      "example": "Lo [conocí] en el trabajo.",
+      "example_en": "I met him at work.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "conocer in PRETERITE = met for the first time."
+    },
+    {
+      "id": "preterite-imperfect:quería-verte",
+      "spanish": "Quería verte.",
+      "english": "I wanted to see you.",
+      "pronunciation": "keh-REE-ah BEHR-teh",
+      "example": "[Quería] llamarte.",
+      "example_en": "I wanted to call you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "querer IMPERFECT = wanted. PRETERITE \"quise\" = tried; \"no quise\" = refused."
+    },
+    {
+      "id": "preterite-imperfect:trabajé-allí-dos-años",
+      "spanish": "Trabajé allí dos años.",
+      "english": "I worked there for two years.",
+      "pronunciation": "trah-bah-HEH ah-YEE dohs AH-nyohs",
+      "example": "[Viví] en Miami tres años.",
+      "example_en": "I lived in Miami for three years.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PRETERITE: even long actions, if you say how long and it's over."
+    },
+    {
+      "id": "preterite-imperfect:siempre-me-llamaba",
+      "spanish": "Siempre me llamaba.",
+      "english": "She always used to call me.",
+      "pronunciation": "SYEHM-preh meh yah-MAH-bah",
+      "example": "Mi abuela siempre [cocinaba] los domingos.",
+      "example_en": "My grandma always cooked on Sundays.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "IMPERFECT signals: siempre, a veces, todos los días, de niño."
+    },
+    {
+      "id": "preterite-imperfect:de-repente-se-fue-la-luz",
+      "spanish": "De repente, se fue la luz.",
+      "english": "Suddenly, the power went out.",
+      "pronunciation": "deh reh-PEHN-teh, seh fweh lah loos",
+      "example": "De repente [empezó] a llover.",
+      "example_en": "Suddenly it started to rain.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PRETERITE signals: de repente, ayer, anoche, una vez."
+    }
+  ]
+}

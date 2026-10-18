@@ -1,0 +1,195 @@
+{
+  "id": "por-para",
+  "name": "Por vs Para",
+  "emoji": "🔀",
+  "description": "PARA = goal: destination, recipient, deadline, purpose. POR = cause / path: because of, through, duration, exchange, by means of.",
+  "phase": 2,
+  "order": 140,
+  "cards": [
+    {
+      "id": "por-para:esto-es-para-ti",
+      "spanish": "Esto es para ti.",
+      "english": "This is for you.",
+      "pronunciation": "EHS-toh ehs PAH-rah tee",
+      "example": "Compré flores [para] mi mamá.",
+      "example_en": "I bought flowers for my mom.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA: recipient."
+    },
+    {
+      "id": "por-para:salgo-para-miami",
+      "spanish": "Salgo para Miami.",
+      "english": "I'm leaving for Miami.",
+      "pronunciation": "SAHL-goh PAH-rah MYAH-mee",
+      "example": "Vamos [para] la playa.",
+      "example_en": "We're heading to the beach.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA: destination."
+    },
+    {
+      "id": "por-para:entreno-para-estar-fuerte",
+      "spanish": "Entreno para estar fuerte.",
+      "english": "I work out (in order) to be strong.",
+      "pronunciation": "ehn-TREH-noh PAH-rah ehs-TAHR FWEHR-teh",
+      "example": "Estudio [para] aprender.",
+      "example_en": "I study to learn.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA + infinitive = in order to."
+    },
+    {
+      "id": "por-para:lo-necesito-para-mañana",
+      "spanish": "Lo necesito para mañana.",
+      "english": "I need it by tomorrow.",
+      "pronunciation": "loh neh-seh-SEE-toh PAH-rah mah-NYAH-nah",
+      "example": "Es [para] el viernes.",
+      "example_en": "It's due Friday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA: deadline."
+    },
+    {
+      "id": "por-para:para-mí-es-mejor",
+      "spanish": "Para mí, es mejor.",
+      "english": "For me (in my opinion), it's better.",
+      "pronunciation": "PAH-rah mee, ehs meh-HOHR",
+      "example": "[Para] mí, la bachata es la mejor.",
+      "example_en": "For me, bachata is the best.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA: opinion."
+    },
+    {
+      "id": "por-para:trabajo-para-una-compañía-grande",
+      "spanish": "Trabajo para una compañía grande.",
+      "english": "I work for a big company.",
+      "pronunciation": "trah-BAH-hoh PAH-rah OO-nah kohm-pah-NYEE-ah GRAHN-deh",
+      "example": "Ella trabaja [para] un hotel.",
+      "example_en": "She works for a hotel.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "PARA: employer."
+    },
+    {
+      "id": "por-para:para-qué",
+      "spanish": "¿Para qué?",
+      "english": "What for? (what's the purpose)",
+      "pronunciation": "PAH-rah keh",
+      "example": "¿[Para] qué sirve esto?",
+      "example_en": "What is this for?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "por-para:gracias-por-todo",
+      "spanish": "Gracias por todo.",
+      "english": "Thanks for everything.",
+      "pronunciation": "GRAH-syahs pohr TOH-doh",
+      "example": "Gracias [por] venir.",
+      "example_en": "Thanks for coming.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Gracias\" always takes POR."
+    },
+    {
+      "id": "por-para:caminamos-por-la-playa",
+      "spanish": "Caminamos por la playa.",
+      "english": "We walked along the beach.",
+      "pronunciation": "kah-mee-NAH-mohs pohr lah PLAH-yah",
+      "example": "Pasé [por] tu casa.",
+      "example_en": "I passed by your house.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: through / along / around / by."
+    },
+    {
+      "id": "por-para:bailamos-por-tres-horas",
+      "spanish": "Bailamos por tres horas.",
+      "english": "We danced for three hours.",
+      "pronunciation": "bye-LAH-mohs pohr trehs OH-rahs",
+      "example": "Estuve allí [por] dos horas.",
+      "example_en": "I was there for two hours.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: duration."
+    },
+    {
+      "id": "por-para:lo-compré-por-diez-dólares",
+      "spanish": "Lo compré por diez dólares.",
+      "english": "I bought it for ten dollars.",
+      "pronunciation": "loh kohm-PREH pohr dyehs DOH-lah-rehs",
+      "example": "Te cambio mi gorra [por] tu camisa.",
+      "example_en": "I'll trade you my cap for your shirt.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: price / exchange."
+    },
+    {
+      "id": "por-para:llegué-tarde-por-el-tráfico",
+      "spanish": "Llegué tarde por el tráfico.",
+      "english": "I was late because of the traffic.",
+      "pronunciation": "yeh-GEH TAHR-deh pohr ehl TRAH-fee-koh",
+      "example": "Lo hice [por] ti.",
+      "example_en": "I did it for you (for your sake).",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: cause / reason."
+    },
+    {
+      "id": "por-para:hablamos-por-teléfono",
+      "spanish": "Hablamos por teléfono.",
+      "english": "We talked on the phone.",
+      "pronunciation": "ah-BLAH-mohs pohr teh-LEH-foh-noh",
+      "example": "Te mando la foto [por] WhatsApp.",
+      "example_en": "I'll send you the photo on WhatsApp.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: by means of."
+    },
+    {
+      "id": "por-para:entreno-por-la-noche",
+      "spanish": "Entreno por la noche.",
+      "english": "I work out at night.",
+      "pronunciation": "ehn-TREH-noh pohr lah NOH-cheh",
+      "example": "Trabajo [por] la mañana.",
+      "example_en": "I work in the morning.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "POR: general part of the day."
+    },
+    {
+      "id": "por-para:por-qué",
+      "spanish": "¿Por qué?",
+      "english": "Why?",
+      "pronunciation": "pohr keh",
+      "example": "¿[Por] qué no viniste?",
+      "example_en": "Why didn't you come?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Answer with \"porque\" (one word) = because."
+    },
+    {
+      "id": "por-para:por-eso",
+      "spanish": "Por eso",
+      "english": "That's why",
+      "pronunciation": "pohr EH-soh",
+      "example": "[Por] eso te llamé.",
+      "example_en": "That's why I called you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Fixed phrases with POR: por favor, por fin, por eso, por lo menos, por supuesto."
+    },
+    {
+      "id": "por-para:por-fin",
+      "spanish": "¡Por fin!",
+      "english": "Finally!",
+      "pronunciation": "pohr feen",
+      "example": "¡[Por] fin llegaste!",
+      "example_en": "You finally got here!",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

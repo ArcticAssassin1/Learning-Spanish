@@ -1,0 +1,217 @@
+{
+  "id": "false-friends",
+  "name": "False Friends",
+  "emoji": "🎭",
+  "description": "Words that look like English but mean something else. Some of these can get you in trouble!",
+  "phase": 1,
+  "order": 18,
+  "cards": [
+    {
+      "id": "false-friends:embarazada",
+      "spanish": "embarazada",
+      "english": "pregnant (NOT embarrassed)",
+      "pronunciation": "ehm-bah-rah-SAH-dah",
+      "example": "Mi hermana está [embarazada].",
+      "example_en": "My sister is pregnant.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Embarrassed = \"avergonzado/a\" or \"me da vergüenza\"."
+    },
+    {
+      "id": "false-friends:éxito",
+      "spanish": "éxito",
+      "english": "success (NOT exit)",
+      "pronunciation": "EHK-see-toh",
+      "example": "¡La fiesta fue un [éxito]!",
+      "example_en": "The party was a success!",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Exit = \"salida\"."
+    },
+    {
+      "id": "false-friends:librería",
+      "spanish": "librería",
+      "english": "bookstore (NOT library)",
+      "pronunciation": "lee-breh-REE-ah",
+      "example": "Compré el libro en la [librería].",
+      "example_en": "I bought the book at the bookstore.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Library = \"biblioteca\"."
+    },
+    {
+      "id": "false-friends:sensible",
+      "spanish": "sensible",
+      "english": "sensitive (NOT sensible)",
+      "pronunciation": "sehn-SEE-bleh",
+      "example": "Ella es muy [sensible].",
+      "example_en": "She's very sensitive.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Sensible = \"sensato\"."
+    },
+    {
+      "id": "false-friends:actual",
+      "spanish": "actual",
+      "english": "current (NOT actual)",
+      "pronunciation": "ahk-TWAHL",
+      "example": "El precio [actual] es diez dólares.",
+      "example_en": "The current price is ten dollars.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Actually = \"en realidad\"."
+    },
+    {
+      "id": "false-friends:actualmente",
+      "spanish": "actualmente",
+      "english": "currently / nowadays (NOT actually)",
+      "pronunciation": "ahk-twahl-MEHN-teh",
+      "example": "[Actualmente] vivo en Tampa.",
+      "example_en": "Currently I live in Tampa.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "false-friends:realizar",
+      "spanish": "realizar",
+      "english": "to carry out / to do (NOT realize)",
+      "pronunciation": "reh-ah-lee-SAHR",
+      "example": "Vamos a [realizar] el proyecto.",
+      "example_en": "We're going to carry out the project.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Realize = \"darse cuenta\": \"Me di cuenta\" = I realized."
+    },
+    {
+      "id": "false-friends:molestar",
+      "spanish": "molestar",
+      "english": "to bother / to annoy (NOT molest)",
+      "pronunciation": "moh-lehs-TAHR",
+      "example": "¿Te [molesta] la música?",
+      "example_en": "Does the music bother you?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "false-friends:carpeta",
+      "spanish": "carpeta",
+      "english": "folder (NOT carpet)",
+      "pronunciation": "kahr-PEH-tah",
+      "example": "Pon los papeles en la [carpeta].",
+      "example_en": "Put the papers in the folder.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Carpet = \"alfombra\"."
+    },
+    {
+      "id": "false-friends:constipado",
+      "spanish": "constipado",
+      "english": "stuffed up / having a cold (NOT constipated)",
+      "pronunciation": "kohns-tee-PAH-doh",
+      "example": "Estoy [constipado], no puedo respirar.",
+      "example_en": "I have a cold, I can't breathe.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Constipated = \"estreñido\"."
+    },
+    {
+      "id": "false-friends:asistir",
+      "spanish": "asistir",
+      "english": "to attend (NOT assist)",
+      "pronunciation": "ah-sees-TEER",
+      "example": "Voy a [asistir] a la boda.",
+      "example_en": "I'm going to attend the wedding.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Assist = \"ayudar\"."
+    },
+    {
+      "id": "false-friends:recordar",
+      "spanish": "recordar",
+      "english": "to remember / to remind (NOT record)",
+      "pronunciation": "reh-kohr-DAHR",
+      "example": "No [recuerdo] su nombre.",
+      "example_en": "I don't remember her name.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Record = \"grabar\"."
+    },
+    {
+      "id": "false-friends:soportar",
+      "spanish": "soportar",
+      "english": "to put up with (NOT support)",
+      "pronunciation": "soh-pohr-TAHR",
+      "example": "No [soporto] el tráfico.",
+      "example_en": "I can't stand the traffic.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Support = \"apoyar\"."
+    },
+    {
+      "id": "false-friends:largo",
+      "spanish": "largo",
+      "english": "long (NOT large)",
+      "pronunciation": "LAHR-goh",
+      "example": "Fue un día muy [largo].",
+      "example_en": "It was a very long day.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Large = \"grande\"."
+    },
+    {
+      "id": "false-friends:ropa",
+      "spanish": "ropa",
+      "english": "clothes (NOT rope)",
+      "pronunciation": "ROH-pah",
+      "example": "Tengo que lavar la [ropa].",
+      "example_en": "I have to wash my clothes.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Rope = \"cuerda\"."
+    },
+    {
+      "id": "false-friends:colegio",
+      "spanish": "colegio",
+      "english": "school (NOT college)",
+      "pronunciation": "koh-LEH-hyoh",
+      "example": "Mi hijo va al [colegio].",
+      "example_en": "My son goes to school.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "College = \"universidad\"."
+    },
+    {
+      "id": "false-friends:introducir",
+      "spanish": "introducir",
+      "english": "to insert (NOT introduce a person)",
+      "pronunciation": "een-troh-doo-SEER",
+      "example": "[Introduce] la tarjeta aquí.",
+      "example_en": "Insert the card here.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "To introduce someone = \"presentar\": \"Te presento a mi amiga.\""
+    },
+    {
+      "id": "false-friends:excitado",
+      "spanish": "excitado",
+      "english": "sexually aroused (NOT excited)",
+      "pronunciation": "ehks-see-TAH-doh",
+      "example": "Cuidado: \"[excitado]\" suena sexual.",
+      "example_en": "Careful: \"excitado\" sounds sexual.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Excited = \"emocionado\". Say \"estoy emocionado por el concierto\"."
+    },
+    {
+      "id": "false-friends:preservativo",
+      "spanish": "preservativo",
+      "english": "condom (NOT preservative)",
+      "pronunciation": "preh-sehr-bah-TEE-boh",
+      "example": "¿Tienes un [preservativo]?",
+      "example_en": "Do you have a condom?",
+      "region": "General",
+      "register": "casual",
+      "notes": "Preservative = \"conservante\"."
+    }
+  ]
+}

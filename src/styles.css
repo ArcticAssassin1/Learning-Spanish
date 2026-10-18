@@ -968,3 +968,225 @@ h3 {
 .flip-back .example {
   background: var(--surface-2);
 }
+
+/* ---------- Study modes ---------- */
+
+.modes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.mode {
+  min-height: 76px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-weight: 650;
+  padding: 8px;
+}
+
+.mode:disabled {
+  opacity: 0.4;
+}
+
+.mode-main {
+  grid-column: 1 / -1;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+  min-height: 72px;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.mode-icon {
+  font-size: 1.5rem;
+}
+
+.mode-sub {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.mode-help {
+  margin: -4px 0 0;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice {
+  min-height: 58px;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.choice:disabled {
+  cursor: default;
+}
+
+.choice.is-right {
+  border-color: var(--good);
+  background: var(--good-soft);
+}
+
+.choice.is-wrong {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+}
+
+.choice.is-dim {
+  opacity: 0.45;
+}
+
+.cloze {
+  font-size: 1.45rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.blank {
+  display: inline-block;
+  min-width: 3em;
+  border-bottom: 3px solid var(--accent);
+  margin: 0 2px;
+}
+
+.hint {
+  background: var(--accent-soft);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.listen-btns {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.listen-big,
+.listen-slow {
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
+.listen-big {
+  width: 96px;
+  height: 96px;
+  font-size: 2.6rem;
+}
+
+.listen-slow {
+  width: 60px;
+  height: 60px;
+  font-size: 1.6rem;
+  background: var(--surface-2);
+}
+
+.btn-easy {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+mark {
+  background: var(--accent-soft);
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+/* ---------- Goal, streak, mistakes ---------- */
+
+.streak-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.streak {
+  opacity: 0.7;
+}
+
+.streak.lit {
+  opacity: 1;
+  border-color: var(--accent);
+}
+
+.freezes {
+  font-size: 0.85rem;
+  color: #7cc8ff;
+  font-weight: 700;
+  padding-right: 6px;
+}
+
+.goal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.goal-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 650;
+}
+
+.goal-bar {
+  height: 8px;
+}
+
+.goal-bar > span {
+  background: var(--accent);
+}
+
+.goal-done {
+  color: var(--good);
+}
+
+.goal-hit {
+  background: var(--good-soft);
+  color: var(--good);
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 99px;
+  margin-bottom: 12px;
+}
+
+.mistakes-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 18px;
+  border-radius: 16px;
+  border: 1px solid var(--bad);
+  background: var(--bad-soft);
+  font-weight: 650;
+}

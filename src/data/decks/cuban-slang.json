@@ -1,0 +1,218 @@
+{
+  "id": "cuban-slang",
+  "name": "Cuban Slang",
+  "emoji": "🇨🇺",
+  "description": "Havana and Miami street talk. Starts with the essential: asere, ¿qué bolá?",
+  "phase": 3,
+  "order": 104,
+  "cards": [
+    {
+      "id": "cuban-slang:asere",
+      "spanish": "Asere",
+      "english": "buddy / dude",
+      "pronunciation": "ah-SEH-reh",
+      "example": "¡[Asere]! ¿Qué bolá?",
+      "example_en": "Dude! What's up?",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "The most Cuban word there is. Also spelled \"acere\"."
+    },
+    {
+      "id": "cuban-slang:qué-bolá",
+      "spanish": "¿Qué bolá?",
+      "english": "What's up?",
+      "pronunciation": "keh boh-LAH",
+      "example": "¿[Qué bolá], asere?",
+      "example_en": "What's up, buddy?",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "Also spelled \"¿Qué volá?\".",
+      "accept": [
+        "que vola"
+      ]
+    },
+    {
+      "id": "cuban-slang:yuma",
+      "spanish": "Yuma",
+      "english": "foreigner / American; the USA",
+      "pronunciation": "YOO-mah",
+      "example": "Mi primo vive en la [Yuma].",
+      "example_en": "My cousin lives in the States.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "\"La Yuma\" = the United States."
+    },
+    {
+      "id": "cuban-slang:ecobio",
+      "spanish": "Ecobio",
+      "english": "brother / close friend",
+      "pronunciation": "eh-KOH-byoh",
+      "example": "Ese es mi [ecobio].",
+      "example_en": "That's my brother.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "Afro-Cuban origin, like \"asere\"."
+    },
+    {
+      "id": "cuban-slang:monina",
+      "spanish": "Monina",
+      "english": "buddy",
+      "pronunciation": "moh-NEE-nah",
+      "example": "Oye, [monina], ¿qué hay?",
+      "example_en": "Hey buddy, what's up?",
+      "region": "Cuba",
+      "register": "slang"
+    },
+    {
+      "id": "cuban-slang:botero",
+      "spanish": "Botero",
+      "english": "shared-taxi driver",
+      "pronunciation": "boh-TEH-roh",
+      "example": "Le pagamos al [botero].",
+      "example_en": "We paid the taxi driver.",
+      "region": "Cuba",
+      "register": "casual"
+    },
+    {
+      "id": "cuban-slang:radio-bemba",
+      "spanish": "Radio bemba",
+      "english": "the rumor mill / word of mouth",
+      "pronunciation": "RAH-dyoh BEHM-bah",
+      "example": "Me enteré por [radio bemba].",
+      "example_en": "I heard it through the grapevine.",
+      "region": "Cuba",
+      "register": "casual",
+      "notes": "\"Bemba\" = big lips."
+    },
+    {
+      "id": "cuban-slang:jinetero-jinetera",
+      "spanish": "Jinetero / Jinetera",
+      "english": "hustler (who targets tourists)",
+      "pronunciation": "hee-neh-TEH-roh / hee-neh-TEH-rah",
+      "example": "Cuidado con los [jineteros].",
+      "example_en": "Watch out for the hustlers.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "Literally \"horse rider\"."
+    },
+    {
+      "id": "cuban-slang:fula",
+      "spanish": "Fula",
+      "english": "US dollars",
+      "pronunciation": "FOO-lah",
+      "example": "Eso cuesta veinte [fulas].",
+      "example_en": "That costs twenty dollars.",
+      "region": "Cuba",
+      "register": "slang"
+    },
+    {
+      "id": "cuban-slang:pinchar",
+      "spanish": "Pinchar",
+      "english": "to work (at a job)",
+      "pronunciation": "peen-CHAHR",
+      "example": "¿Dónde tú [pinchas]?",
+      "example_en": "Where do you work?",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "\"La pincha\" = the job."
+    },
+    {
+      "id": "cuban-slang:jamar",
+      "spanish": "Jamar",
+      "english": "to eat",
+      "pronunciation": "hah-MAHR",
+      "example": "Vamos a [jamar], tengo hambre.",
+      "example_en": "Let's eat, I'm hungry.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "\"La jama\" = food."
+    },
+    {
+      "id": "cuban-slang:bisne",
+      "spanish": "Bisne",
+      "english": "business / a hustle",
+      "pronunciation": "BEES-neh",
+      "example": "Tiene un [bisne] con los turistas.",
+      "example_en": "He has a hustle going with the tourists.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "From English \"business\"."
+    },
+    {
+      "id": "cuban-slang:me-piro",
+      "spanish": "Me piro",
+      "english": "I'm out / I'm leaving",
+      "pronunciation": "meh PEE-roh",
+      "example": "Bueno, [me piro].",
+      "example_en": "Alright, I'm out.",
+      "region": "Cuba",
+      "register": "slang",
+      "notes": "\"Pirarse\" = to leave. Also heard in Spain."
+    },
+    {
+      "id": "cuban-slang:estar-en-la-lucha",
+      "spanish": "Estar en la lucha",
+      "english": "to be hustling / getting by",
+      "pronunciation": "ehs-TAHR ehn lah LOO-chah",
+      "example": "Aquí, [en la lucha], como siempre.",
+      "example_en": "Here, hustling as always.",
+      "region": "Cuba",
+      "register": "casual",
+      "notes": "A very common answer to \"How are you?\"."
+    },
+    {
+      "id": "cuban-slang:tremendo",
+      "spanish": "Tremendo",
+      "english": "huge / a real (something)",
+      "pronunciation": "treh-MEHN-doh",
+      "example": "¡[Tremendo] calor!",
+      "example_en": "Crazy hot!",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "\"Tremenda fiesta\" = an amazing party."
+    },
+    {
+      "id": "cuban-slang:pepillo-pepilla",
+      "spanish": "Pepillo / Pepilla",
+      "english": "teenager / young person",
+      "pronunciation": "peh-PEE-yoh / peh-PEE-yah",
+      "example": "Había muchos [pepillos] en la fiesta.",
+      "example_en": "There were a lot of young kids at the party.",
+      "region": "Cuba",
+      "register": "slang"
+    },
+    {
+      "id": "cuban-slang:ñooo",
+      "spanish": "¡Ñooo!",
+      "english": "Whoa! / No way!",
+      "pronunciation": "nyoh-OH-oh",
+      "example": "¡[Ñooo], qué grande!",
+      "example_en": "Whoa, that's huge!",
+      "region": "Cuba",
+      "register": "casual",
+      "notes": "A softened \"¡coño!\"."
+    },
+    {
+      "id": "cuban-slang:pinga",
+      "spanish": "Pinga",
+      "english": "d*ck / f*ck (very strong)",
+      "pronunciation": "PEEN-gah",
+      "example": "¡Qué [pinga] es esto!",
+      "example_en": "What the f*ck is this!",
+      "region": "Cuba",
+      "register": "vulgar",
+      "notes": "The strongest, most versatile Cuban curse word."
+    },
+    {
+      "id": "cuban-slang:singao",
+      "spanish": "Singao",
+      "english": "bastard / son of a b*tch",
+      "pronunciation": "seen-GAH-oh",
+      "example": "Ese [singao] me robó.",
+      "example_en": "That bastard robbed me.",
+      "region": "Cuba",
+      "register": "vulgar",
+      "notes": "From \"singar\" (to f*ck)."
+    }
+  ]
+}

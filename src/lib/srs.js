@@ -6,9 +6,10 @@ const DAY = 24 * 60 * 60 * 1000;
 export const INTERVAL_DAYS = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 16 };
 export const LEARNED_BOX = 3;
 
-export function grade(record, correct, now = Date.now()) {
+/** easy = "I knew that instantly" (Anki's Easy button): skips a box. */
+export function grade(record, correct, now = Date.now(), { easy = false } = {}) {
   const r = record || { box: 0, right: 0, wrong: 0 };
-  const box = correct ? Math.min(Math.max(r.box, 1) + 1, 5) : 1;
+  const box = correct ? Math.min(Math.max(r.box, 1) + (easy ? 2 : 1), 5) : 1;
   return {
     box,
     right: r.right + (correct ? 1 : 0),
@@ -70,14 +71,40 @@ export function dayKey(ts = Date.now()) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-/** Consecutive days with at least one review, ending today (or yesterday if not studied yet today). */
-export function streak(activity, now = Date.now()) {
-  const d = new Date(now);
-  if (!activity[dayKey(d)]) d.setDate(d.getDate() - 1);
-  let count = 0;
-  while (activity[dayKey(d)]?.reviews > 0) {
-    count++;
-    d.setDate(d.getDate() - 1);
+export const MAX_FREEZES = 2;
+const FREEZE_EVERY = 7;
+
+/**
+ * Streak with Duolingo-style streak freezes: every 7 days in a row earns a freeze (max 2),
+ * and a freeze is used up automatically to cover a missed day.
+ * Today doesn't count as missed until it's over.
+ * @returns {{ streak: number, freezes: number, studiedToday: boolean }}
+ */
+export function streakInfo(activity, now = Date.now()) {
+  const days = Object.keys(activity).filter((k) => activity[k]?.reviews > 0).sort();
+  const today = dayKey(now);
+  const studiedToday = !!activity[today]?.reviews;
+  if (!days.length) return { streak: 0, freezes: 0, studiedToday };
+
+  const [y, m, d] = days[0].split('-').map(Number);
+  const cursor = new Date(y, m - 1, d, 12);
+  let streak = 0;
+  let run = 0;
+  let freezes = 0;
+  for (let key = dayKey(cursor); key <= today; cursor.setDate(cursor.getDate() + 1), key = dayKey(cursor)) {
+    if (activity[key]?.reviews > 0) {
+      streak++;
+      run++;
+      if (run % FREEZE_EVERY === 0) freezes = Math.min(MAX_FREEZES, freezes + 1);
+    } else if (key !== today) {
+      run = 0;
+      if (freezes > 0 && streak > 0) freezes--;
+      else streak = 0;
+    }
   }
-  return count;
+  return { streak, freezes, studiedToday };
+}
+
+export function streak(activity, now = Date.now()) {
+  return streakInfo(activity, now).streak;
 }

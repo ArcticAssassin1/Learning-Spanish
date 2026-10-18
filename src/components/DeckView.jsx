@@ -4,6 +4,8 @@ import { DECKS, visibleCards } from '../lib/decks.js';
 import { dueCount, isLearned } from '../lib/srs.js';
 import Speak from './Speak.jsx';
 import Badges from './Badges.jsx';
+import { MODES, eligibleCards } from './Session.jsx';
+import { speechSupported } from '../lib/speech.js';
 
 function Segmented({ value, options, onChange, label }) {
   return (
@@ -59,10 +61,22 @@ export default function DeckView({ deckId, onBack, onStart }) {
         {settings.cardMode === 'weak' && weak === 0 && <p className="muted small">No missed cards in this deck yet. Smart mode will be used.</p>}
       </div>
 
-      <div className="start-row">
-        <button className="btn btn-big" onClick={() => onStart('flash')}>🃏 Flashcards</button>
-        <button className="btn btn-big btn-primary" onClick={() => onStart('quiz')}>⌨️ Quiz</button>
+      <div className="modes">
+        {Object.entries(MODES).map(([kind, { icon, label }]) => {
+          if (kind === 'listen' && !speechSupported) return null;
+          const n = eligibleCards(cards, kind).length;
+          return (
+            <button key={kind} className={'mode' + (kind === 'quiz' ? ' mode-main' : '')} disabled={!n} onClick={() => onStart(kind)}>
+              <span className="mode-icon">{icon}</span>
+              <span>{label}</span>
+              {kind === 'cloze' && n < cards.length && <span className="mode-sub">{n} cards</span>}
+            </button>
+          );
+        })}
       </div>
+      <p className="muted small mode-help">
+        Direction applies to Flashcards, Type it and Multiple choice. Fill the blank and Listen are always in Spanish.
+      </p>
 
       <button className="btn btn-ghost btn-wide" onClick={() => setBrowsing((b) => !b)}>
         {browsing ? 'Hide cards' : `Browse all ${cards.length} cards`}
@@ -78,7 +92,7 @@ export default function DeckView({ deckId, onBack, onStart }) {
                 <Badges card={c} />
               </div>
               <div className="cl-side">
-                <Speak text={c.spanish} small />
+                <Speak text={c.say || c.spanish} small />
                 <BoxDots box={progress[c.id]?.box || 0} />
               </div>
             </li>

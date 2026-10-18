@@ -4,7 +4,7 @@ import { DECKS, visibleCards, allVisibleCards } from './lib/decks.js';
 import { pickSession } from './lib/srs.js';
 import Home from './components/Home.jsx';
 import DeckView from './components/DeckView.jsx';
-import Session from './components/Session.jsx';
+import Session, { MODES, eligibleCards } from './components/Session.jsx';
 import ProgressView from './components/ProgressView.jsx';
 import Settings from './components/Settings.jsx';
 
@@ -21,7 +21,10 @@ export default function App() {
   const screen = stack[stack.length - 1];
 
   useEffect(() => {
-    const onPop = () => setStack((s) => (s.length > 1 ? s.slice(0, -1) : s));
+    const onPop = () => {
+      setStack((s) => (s.length > 1 ? s.slice(0, -1) : s));
+      window.scrollTo(0, 0);
+    };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
   }, []);
@@ -37,22 +40,26 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
-  const buildSession = ({ cards, kind, title, deckId, mode }) => {
+  const buildSession = ({ cards: pool, kind, title, deckId, mode }) => {
     const size = settings.sessionSize || (deckId ? 0 : 25);
+    const cards = eligibleCards(pool, kind);
     let picked = pickSession(cards, progress, { mode, size });
     if (!picked.length) picked = pickSession(cards, progress, { mode: 'smart', size });
-    return { name: 'session', kind, title, deckId, mode, cards: picked, key: Date.now() };
+    return { name: 'session', kind, title, deckId, mode, pool, cards: picked, key: Date.now() };
   };
   const cardsFor = (deckId) => (deckId
     ? visibleCards(DECKS.find((d) => d.id === deckId), settings)
     : allVisibleCards(settings));
 
   const startDeck = (deckId, kind) => {
-    const title = DECKS.find((d) => d.id === deckId).name;
+    const title = `${DECKS.find((d) => d.id === deckId).name} · ${MODES[kind].label}`;
     push(buildSession({ cards: cardsFor(deckId), kind, title, deckId, mode: settings.cardMode }));
   };
   const startReview = () => {
     push(buildSession({ cards: cardsFor(null), kind: 'quiz', title: 'Mixed review', mode: 'smart' }));
+  };
+  const startMistakes = () => {
+    push(buildSession({ cards: cardsFor(null), kind: 'quiz', title: 'My mistakes', mode: 'weak' }));
   };
   const newRound = () => {
     const next = buildSession({ ...screen, cards: cardsFor(screen.deckId) });
@@ -68,6 +75,7 @@ export default function App() {
         key={screen.key}
         title={screen.title}
         cards={screen.cards}
+        pool={screen.pool}
         kind={screen.kind}
         direction={settings.direction}
         onExit={back}
@@ -79,7 +87,7 @@ export default function App() {
   } else if (screen.name === 'settings') {
     content = <Settings />;
   } else {
-    content = <Home openDeck={(deckId) => push({ name: 'deck', deckId })} startReview={startReview} />;
+    content = <Home openDeck={(deckId) => push({ name: 'deck', deckId })} startReview={startReview} startMistakes={startMistakes} />;
   }
 
   const showTabs = screen.name !== 'session';

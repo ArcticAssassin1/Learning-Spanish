@@ -1,0 +1,212 @@
+{
+  "id": "texting",
+  "name": "Texting & Abbreviations",
+  "emoji": "📱",
+  "description": "How people actually text: tqm, xq, ntp, klk. Decode her messages.",
+  "phase": 3,
+  "order": 112,
+  "cards": [
+    {
+      "id": "texting:q-k",
+      "spanish": "q / k",
+      "english": "que / qué / that / what",
+      "pronunciation": "keh",
+      "example": "¿[q] haces?",
+      "example_en": "What are you doing?",
+      "region": "General",
+      "register": "casual",
+      "say": "qué"
+    },
+    {
+      "id": "texting:xq-pq",
+      "spanish": "xq / pq",
+      "english": "porque / por qué / because / why",
+      "pronunciation": "pohr keh",
+      "example": "¿[xq] no viniste?",
+      "example_en": "Why didn't you come?",
+      "region": "General",
+      "register": "casual",
+      "notes": "\"x\" = \"por\" in texts.",
+      "say": "por qué"
+    },
+    {
+      "id": "texting:tqm-tkm",
+      "spanish": "tqm / tkm",
+      "english": "te quiero mucho / love you lots",
+      "pronunciation": "teh KYEH-roh MOO-choh",
+      "example": "Buenas noches, [tqm].",
+      "example_en": "Good night, love you lots.",
+      "region": "General",
+      "register": "romantic",
+      "notes": "For partners, friends and family.",
+      "say": "te quiero mucho"
+    },
+    {
+      "id": "texting:bn",
+      "spanish": "bn",
+      "english": "bien / good / fine",
+      "pronunciation": "byehn",
+      "example": "[bn] y tú?",
+      "example_en": "Good, and you?",
+      "region": "General",
+      "register": "casual",
+      "say": "bien"
+    },
+    {
+      "id": "texting:ntp",
+      "spanish": "ntp",
+      "english": "no te preocupes / don't worry",
+      "pronunciation": "noh teh preh-oh-KOO-pehs",
+      "example": "[ntp], yo te espero.",
+      "example_en": "Don't worry, I'll wait for you.",
+      "region": "General",
+      "register": "casual",
+      "say": "no te preocupes"
+    },
+    {
+      "id": "texting:tmb-tb",
+      "spanish": "tmb / tb",
+      "english": "también / also / too",
+      "pronunciation": "tahm-BYEHN",
+      "example": "Yo [tmb] voy.",
+      "example_en": "I'm going too.",
+      "region": "General",
+      "register": "casual",
+      "say": "también"
+    },
+    {
+      "id": "texting:xfa-pf",
+      "spanish": "xfa / pf",
+      "english": "por favor / please",
+      "pronunciation": "pohr fah-BOHR",
+      "example": "Llámame [xfa].",
+      "example_en": "Call me please.",
+      "region": "General",
+      "register": "casual",
+      "say": "por favor"
+    },
+    {
+      "id": "texting:dnd",
+      "spanish": "dnd",
+      "english": "dónde / where",
+      "pronunciation": "DOHN-deh",
+      "example": "[dnd] estás?",
+      "example_en": "Where are you?",
+      "region": "General",
+      "register": "casual",
+      "say": "dónde"
+    },
+    {
+      "id": "texting:nd",
+      "spanish": "nd",
+      "english": "nada / nothing",
+      "pronunciation": "NAH-dah",
+      "example": "[nd], aquí en la casa.",
+      "example_en": "Nothing, just at home.",
+      "region": "General",
+      "register": "casual",
+      "say": "nada"
+    },
+    {
+      "id": "texting:tons",
+      "spanish": "tons",
+      "english": "entonces / so / then",
+      "pronunciation": "ehn-TOHN-sehs",
+      "example": "[tons] qué, vamos?",
+      "example_en": "So what, are we going?",
+      "region": "General",
+      "register": "casual",
+      "say": "entonces"
+    },
+    {
+      "id": "texting:mñn",
+      "spanish": "mñn",
+      "english": "mañana / tomorrow",
+      "pronunciation": "mah-NYAH-nah",
+      "example": "Nos vemos [mñn].",
+      "example_en": "See you tomorrow.",
+      "region": "General",
+      "register": "casual",
+      "say": "mañana"
+    },
+    {
+      "id": "texting:msj",
+      "spanish": "msj",
+      "english": "mensaje / message",
+      "pronunciation": "mehn-SAH-heh",
+      "example": "Mándame un [msj].",
+      "example_en": "Send me a message.",
+      "region": "General",
+      "register": "casual",
+      "say": "mensaje"
+    },
+    {
+      "id": "texting:grax",
+      "spanish": "grax",
+      "english": "gracias / thanks",
+      "pronunciation": "GRAH-syahs",
+      "example": "[grax] por todo!",
+      "example_en": "Thanks for everything!",
+      "region": "General",
+      "register": "casual",
+      "say": "gracias"
+    },
+    {
+      "id": "texting:bss",
+      "spanish": "bss",
+      "english": "besos / kisses",
+      "pronunciation": "BEH-sohs",
+      "example": "Te quiero, [bss].",
+      "example_en": "Love you, kisses.",
+      "region": "General",
+      "register": "romantic",
+      "say": "besos"
+    },
+    {
+      "id": "texting:salu2",
+      "spanish": "salu2",
+      "english": "saludos / greetings / regards",
+      "pronunciation": "sah-LOO-dohs",
+      "example": "[salu2] a tu mamá.",
+      "example_en": "Say hi to your mom.",
+      "region": "General",
+      "register": "casual",
+      "notes": "The 2 = \"dos\".",
+      "say": "saludos"
+    },
+    {
+      "id": "texting:jajaja",
+      "spanish": "jajaja",
+      "english": "hahaha",
+      "pronunciation": "hah-HAH-hah",
+      "example": "[jajaja] estás loco.",
+      "example_en": "Hahaha you're crazy.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Spanish \"j\" = English \"h\". Also \"jejeje\".",
+      "say": "jajaja"
+    },
+    {
+      "id": "texting:klk",
+      "spanish": "klk",
+      "english": "qué lo qué / what's up (Dominican)",
+      "pronunciation": "keh loh keh",
+      "example": "[klk] mi pana",
+      "example_en": "What's up my buddy",
+      "region": "Dominican",
+      "register": "slang",
+      "say": "qué lo qué"
+    },
+    {
+      "id": "texting:x",
+      "spanish": "x",
+      "english": "por / for / by",
+      "pronunciation": "pohr",
+      "example": "Gracias [x] venir.",
+      "example_en": "Thanks for coming.",
+      "region": "General",
+      "register": "casual",
+      "say": "por"
+    }
+  ]
+}

@@ -31,7 +31,7 @@ export function cleanForSpeech(text) {
   return text
     .replace(/\([^)]*\)/g, ' ')
     .replace(/\s\/\s/g, ', ')
-    .replace(/[—–]/g, ' ')
+    .replace(/[—–[\]]/g, ' ')
     .replace(/'/g, '')
     .replace(/\s+/g, ' ')
     .trim();

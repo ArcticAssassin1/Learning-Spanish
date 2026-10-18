@@ -1,0 +1,175 @@
+{
+  "id": "reflexive",
+  "name": "Reflexive & \"Se me olvidó\"",
+  "emoji": "🪞",
+  "description": "Verbs with se (quedarse, irse, sentirse) and the \"accidental se\": se me olvidó, se me cayó.",
+  "phase": 2,
+  "order": 160,
+  "cards": [
+    {
+      "id": "reflexive:se-me-olvidó",
+      "spanish": "Se me olvidó.",
+      "english": "I forgot. (it slipped my mind)",
+      "pronunciation": "seh meh ohl-bee-DOH",
+      "example": "[Se me olvidó] tu cumpleaños.",
+      "example_en": "I forgot your birthday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Accidental se: se + me + verb. Literally \"it forgot itself on me\"."
+    },
+    {
+      "id": "reflexive:se-me-cayó-el-teléfono",
+      "spanish": "Se me cayó el teléfono.",
+      "english": "I dropped my phone.",
+      "pronunciation": "seh meh kah-YOH ehl teh-LEH-foh-noh",
+      "example": "[Se me cayó] el vaso.",
+      "example_en": "I dropped the glass.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:se-me-rompió",
+      "spanish": "Se me rompió.",
+      "english": "It broke (on me).",
+      "pronunciation": "seh meh rohm-PYOH",
+      "example": "[Se me rompió] la pantalla.",
+      "example_en": "My screen broke.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:se-me-perdieron-las-llaves",
+      "spanish": "Se me perdieron las llaves.",
+      "english": "I lost my keys.",
+      "pronunciation": "seh meh pehr-DYEH-rohn lahs YAH-behs",
+      "example": "[Se me perdió] la cartera.",
+      "example_en": "I lost my wallet.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Plural thing → plural verb: se me perdieron."
+    },
+    {
+      "id": "reflexive:me-quedo-en-casa",
+      "spanish": "Me quedo en casa.",
+      "english": "I'm staying home.",
+      "pronunciation": "meh KEH-doh ehn KAH-sah",
+      "example": "Hoy [me quedo] en casa.",
+      "example_en": "I'm staying home today.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "quedarse = to stay."
+    },
+    {
+      "id": "reflexive:me-voy",
+      "spanish": "Me voy.",
+      "english": "I'm leaving. / I'm out.",
+      "pronunciation": "meh boy",
+      "example": "Ya [me voy].",
+      "example_en": "I'm leaving now.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "irse = to leave. \"Voy\" alone = I'm going (somewhere)."
+    },
+    {
+      "id": "reflexive:me-levanto-a-las-seis",
+      "spanish": "Me levanto a las seis.",
+      "english": "I get up at six.",
+      "pronunciation": "meh leh-BAHN-toh ah lahs says",
+      "example": "¿A qué hora [te levantas]?",
+      "example_en": "What time do you get up?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:me-ducho-después-de-entrenar",
+      "spanish": "Me ducho después de entrenar.",
+      "english": "I shower after working out.",
+      "pronunciation": "meh DOO-choh dehs-PWEHS deh ehn-treh-NAHR",
+      "example": "[Me ducho] por la mañana.",
+      "example_en": "I shower in the morning.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:me-acosté-tarde",
+      "spanish": "Me acosté tarde.",
+      "english": "I went to bed late.",
+      "pronunciation": "meh ah-kohs-TEH TAHR-deh",
+      "example": "Anoche [me acosté] a las tres.",
+      "example_en": "Last night I went to bed at three.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:me-llamo-dan",
+      "spanish": "Me llamo Dan.",
+      "english": "My name is Dan.",
+      "pronunciation": "meh YAH-moh dahn",
+      "example": "¿Cómo [te llamas]?",
+      "example_en": "What's your name?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:me-siento-bien",
+      "spanish": "Me siento bien.",
+      "english": "I feel good.",
+      "pronunciation": "meh SYEHN-toh byehn",
+      "example": "¿Cómo [te sientes]?",
+      "example_en": "How do you feel?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "sentirse = to feel. Careful: sentarse = to sit down!"
+    },
+    {
+      "id": "reflexive:me-enojé",
+      "spanish": "Me enojé.",
+      "english": "I got mad.",
+      "pronunciation": "meh eh-noh-HEH",
+      "example": "Ella [se enojó] conmigo.",
+      "example_en": "She got mad at me.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:nos-divertimos",
+      "spanish": "Nos divertimos.",
+      "english": "We had fun.",
+      "pronunciation": "nohs dee-behr-TEE-mohs",
+      "example": "¿[Te divertiste] anoche?",
+      "example_en": "Did you have fun last night?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:no-te-preocupes",
+      "spanish": "No te preocupes.",
+      "english": "Don't worry.",
+      "pronunciation": "noh teh preh-oh-KOO-pehs",
+      "example": "[No te preocupes], yo pago.",
+      "example_en": "Don't worry, I'll pay.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:no-me-arrepiento",
+      "spanish": "No me arrepiento.",
+      "english": "I don't regret it.",
+      "pronunciation": "noh meh ah-rreh-PYEHN-toh",
+      "example": "No [me arrepiento] de nada.",
+      "example_en": "I don't regret anything.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "reflexive:cállate",
+      "spanish": "Cállate.",
+      "english": "Shut up. / Be quiet.",
+      "pronunciation": "KAH-yah-teh",
+      "example": "[Cállate], que no oigo.",
+      "example_en": "Be quiet, I can't hear.",
+      "region": "General",
+      "register": "casual"
+    }
+  ]
+}

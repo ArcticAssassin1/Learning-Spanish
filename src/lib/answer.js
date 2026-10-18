@@ -83,7 +83,8 @@ function matches(user, alt) {
 function typoAllowance(len) {
   if (len <= 3) return 0;
   if (len <= 6) return 1;
-  return 2;
+  if (len <= 15) return 2;
+  return Math.floor(len / 8);
 }
 
 /**

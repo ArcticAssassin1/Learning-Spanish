@@ -188,6 +188,214 @@
       "example_en": "\"Shall we go to the beach?\" \"Let's go!\"",
       "region": "Caribbean",
       "register": "casual"
+    },
+    {
+      "id": "dominican-slang:qué-e-lo-que-hay",
+      "spanish": "¿Qué e' lo que hay?",
+      "english": "What's up? / What's going on?",
+      "pronunciation": "keh eh loh keh eye",
+      "example": "¿Qué e' lo que hay, mi hermano?",
+      "example_en": "What's up, bro?",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Long form of \"¿Qué lo qué?\"."
+    },
+    {
+      "id": "dominican-slang:pariguayo",
+      "spanish": "Pariguayo",
+      "english": "loser / lame guy / wallflower",
+      "pronunciation": "pah-ree-GWAH-yoh",
+      "example": "No seas [pariguayo], sácala a bailar.",
+      "example_en": "Don't be lame, ask her to dance.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Said to come from \"party watcher\": the guy who just stands and watches at the party."
+    },
+    {
+      "id": "dominican-slang:chercha",
+      "spanish": "Chercha",
+      "english": "fun / party / joking around",
+      "pronunciation": "CHEHR-chah",
+      "example": "Anoche estuvo buena la [chercha].",
+      "example_en": "Last night was a lot of fun.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "\"Estar en chercha\" = to be joking around."
+    },
+    {
+      "id": "dominican-slang:teteo",
+      "spanish": "Teteo",
+      "english": "party / turn-up",
+      "pronunciation": "teh-TEH-oh",
+      "example": "Hoy hay [teteo] en casa de Luis.",
+      "example_en": "There's a party at Luis's place today.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Young people's slang. \"Tetear\" = to party."
+    },
+    {
+      "id": "dominican-slang:hacer-coro",
+      "spanish": "Hacer coro",
+      "english": "to hang out (with friends)",
+      "pronunciation": "ah-SEHR KOH-roh",
+      "example": "Vamos a [hacer coro] esta noche.",
+      "example_en": "Let's hang out tonight.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "\"Coro\" = a hangout or your crew."
+    },
+    {
+      "id": "dominican-slang:colmado",
+      "spanish": "Colmado",
+      "english": "corner store",
+      "pronunciation": "kohl-MAH-doh",
+      "example": "Voy al [colmado] a comprar hielo.",
+      "example_en": "I'm going to the corner store to buy ice.",
+      "region": "Dominican",
+      "register": "casual",
+      "notes": "The Dominican neighborhood shop: drinks, music, dominoes, gossip. Like a \"bodega\" in NYC."
+    },
+    {
+      "id": "dominican-slang:guagua",
+      "spanish": "Guagua",
+      "english": "bus",
+      "pronunciation": "GWAH-gwah",
+      "example": "Cogí la [guagua] para el centro.",
+      "example_en": "I took the bus downtown.",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "Used in DR, Puerto Rico and Cuba. In the Caribbean \"coger\" is a normal word (take/catch)."
+    },
+    {
+      "id": "dominican-slang:concho",
+      "spanish": "Concho",
+      "english": "shared taxi",
+      "pronunciation": "KOHN-choh",
+      "example": "Me fui en [concho] al trabajo.",
+      "example_en": "I took a shared taxi to work.",
+      "region": "Dominican",
+      "register": "casual",
+      "notes": "\"Motoconcho\" = motorcycle taxi."
+    },
+    {
+      "id": "dominican-slang:jeva",
+      "spanish": "Jeva",
+      "english": "girlfriend / girl",
+      "pronunciation": "HEH-bah",
+      "example": "Esa es mi [jeva].",
+      "example_en": "That's my girl.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "For a guy: \"jevo\" = boyfriend / dude."
+    },
+    {
+      "id": "dominican-slang:jablador",
+      "spanish": "Jablador",
+      "english": "big talker / liar",
+      "pronunciation": "hah-blah-DOHR",
+      "example": "Ese tipo es un [jablador], no le creas.",
+      "example_en": "That guy's full of it, don't believe him.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "From \"hablador\" with the Dominican \"j\" sound."
+    },
+    {
+      "id": "dominican-slang:desacatao",
+      "spanish": "Desacatao",
+      "english": "out of control / wild",
+      "pronunciation": "deh-sah-kah-TAH-oh",
+      "example": "Ese muchacho está [desacatao].",
+      "example_en": "That kid is out of control.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "From \"desacatado\" with the dropped d (-ado → -ao)."
+    },
+    {
+      "id": "dominican-slang:allantoso",
+      "spanish": "Allantoso",
+      "english": "show-off",
+      "pronunciation": "ah-yahn-TOH-soh",
+      "example": "No seas [allantoso] con tu carro nuevo.",
+      "example_en": "Don't be a show-off with your new car.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "\"Hacer allante\" = to show off."
+    },
+    {
+      "id": "dominican-slang:bacano",
+      "spanish": "Bacano",
+      "english": "cool",
+      "pronunciation": "bah-KAH-noh",
+      "example": "Tu carro está [bacano].",
+      "example_en": "Your car is cool.",
+      "region": "Dominican",
+      "register": "slang",
+      "notes": "Also big in Colombia."
+    },
+    {
+      "id": "dominican-slang:pila",
+      "spanish": "Pila",
+      "english": "a lot / tons",
+      "pronunciation": "PEE-lah",
+      "example": "Había una [pila] de gente en la fiesta.",
+      "example_en": "There were tons of people at the party.",
+      "region": "Caribbean",
+      "register": "slang"
+    },
+    {
+      "id": "dominican-slang:diache",
+      "spanish": "¡Diache!",
+      "english": "Damn! / Wow! (mild)",
+      "pronunciation": "DYAH-cheh",
+      "example": "¡[Diache], qué caro!",
+      "example_en": "Damn, that's expensive!",
+      "region": "Dominican",
+      "register": "casual",
+      "notes": "A softened \"diablo\". Safe to say around family."
+    },
+    {
+      "id": "dominican-slang:mangú",
+      "spanish": "Mangú",
+      "english": "mashed green plantains",
+      "pronunciation": "mahn-GOO",
+      "example": "Desayuné [mangú] con salami.",
+      "example_en": "I had mangú with salami for breakfast.",
+      "region": "Dominican",
+      "register": "neutral",
+      "notes": "With fried salami, cheese and eggs it is \"los tres golpes\"."
+    },
+    {
+      "id": "dominican-slang:guineo",
+      "spanish": "Guineo",
+      "english": "banana",
+      "pronunciation": "gee-NEH-oh",
+      "example": "¿Me das un [guineo]?",
+      "example_en": "Can you give me a banana?",
+      "region": "Caribbean",
+      "register": "neutral",
+      "notes": "Most of Latin America says \"plátano\" or \"banana\"."
+    },
+    {
+      "id": "dominican-slang:cuero",
+      "spanish": "Cuero",
+      "english": "loose woman / slut (insult)",
+      "pronunciation": "KWEH-roh",
+      "example": "Le dicen [cuero], pero eso es un insulto feo.",
+      "example_en": "They call her a \"cuero\", but that's an ugly insult.",
+      "region": "Dominican",
+      "register": "vulgar",
+      "notes": "Literally \"leather\". Offensive. Know it, don't use it."
+    },
+    {
+      "id": "dominican-slang:mamagüevo",
+      "spanish": "Mamagüevo",
+      "english": "c*cksucker (strong insult)",
+      "pronunciation": "mah-mah-GWEH-boh",
+      "example": "¡Ese [mamagüevo] me chocó el carro!",
+      "example_en": "That c*cksucker hit my car!",
+      "region": "Dominican",
+      "register": "vulgar",
+      "notes": "One of the strongest Dominican insults. Also spelled \"mamagüebo\"."
     }
   ]
 }

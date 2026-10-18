@@ -6,23 +6,41 @@ It installs on your home screen and works offline. There's no account; progress 
 
 The full plan is in [BRIEF.md](BRIEF.md).
 
-## What's in it (v1)
+## What's in it
 
-- **13 decks, 388 cards**: core verbs (all 100 forms), regular and irregular preterite, signal words,
-  adjectives, connectors, high-frequency words, everyday phrases, romance 🔥, Dominican and Mexican
-  slang, expletives 🔞, and watch-out pairs (si/sí, tu/tú, conmigo/contigo...).
-- Every card has a **pronunciation guide** (*koh-rah-SOHN*), an **example sentence**, a region, and a register label.
-- **Flashcards**: tap to flip, choose ES→EN, EN→ES, or mixed. Always in random order.
-- **Quiz**: type the answer. Missing accents still count, but you'll see
-  *"Correct! Watch the accent: **sé**"*. Any of the listed meanings is accepted. Small typos
-  show "Almost!", and you can tap "I was right" to override.
-- **Score summary** (e.g. 13/15), a list of missed cards, and a **Retake missed cards** button.
-- **Spaced repetition** (Leitner boxes): a missed card comes back right away, and known cards
-  come back after 1, 3, 7, then 16 days.
+**26 decks, 643 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
+a region and a register label.
+
+- **Phase 1, foundations:** core verbs (all 100 forms), watch-out pairs (si/sí, tu/tú...),
+  pronouns (verte, dámelo, conmigo), helper verb + infinitive, false friends (embarazada ≠ embarrassed),
+  regular and irregular preterite, signal words, adjectives, connectors, high-frequency words.
+- **Phase 2, real conversation:** everyday phrases, ser vs estar, por vs para, preterite vs imperfect,
+  reflexives and "se me olvidó", subjunctive set phrases.
+- **Phase 3, Caribbean & street:** romance 🔥, bachata and the dance floor, Caribbean pronunciation
+  (etá, cansao, pa', amol), Dominican, Puerto Rican, Cuban and Mexican slang, texting abbreviations
+  (tqm, xq, ntp), expletives 🔞.
+
+**Five ways to study each deck:**
+
+| Mode | What it is | Inspired by |
+|---|---|---|
+| ⌨️ Type it | Type the answer. Missing accents count but get flagged ("Watch the accent: **sé**"). | Your brief |
+| 🃏 Flashcards | Tap to flip, then Missed / Got it / ⚡ Easy. | Anki |
+| 🔘 Multiple choice | Pick from 4. Good for one-handed practice on the go. | Duolingo, Clozemaster |
+| 🧩 Fill the blank | The example sentence with a word missing. Hint shows the first letter and the grammar rule. | Clozemaster |
+| 🎧 Listen & type | Hear it, type what you heard. Trains your ear for fast speech. | Duolingo listening drills |
+
+**Also:**
+- **Spaced repetition** (Leitner boxes): a missed card comes back right away, then after 1, 3, 7, then 16 days.
+- **Score summary** (e.g. 13/15), a missed-cards list, and **Retake missed cards**.
+- **🩹 Fix my mistakes**: one tap to drill every card you've missed, across all decks.
+- **🎯 Daily goal** (10 / 20 / 30 / 50 cards) and a **🔥 streak with 🧊 streak freezes**: every 7 days
+  in a row earns a freeze (max 2) that saves your streak if you miss a day. This is the Duolingo idea,
+  without the guilt trip.
 - **🔊 / 🐢 audio** with the phone's Spanish voice (prefers Dominican, then US, then Mexican Spanish).
-- **Explicit toggle** in Settings hides 🔞 cards when you're studying in public.
-- **Progress**: cards learned, accuracy per deck, day streak, last 7 days, and your most-missed cards.
-- Dark mode (light mode available), big buttons, and the phone's back button works.
+- **Explicit toggle** hides 🔞 cards when you're studying in public.
+- **Progress** page: learned, accuracy per deck, last 7 days, most-missed cards.
+- Dark mode, big buttons, works offline, and the back button works.
 
 ## Put it on your phone
 
@@ -78,10 +96,22 @@ there and it shows up automatically. Card format:
   Text in `(parentheses)` is a hint and doesn't need to be typed.
 - `pronunciation` can be left out and the app will generate one.
 - Optional: `accept` is a list of extra accepted Spanish answers, e.g. `["klk"]`.
+- Optional: wrap a word in the example in `[brackets]` to choose what Fill-the-blank hides,
+  e.g. `"Quiero [ir] a la playa."`. Otherwise the app finds the card's word in the example.
+- Optional: `say` is what the 🔊 button says, when the card shows a spelling the voice
+  can't read (e.g. `"xq"` → `"por qué"`).
 
 Easiest way: send Claude the word list (or a screenshot) and ask it to add a deck.
 
+## Where the new material came from
+
+Slang meanings, false friends, grammar rules and app ideas were cross-checked against learner
+resources such as Wikipedia's list of Puerto Rican slang, SpeakingLatino, Spanishland School,
+FluentU, Lingopie, StoryLearning, SpanishVIP, Lawless Spanish, StudySpanish, Babbel, Clozemaster's
+FAQ, Anki's docs and Duolingo's blog. All example sentences were written fresh for this app.
+No song lyrics are included.
+
 ## Coming next (from the brief)
 
-Conjugation drills · "Fix my sentence" and Quick translate (Claude API) · auto-built Common
-Mistakes deck · Quizlet export/import · speech input · daily goal reminders · more Caribbean decks.
+Conjugation drills · "Fix my sentence" and Quick translate (Claude API) · Quizlet export/import ·
+speech input · streak reminders.

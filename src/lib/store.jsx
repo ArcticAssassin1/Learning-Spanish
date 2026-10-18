@@ -10,6 +10,7 @@ export const DEFAULT_SETTINGS = {
   cardMode: 'smart',
   voiceURI: '',
   autoSpeak: false,
+  dailyGoal: 20,
 };
 
 const StoreContext = createContext(null);
@@ -33,9 +34,9 @@ export function StoreProvider({ children }) {
 
   const updateSettings = useCallback((patch) => setSettings((s) => ({ ...s, ...patch })), []);
 
-  const recordAnswer = useCallback((cardId, correct) => {
+  const recordAnswer = useCallback((cardId, correct, opts) => {
     const now = Date.now();
-    setProgress((p) => ({ ...p, [cardId]: grade(p[cardId], correct, now) }));
+    setProgress((p) => ({ ...p, [cardId]: grade(p[cardId], correct, now, opts) }));
     setActivity((a) => {
       const k = dayKey(now);
       const day = a[k] || { reviews: 0, correct: 0 };

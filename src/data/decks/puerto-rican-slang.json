@@ -1,0 +1,271 @@
+{
+  "id": "puerto-rican-slang",
+  "name": "Puerto Rican Slang",
+  "emoji": "🇵🇷",
+  "description": "Boricua street Spanish. Fast, full of English loans, and lots of r → l.",
+  "phase": 3,
+  "order": 102,
+  "cards": [
+    {
+      "id": "puerto-rican-slang:wepa",
+      "spanish": "¡Wepa!",
+      "english": "Yay! / Woo!",
+      "pronunciation": "WEH-pah",
+      "example": "¡[Wepa]! ¡Ganamos!",
+      "example_en": "Woo! We won!",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "Pure celebration. You will hear it at every Puerto Rican party."
+    },
+    {
+      "id": "puerto-rican-slang:boricua",
+      "spanish": "Boricua",
+      "english": "Puerto Rican (person)",
+      "pronunciation": "boh-REE-kwah",
+      "example": "Soy [boricua], pa' que tú lo sepas.",
+      "example_en": "I'm Puerto Rican, just so you know.",
+      "region": "Puerto Rico",
+      "register": "casual",
+      "notes": "From Borikén, the Taíno name of the island."
+    },
+    {
+      "id": "puerto-rican-slang:janguear",
+      "spanish": "Janguear",
+      "english": "to hang out",
+      "pronunciation": "hahn-geh-AHR",
+      "example": "Vamos a [janguear] en la playa.",
+      "example_en": "Let's hang out at the beach.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From English \"hang out\". \"Jangueo\" = a hangout."
+    },
+    {
+      "id": "puerto-rican-slang:chavos",
+      "spanish": "Chavos",
+      "english": "money",
+      "pronunciation": "CHAH-bohs",
+      "example": "No tengo [chavos].",
+      "example_en": "I don't have any money.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "In Mexico \"chavos\" means young people!"
+    },
+    {
+      "id": "puerto-rican-slang:bregar",
+      "spanish": "Bregar",
+      "english": "to deal with / to handle",
+      "pronunciation": "breh-GAHR",
+      "example": "No puedo [bregar] con eso hoy.",
+      "example_en": "I can't deal with that today.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "\"Vamos a bregar\" = let's work it out."
+    },
+    {
+      "id": "puerto-rican-slang:pichea",
+      "spanish": "Pichea",
+      "english": "forget it / ignore it",
+      "pronunciation": "pee-CHEH-ah",
+      "example": "[Pichea] eso, no vale la pena.",
+      "example_en": "Forget that, it's not worth it.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From English \"pitch\". \"Picharle a alguien\" = to ignore someone."
+    },
+    {
+      "id": "puerto-rican-slang:mamey",
+      "spanish": "Mamey",
+      "english": "easy / a piece of cake",
+      "pronunciation": "mah-MAY",
+      "example": "El examen estuvo [mamey].",
+      "example_en": "The exam was a piece of cake.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "Mamey is also a tropical fruit."
+    },
+    {
+      "id": "puerto-rican-slang:bichote",
+      "spanish": "Bichote",
+      "english": "big shot / boss",
+      "pronunciation": "bee-CHOH-teh",
+      "example": "Él se cree un [bichote].",
+      "example_en": "He thinks he's a big shot.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From English \"big shot\". Can also mean a drug boss."
+    },
+    {
+      "id": "puerto-rican-slang:bembé",
+      "spanish": "Bembé",
+      "english": "big party",
+      "pronunciation": "behm-BEH",
+      "example": "Mañana hay un [bembé] en el barrio.",
+      "example_en": "There's a big party in the neighborhood tomorrow.",
+      "region": "Caribbean",
+      "register": "slang"
+    },
+    {
+      "id": "puerto-rican-slang:ay-bendito",
+      "spanish": "¡Ay bendito!",
+      "english": "Oh my God! / Aw, poor thing!",
+      "pronunciation": "eye behn-DEE-toh",
+      "example": "¡[Ay bendito], se cayó el nene!",
+      "example_en": "Oh no, the little boy fell!",
+      "region": "Puerto Rico",
+      "register": "casual",
+      "notes": "Can be pity, surprise or even joy, depending on tone."
+    },
+    {
+      "id": "puerto-rican-slang:al-garete",
+      "spanish": "Al garete",
+      "english": "out of control / wild",
+      "pronunciation": "ahl gah-REH-teh",
+      "example": "La fiesta se fue [al garete].",
+      "example_en": "The party got out of control.",
+      "region": "Puerto Rico",
+      "register": "slang"
+    },
+    {
+      "id": "puerto-rican-slang:gufear",
+      "spanish": "Gufear",
+      "english": "to goof around / to joke",
+      "pronunciation": "goo-feh-AHR",
+      "example": "Estamos [gufeando], no te enojes.",
+      "example_en": "We're just goofing around, don't get mad.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From English \"goof\"."
+    },
+    {
+      "id": "puerto-rican-slang:tiraera",
+      "spanish": "Tiraera",
+      "english": "diss track / beef",
+      "pronunciation": "tee-rah-EH-rah",
+      "example": "Sacó una [tiraera] contra el otro rapero.",
+      "example_en": "He dropped a diss track against the other rapper.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From \"tiradera\" with the dropped d."
+    },
+    {
+      "id": "puerto-rican-slang:corillo",
+      "spanish": "Corillo",
+      "english": "group of friends / crew",
+      "pronunciation": "koh-REE-yoh",
+      "example": "Vino todo el [corillo].",
+      "example_en": "The whole crew came.",
+      "region": "Puerto Rico",
+      "register": "slang"
+    },
+    {
+      "id": "puerto-rican-slang:nene-nena",
+      "spanish": "Nene / Nena",
+      "english": "kid / babe",
+      "pronunciation": "NEH-neh / NEH-nah",
+      "example": "¿Qué tú quieres, [nena]?",
+      "example_en": "What do you want, babe?",
+      "region": "Puerto Rico",
+      "register": "casual",
+      "notes": "Kid, or a cute way to call your girl / guy."
+    },
+    {
+      "id": "puerto-rican-slang:mano-mana",
+      "spanish": "Mano / Mana",
+      "english": "bro / sis",
+      "pronunciation": "MAH-noh / MAH-nah",
+      "example": "[Mano], ¿qué pasó?",
+      "example_en": "Bro, what happened?",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "Short for \"hermano / hermana\"."
+    },
+    {
+      "id": "puerto-rican-slang:jartera",
+      "spanish": "Jartera",
+      "english": "huge meal / stuffing yourself",
+      "pronunciation": "hahr-TEH-rah",
+      "example": "Me di una [jartera] de arroz con gandules.",
+      "example_en": "I stuffed myself with rice and pigeon peas.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "From \"harto\" (full / fed up)."
+    },
+    {
+      "id": "puerto-rican-slang:zafacón",
+      "spanish": "Zafacón",
+      "english": "trash can",
+      "pronunciation": "sah-fah-KOHN",
+      "example": "Bota eso en el [zafacón].",
+      "example_en": "Throw that in the trash can.",
+      "region": "Caribbean",
+      "register": "neutral",
+      "notes": "Puerto Rico and the Dominican Republic. \"Botar\" = to throw away."
+    },
+    {
+      "id": "puerto-rican-slang:chévere",
+      "spanish": "Chévere",
+      "english": "cool / great",
+      "pronunciation": "CHEH-beh-reh",
+      "example": "¡Qué [chévere] tu camisa!",
+      "example_en": "Your shirt is so cool!",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "Used all over the Caribbean and Venezuela."
+    },
+    {
+      "id": "puerto-rican-slang:brutal",
+      "spanish": "Brutal",
+      "english": "awesome",
+      "pronunciation": "broo-TAHL",
+      "example": "El concierto estuvo [brutal].",
+      "example_en": "The concert was awesome.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "In Puerto Rico \"brutal\" is a compliment!"
+    },
+    {
+      "id": "puerto-rican-slang:charro",
+      "spanish": "Charro",
+      "english": "corny / tacky",
+      "pronunciation": "CHAH-rroh",
+      "example": "Ese chiste está bien [charro].",
+      "example_en": "That joke is really corny.",
+      "region": "Puerto Rico",
+      "register": "slang",
+      "notes": "In Mexico a \"charro\" is a horseman."
+    },
+    {
+      "id": "puerto-rican-slang:revolú",
+      "spanish": "Revolú",
+      "english": "mess / chaos",
+      "pronunciation": "reh-boh-LOO",
+      "example": "¡Qué [revolú] hay en esta casa!",
+      "example_en": "What a mess this house is!",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "From \"revolución\"."
+    },
+    {
+      "id": "puerto-rican-slang:puñeta",
+      "spanish": "¡Puñeta!",
+      "english": "damn! / f*ck!",
+      "pronunciation": "poo-NYEH-tah",
+      "example": "¡[Puñeta], se me olvidó!",
+      "example_en": "Damn, I forgot!",
+      "region": "Puerto Rico",
+      "register": "vulgar",
+      "notes": "The classic Puerto Rican curse."
+    },
+    {
+      "id": "puerto-rican-slang:cabrón",
+      "spanish": "Cabrón",
+      "english": "dude / bastard / awesome",
+      "pronunciation": "kah-BROHN",
+      "example": "Ese party estuvo [cabrón].",
+      "example_en": "That party was f*cking awesome.",
+      "region": "Puerto Rico",
+      "register": "vulgar",
+      "notes": "In PR it can be good (\"está cabrón\" = it's awesome) or bad. Tone is everything."
+    }
+  ]
+}

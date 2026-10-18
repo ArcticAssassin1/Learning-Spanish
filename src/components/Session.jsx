@@ -1,13 +1,27 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from '../lib/store.jsx';
-import { checkAnswer } from '../lib/answer.js';
-import { shuffle } from '../lib/srs.js';
+import { checkAnswer, normalize } from '../lib/answer.js';
+import { shuffle, dayKey } from '../lib/srs.js';
 import { speak } from '../lib/speech.js';
+import { makeCloze } from '../lib/cloze.js';
 import Badges from './Badges.jsx';
 import CardDetails from './CardDetails.jsx';
 import Speak from './Speak.jsx';
 
 const ACCENT_KEYS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü', '¿', '¡'];
+
+export const MODES = {
+  quiz: { icon: '⌨️', label: 'Type it' },
+  flash: { icon: '🃏', label: 'Flashcards' },
+  choice: { icon: '🔘', label: 'Multiple choice' },
+  cloze: { icon: '🧩', label: 'Fill the blank' },
+  listen: { icon: '🎧', label: 'Listen & type' },
+};
+
+/** Cards that can be studied in a given mode. */
+export function eligibleCards(cards, kind) {
+  return kind === 'cloze' ? cards.filter((c) => makeCloze(c)) : cards;
+}
 
 function buildQueue(cards, direction) {
   return shuffle(cards).map((card) => ({
@@ -17,17 +31,17 @@ function buildQueue(cards, direction) {
 }
 
 /**
- * A study round. kind = 'quiz' (type the answer) or 'flash' (flip cards).
- * Ends with a score summary and a "Retake missed" button.
+ * A study round in one of the MODES. Ends with a score summary and a "Retake missed" button.
+ * `pool` is the full deck, used for multiple-choice distractors.
  */
-export default function Session({ title, cards, kind, direction, onExit, onNewRound }) {
+export default function Session({ title, cards, pool, kind, direction, onExit, onNewRound }) {
   const [queue, setQueue] = useState(() => buildQueue(cards, direction));
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState([]);
   const { recordAnswer } = useStore();
 
-  const finish = (item, correct) => {
-    recordAnswer(item.card.id, correct);
+  const finish = (item, correct, opts) => {
+    recordAnswer(item.card.id, correct, opts);
     setResults((r) => [...r, { card: item.card, correct }]);
     setIndex((i) => i + 1);
   };
@@ -40,22 +54,29 @@ export default function Session({ title, cards, kind, direction, onExit, onNewRo
 
   const done = index >= queue.length;
   const item = queue[index];
+  const props = item && { key: index + item.card.id, item, onDone: (c, opts) => finish(item, c, opts) };
 
   return (
     <div className="session">
       <header className="session-top">
         <button className="icon-btn" onClick={onExit} aria-label="Close">✕</button>
-        <div className="session-title">{title}</div>
+        <div className="session-title">{MODES[kind].icon} {title}</div>
         <div className="session-count">{done ? '' : `${index + 1} / ${queue.length}`}</div>
       </header>
       <div className="bar"><div className="bar-fill" style={{ width: `${(Math.min(index, queue.length) / queue.length) * 100}%` }} /></div>
 
       {done ? (
         <Summary results={results} onRetake={retake} onNewRound={onNewRound} onExit={onExit} />
-      ) : kind === 'quiz' ? (
-        <QuizCard key={index + item.card.id} item={item} onDone={(c) => finish(item, c)} />
+      ) : kind === 'flash' ? (
+        <FlashCard {...props} />
+      ) : kind === 'choice' ? (
+        <ChoiceCard {...props} pool={pool} />
+      ) : kind === 'cloze' ? (
+        <ClozeCard {...props} />
+      ) : kind === 'listen' ? (
+        <ListenCard {...props} />
       ) : (
-        <FlashCard key={index + item.card.id} item={item} onDone={(c) => finish(item, c)} />
+        <QuizCard {...props} />
       )}
     </div>
   );
@@ -73,7 +94,7 @@ function Prompt({ item }) {
       {spanishSide && (
         <div className="prompt-pron">
           <span className="pron">{card.pronunciation}</span>
-          <Speak text={card.spanish} />
+          <Speak text={card.say || card.spanish} />
         </div>
       )}
       <div className="prompt-hint">{spanishSide ? 'What does it mean in English?' : 'How do you say it in Spanish?'}</div>
@@ -84,30 +105,28 @@ function Prompt({ item }) {
 function useAutoSpeak(card, when) {
   const { settings } = useStore();
   useEffect(() => {
-    if (when && settings.autoSpeak) speak(card.spanish, { voiceURI: settings.voiceURI });
+    if (when && settings.autoSpeak) speak(card.say || card.spanish, { voiceURI: settings.voiceURI });
   }, [when]); // eslint-disable-line react-hooks/exhaustive-deps
 }
 
-function QuizCard({ item, onDone }) {
-  const { card, dir } = item;
-  const answerLang = dir === 'es-en' ? 'en' : 'es';
+/**
+ * Shared "type your answer → feedback → next" flow used by Type it, Fill the blank and Listen.
+ */
+function TypedAnswer({ card, prompt, answer, lang, extra = [], stripSubject = false, hint, onDone }) {
   const [input, setInput] = useState('');
-  const [verdict, setVerdict] = useState(null); // { result, expected }
+  const [verdict, setVerdict] = useState(null); // { result, expected, gaveUp? }
   const [override, setOverride] = useState(false);
+  const [showHint, setShowHint] = useState(false);
   const inputRef = useRef(null);
   const nextRef = useRef(null);
 
-  useAutoSpeak(card, dir === 'es-en' || verdict !== null);
+  useAutoSpeak(card, verdict !== null);
   useEffect(() => { (verdict ? nextRef : inputRef).current?.focus(); }, [verdict]);
 
   const check = (e) => {
     e?.preventDefault();
-    const answer = answerLang === 'en' ? card.english : card.spanish;
-    const extra = answerLang === 'es' ? card.accept || [] : [];
-    setVerdict(checkAnswer(input, answer, answerLang, extra, { stripSubject: !!card.verb }));
+    setVerdict(checkAnswer(input, answer, lang, extra, { stripSubject }));
   };
-
-  const giveUp = () => setVerdict({ result: 'wrong', expected: '', gaveUp: true });
 
   const insert = (ch) => {
     const el = inputRef.current;
@@ -124,24 +143,25 @@ function QuizCard({ item, onDone }) {
 
   return (
     <div className="card-area">
-      <Prompt item={item} />
+      {prompt}
 
       {!verdict ? (
         <form onSubmit={check} className="answer-form">
+          {hint && showHint && <div className="hint">💡 {hint}</div>}
           <input
             ref={inputRef}
             className="answer-input"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={answerLang === 'es' ? 'Escribe en español…' : 'Type the English…'}
-            lang={answerLang}
+            placeholder={lang === 'es' ? 'Escribe en español…' : 'Type the English…'}
+            lang={lang}
             autoCapitalize="off"
             autoCorrect="off"
             autoComplete="off"
             spellCheck={false}
             enterKeyHint="done"
           />
-          {answerLang === 'es' && (
+          {lang === 'es' && (
             <div className="accent-keys">
               {ACCENT_KEYS.map((k) => (
                 <button type="button" key={k} onMouseDown={(e) => e.preventDefault()} onClick={() => insert(k)}>{k}</button>
@@ -149,7 +169,13 @@ function QuizCard({ item, onDone }) {
             </div>
           )}
           <div className="row">
-            <button type="button" className="btn btn-ghost" onClick={giveUp}>Show answer</button>
+            {hint && !showHint ? (
+              <button type="button" className="btn btn-ghost" onClick={() => setShowHint(true)}>Hint</button>
+            ) : (
+              <button type="button" className="btn btn-ghost" onClick={() => setVerdict({ result: 'wrong', expected: '', gaveUp: true })}>
+                Show answer
+              </button>
+            )}
             <button type="submit" className="btn btn-primary" disabled={!input.trim()}>Check</button>
           </div>
         </form>
@@ -193,6 +219,129 @@ function FeedbackMessage({ verdict, input, override }) {
   }
 }
 
+function QuizCard({ item, onDone }) {
+  const { card, dir } = item;
+  const lang = dir === 'es-en' ? 'en' : 'es';
+  useAutoSpeak(card, dir === 'es-en');
+  return (
+    <TypedAnswer
+      card={card}
+      prompt={<Prompt item={item} />}
+      answer={lang === 'en' ? card.english : card.spanish}
+      lang={lang}
+      extra={lang === 'es' ? card.accept : []}
+      stripSubject={!!card.verb}
+      onDone={onDone}
+    />
+  );
+}
+
+function ClozeCard({ item, onDone }) {
+  const { card } = item;
+  const cloze = useMemo(() => makeCloze(card), [card]);
+  const words = cloze.answer.split(/\s+/);
+  const hint = words.map((w) => w[0] + '·'.repeat(Math.max(0, w.length - 1))).join(' ');
+  return (
+    <TypedAnswer
+      card={card}
+      prompt={(
+        <div className="prompt">
+          <Badges card={card} />
+          <div className="cloze" lang="es">
+            {cloze.before}
+            <span className="blank">{' '.repeat(Math.min(14, cloze.answer.length + 2))}</span>
+            {cloze.after}
+          </div>
+          <div className="prompt-hint">{card.example_en}</div>
+        </div>
+      )}
+      answer={cloze.answer}
+      lang="es"
+      hint={card.notes ? `${hint} · ${card.notes}` : hint}
+      onDone={onDone}
+    />
+  );
+}
+
+function ListenCard({ item, onDone }) {
+  const { card } = item;
+  const { settings } = useStore();
+  const text = card.say || card.spanish;
+  const play = (slow) => speak(text, { slow, voiceURI: settings.voiceURI });
+  useEffect(() => { play(false); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  return (
+    <TypedAnswer
+      card={card}
+      prompt={(
+        <div className="prompt">
+          <div className="listen-btns">
+            <button type="button" className="listen-big" onClick={() => play(false)} aria-label="Play again">🔊</button>
+            <button type="button" className="listen-slow" onClick={() => play(true)} aria-label="Play slowly">🐢</button>
+          </div>
+          <div className="prompt-hint">Type what you hear (in Spanish)</div>
+        </div>
+      )}
+      answer={card.spanish}
+      lang="es"
+      extra={[...(card.accept || []), ...(card.say ? [card.say] : [])]}
+      stripSubject={!!card.verb}
+      hint={card.english}
+      onDone={onDone}
+    />
+  );
+}
+
+function pickDistractors(card, pool, side) {
+  const text = (c) => (side === 'en' ? c.english : c.spanish);
+  const seen = new Set([normalize(text(card), side)]);
+  const related = (c) => (card.verb && (c.verb === card.verb || c.person === card.person)) || c.register === card.register;
+  const others = shuffle(pool.filter((c) => c.id !== card.id));
+  const ordered = [...others.filter(related), ...others.filter((c) => !related(c))];
+  const out = [];
+  for (const c of ordered) {
+    const key = normalize(text(c), side);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(c);
+    if (out.length === 3) break;
+  }
+  return out;
+}
+
+function ChoiceCard({ item, pool, onDone }) {
+  const { card, dir } = item;
+  const side = dir === 'es-en' ? 'en' : 'es';
+  const options = useMemo(() => shuffle([card, ...pickDistractors(card, pool, side)]), [card, pool, side]);
+  const [picked, setPicked] = useState(null);
+  const nextRef = useRef(null);
+  useAutoSpeak(card, dir === 'es-en' || picked !== null);
+  useEffect(() => { if (picked) nextRef.current?.focus(); }, [picked]);
+  const correct = picked?.id === card.id;
+
+  return (
+    <div className="card-area">
+      <Prompt item={item} />
+      <div className="choices">
+        {options.map((o) => {
+          const state = !picked ? '' : o.id === card.id ? ' is-right' : o.id === picked.id ? ' is-wrong' : ' is-dim';
+          return (
+            <button key={o.id} className={'choice' + state} disabled={!!picked} onClick={() => setPicked(o)} lang={side}>
+              {side === 'en' ? o.english : o.spanish}
+            </button>
+          );
+        })}
+      </div>
+      {picked && (
+        <div className={'feedback ' + (correct ? 'is-right' : 'is-wrong')}>
+          <div className="verdict">{correct ? '✅ ¡Correcto!' : '❌ Not quite.'}</div>
+          <CardDetails card={card} />
+          <button ref={nextRef} className="btn btn-primary btn-wide" onClick={() => onDone(correct)}>Next →</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function FlashCard({ item, onDone }) {
   const { card, dir } = item;
   const [flipped, setFlipped] = useState(false);
@@ -219,8 +368,9 @@ function FlashCard({ item, onDone }) {
       </div>
       {flipped ? (
         <div className="row">
-          <button className="btn btn-miss" onClick={() => onDone(false)}>✗ Missed it</button>
+          <button className="btn btn-miss" onClick={() => onDone(false)}>✗ Missed</button>
           <button className="btn btn-got" onClick={() => onDone(true)}>✓ Got it</button>
+          <button className="btn btn-easy" onClick={() => onDone(true, { easy: true })}>⚡ Easy</button>
         </div>
       ) : (
         <div className="row">
@@ -232,6 +382,7 @@ function FlashCard({ item, onDone }) {
 }
 
 function Summary({ results, onRetake, onNewRound, onExit }) {
+  const { activity, settings } = useStore();
   const missed = useMemo(() => {
     const seen = new Set();
     return results.filter((r) => !r.correct && !seen.has(r.card.id) && seen.add(r.card.id)).map((r) => r.card);
@@ -239,12 +390,16 @@ function Summary({ results, onRetake, onNewRound, onExit }) {
   const score = results.filter((r) => r.correct).length;
   const pct = results.length ? Math.round((score / results.length) * 100) : 0;
   const cheer = pct === 100 ? '¡Perfecto! 🔥' : pct >= 80 ? '¡Muy bien! 💪' : pct >= 50 ? '¡Vamo\' a darle! Keep going.' : 'Tranquilo, practice makes perfect.';
+  const today = activity[dayKey()]?.reviews || 0;
+  const goal = settings.dailyGoal;
+  const justHitGoal = goal > 0 && today >= goal && today - results.length < goal;
 
   return (
     <div className="summary">
       <div className="score">{score}/{results.length}</div>
       <div className="score-pct">{pct}%</div>
       <div className="cheer">{cheer}</div>
+      {justHitGoal && <div className="goal-hit">🎯 Daily goal reached! {today}/{goal} today</div>}
 
       <div className="summary-actions">
         {missed.length > 0 && (
@@ -267,7 +422,7 @@ function Summary({ results, onRetake, onNewRound, onExit }) {
                   <span className="cl-en">{c.english}</span>
                   <span className="pron">{c.pronunciation}</span>
                 </div>
-                <Speak text={c.spanish} small />
+                <Speak text={c.say || c.spanish} small />
               </li>
             ))}
           </ul>

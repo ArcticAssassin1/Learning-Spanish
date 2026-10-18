@@ -1,0 +1,185 @@
+{
+  "id": "pronouns",
+  "name": "Pronouns: me, te, lo, conmigo",
+  "emoji": "👉",
+  "description": "Fixes \"dar mi\" → darme, \"ver tu\" → verte, conmigo vs contigo. Pronouns go before the verb or attach to the end.",
+  "phase": 1,
+  "order": 16,
+  "cards": [
+    {
+      "id": "pronouns:quiero-verte",
+      "spanish": "Quiero verte.",
+      "english": "I want to see you.",
+      "pronunciation": "KYEH-roh BEHR-teh",
+      "example": "Quiero [verte] mañana.",
+      "example_en": "I want to see you tomorrow.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Attach to the infinitive: ver + te = verte. Never \"ver tu\"."
+    },
+    {
+      "id": "pronouns:te-quiero-ver",
+      "spanish": "Te quiero ver.",
+      "english": "I want to see you. (pronoun first)",
+      "pronunciation": "teh KYEH-roh behr",
+      "example": "[Te] quiero ver esta noche.",
+      "example_en": "I want to see you tonight.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Or put it before the conjugated verb. Both are right."
+    },
+    {
+      "id": "pronouns:dame-un-beso",
+      "spanish": "Dame un beso.",
+      "english": "Give me a kiss.",
+      "pronunciation": "DAH-meh oon BEH-soh",
+      "example": "[Dame] tu número.",
+      "example_en": "Give me your number.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Commands: attach the pronoun. da + me = dame. Never \"dar mi\"."
+    },
+    {
+      "id": "pronouns:dímelo",
+      "spanish": "Dímelo.",
+      "english": "Tell it to me.",
+      "pronunciation": "DEE-meh-loh",
+      "example": "[Dímelo] en español.",
+      "example_en": "Tell it to me in Spanish.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "di + me + lo. Add an accent to keep the stress where it was."
+    },
+    {
+      "id": "pronouns:te-lo-dije",
+      "spanish": "Te lo dije.",
+      "english": "I told you (so).",
+      "pronunciation": "teh loh DEE-heh",
+      "example": "Ya [te lo] dije.",
+      "example_en": "I already told you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Two pronouns: the person (te) goes before the thing (lo)."
+    },
+    {
+      "id": "pronouns:se-lo-di",
+      "spanish": "Se lo di.",
+      "english": "I gave it to him / her.",
+      "pronunciation": "seh loh dee",
+      "example": "[Se lo] di ayer.",
+      "example_en": "I gave it to her yesterday.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "le + lo becomes \"se lo\" (never \"le lo\")."
+    },
+    {
+      "id": "pronouns:lo-vi",
+      "spanish": "Lo vi.",
+      "english": "I saw him / I saw it.",
+      "pronunciation": "loh bee",
+      "example": "No [lo] vi en la fiesta.",
+      "example_en": "I didn't see him at the party.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "lo = him / it (masculine)."
+    },
+    {
+      "id": "pronouns:la-conozco",
+      "spanish": "La conozco.",
+      "english": "I know her.",
+      "pronunciation": "lah koh-NOHS-koh",
+      "example": "¿[La] llamaste?",
+      "example_en": "Did you call her?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "la = her / it (feminine)."
+    },
+    {
+      "id": "pronouns:le-dije-la-verdad",
+      "spanish": "Le dije la verdad.",
+      "english": "I told him / her the truth.",
+      "pronunciation": "leh DEE-heh lah behr-DAHD",
+      "example": "[Le] di mi número.",
+      "example_en": "I gave her my number.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "le = to him / to her."
+    },
+    {
+      "id": "pronouns:te-gusta",
+      "spanish": "¿Te gusta?",
+      "english": "Do you like it?",
+      "pronunciation": "teh GOOS-tah",
+      "example": "¿[Te] gusta bailar?",
+      "example_en": "Do you like to dance?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "gustar: the thing pleases you. me gusta, te gusta, le gusta."
+    },
+    {
+      "id": "pronouns:nos-vemos",
+      "spanish": "Nos vemos.",
+      "english": "See you. / We'll see each other.",
+      "pronunciation": "nohs BEH-mohs",
+      "example": "[Nos] vemos mañana.",
+      "example_en": "See you tomorrow.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "nos = us / each other."
+    },
+    {
+      "id": "pronouns:es-para-mí",
+      "spanish": "Es para mí.",
+      "english": "It's for me.",
+      "pronunciation": "ehs PAH-rah mee",
+      "example": "Esto es para [mí].",
+      "example_en": "This is for me.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "After a preposition use mí / ti (not me / te). Accent on mí!"
+    },
+    {
+      "id": "pronouns:bailas-conmigo",
+      "spanish": "¿Bailas conmigo?",
+      "english": "Will you dance with me?",
+      "pronunciation": "BYE-lahs kohn-MEE-goh",
+      "example": "¿Vienes [conmigo]?",
+      "example_en": "Are you coming with me?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "con + mí = conmigo."
+    },
+    {
+      "id": "pronouns:quiero-ir-contigo",
+      "spanish": "Quiero ir contigo.",
+      "english": "I want to go with you.",
+      "pronunciation": "KYEH-roh eer kohn-TEE-goh",
+      "example": "Quiero estar [contigo].",
+      "example_en": "I want to be with you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "con + ti = contigo."
+    },
+    {
+      "id": "pronouns:me-lo-prestas",
+      "spanish": "¿Me lo prestas?",
+      "english": "Can you lend it to me?",
+      "pronunciation": "meh loh PREHS-tahs",
+      "example": "¿[Me lo] das?",
+      "example_en": "Will you give it to me?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "pronouns:cuéntame",
+      "spanish": "Cuéntame.",
+      "english": "Tell me (the story).",
+      "pronunciation": "KWEHN-tah-meh",
+      "example": "[Cuéntame] todo.",
+      "example_en": "Tell me everything.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "contar + me. Great for \"so what happened?\""
+    }
+  ]
+}

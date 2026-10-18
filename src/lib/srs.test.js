@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { grade, pickSession, streak, dayKey, isDue } from './srs.js';
+import { grade, pickSession, streak, streakInfo, dayKey, isDue } from './srs.js';
 
 const DAY = 86400000;
 
@@ -37,6 +37,35 @@ describe('pickSession', () => {
   });
   it('isDue ignores unseen cards', () => {
     expect(isDue(undefined)).toBe(false);
+  });
+});
+
+describe('easy grade', () => {
+  it('skips a box', () => {
+    expect(grade(undefined, true, 0, { easy: true }).box).toBe(3);
+  });
+});
+
+describe('streakInfo', () => {
+  const day = (d) => dayKey(new Date(2026, 9, d, 9).getTime());
+  const now = new Date(2026, 9, 20, 12).getTime();
+  it('earns a freeze after 7 days and uses it on a missed day', () => {
+    const a = {};
+    for (let d = 1; d <= 7; d++) a[day(d)] = { reviews: 1 };
+    // day 8 missed, 9-19 studied
+    for (let d = 9; d <= 19; d++) a[day(d)] = { reviews: 1 };
+    const info = streakInfo(a, now);
+    expect(info.streak).toBe(18);
+    expect(info.studiedToday).toBe(false);
+  });
+  it('resets without a freeze', () => {
+    const a = { [day(10)]: { reviews: 1 }, [day(12)]: { reviews: 1 } };
+    expect(streakInfo(a, new Date(2026, 9, 12, 20).getTime()).streak).toBe(1);
+  });
+  it('caps freezes at 2', () => {
+    const a = {};
+    for (let d = 1; d <= 30; d++) a[dayKey(new Date(2026, 8, d, 9).getTime())] = { reviews: 1 };
+    expect(streakInfo(a, new Date(2026, 8, 30, 20).getTime()).freezes).toBe(2);
   });
 });
 

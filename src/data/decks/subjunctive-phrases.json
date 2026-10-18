@@ -1,0 +1,165 @@
+{
+  "id": "subjunctive-phrases",
+  "name": "Subjunctive Set Phrases",
+  "emoji": "🙏",
+  "description": "Learn these as chunks: wishes, goodbyes and \"don't\" commands that use the subjunctive.",
+  "phase": 2,
+  "order": 170,
+  "cards": [
+    {
+      "id": "subjunctive-phrases:ojalá",
+      "spanish": "Ojalá",
+      "english": "Hopefully / I hope",
+      "pronunciation": "oh-hah-LAH",
+      "example": "[Ojalá] que no llueva.",
+      "example_en": "Hopefully it won't rain.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Ojalá + subjunctive. From Arabic, \"God willing\"."
+    },
+    {
+      "id": "subjunctive-phrases:que-tengas-un-buen-día",
+      "spanish": "Que tengas un buen día.",
+      "english": "Have a good day.",
+      "pronunciation": "keh TEHN-gahs oon bwehn DEE-ah",
+      "example": "[Que tengas] buen viaje.",
+      "example_en": "Have a good trip.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:que-te-mejores",
+      "spanish": "Que te mejores.",
+      "english": "Get well soon.",
+      "pronunciation": "keh teh meh-HOH-rehs",
+      "example": "Ay, [que te mejores] pronto.",
+      "example_en": "Oh, get well soon.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:que-descanses",
+      "spanish": "Que descanses.",
+      "english": "Rest well. / Sleep well.",
+      "pronunciation": "keh dehs-KAHN-sehs",
+      "example": "Buenas noches, [que descanses].",
+      "example_en": "Good night, sleep well.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:que-la-pases-bien",
+      "spanish": "Que la pases bien.",
+      "english": "Have a good time.",
+      "pronunciation": "keh lah PAH-sehs byehn",
+      "example": "[Que la pases bien] en la fiesta.",
+      "example_en": "Have a good time at the party.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:que-dios-te-bendiga",
+      "spanish": "Que Dios te bendiga.",
+      "english": "God bless you.",
+      "pronunciation": "keh dyohs teh behn-DEE-gah",
+      "example": "Adiós, mijo, [que Dios te bendiga].",
+      "example_en": "Bye, son, God bless you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "A very common Caribbean goodbye. Kids greet elders with \"¡Bendición!\"."
+    },
+    {
+      "id": "subjunctive-phrases:avísame-cuando-llegues",
+      "spanish": "Avísame cuando llegues.",
+      "english": "Let me know when you arrive.",
+      "pronunciation": "ah-BEE-sah-meh KWAHN-doh YEH-gehs",
+      "example": "Llámame cuando [llegues].",
+      "example_en": "Call me when you get there.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "cuando + subjunctive for something that hasn't happened yet."
+    },
+    {
+      "id": "subjunctive-phrases:quiero-que-vengas",
+      "spanish": "Quiero que vengas.",
+      "english": "I want you to come.",
+      "pronunciation": "KYEH-roh keh BEHN-gahs",
+      "example": "Quiero que [vengas] conmigo.",
+      "example_en": "I want you to come with me.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Quiero que + subjunctive when you want SOMEONE ELSE to do it."
+    },
+    {
+      "id": "subjunctive-phrases:no-te-rías",
+      "spanish": "No te rías.",
+      "english": "Don't laugh.",
+      "pronunciation": "noh teh REE-ahs",
+      "example": "[No te rías] de mí.",
+      "example_en": "Don't laugh at me.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Negative tú commands use the subjunctive."
+    },
+    {
+      "id": "subjunctive-phrases:no-te-vayas",
+      "spanish": "No te vayas.",
+      "english": "Don't go. / Don't leave.",
+      "pronunciation": "noh teh BAH-yahs",
+      "example": "Por favor, [no te vayas].",
+      "example_en": "Please, don't leave.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:no-me-digas",
+      "spanish": "¡No me digas!",
+      "english": "No way! / You don't say!",
+      "pronunciation": "noh meh DEE-gahs",
+      "example": "¿Se casaron? ¡[No me digas]!",
+      "example_en": "They got married? No way!",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:me-alegra-que-estés-aquí",
+      "spanish": "Me alegra que estés aquí.",
+      "english": "I'm glad you're here.",
+      "pronunciation": "meh ah-LEH-grah keh ehs-TEHS ah-KEE",
+      "example": "Me alegra que [estés] bien.",
+      "example_en": "I'm glad you're okay.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:es-mejor-que-te-quedes",
+      "spanish": "Es mejor que te quedes.",
+      "english": "It's better if you stay.",
+      "pronunciation": "ehs meh-HOHR keh teh KEH-dehs",
+      "example": "Es mejor que [vayas] temprano.",
+      "example_en": "It's better if you go early.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:lo-que-tú-quieras",
+      "spanish": "Lo que tú quieras.",
+      "english": "Whatever you want.",
+      "pronunciation": "loh keh too KYEH-rahs",
+      "example": "Hacemos [lo que tú quieras].",
+      "example_en": "We'll do whatever you want.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "subjunctive-phrases:sea-lo-que-sea",
+      "spanish": "Sea lo que sea.",
+      "english": "Whatever it is. / Whatever happens.",
+      "pronunciation": "SEH-ah loh keh SEH-ah",
+      "example": "[Sea lo que sea], te apoyo.",
+      "example_en": "Whatever happens, I've got your back.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

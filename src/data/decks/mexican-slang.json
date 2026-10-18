@@ -120,6 +120,90 @@
       "region": "Mexico",
       "register": "neutral",
       "notes": "Elsewhere: pajita or sorbete."
+    },
+    {
+      "id": "mexican-slang:güey",
+      "spanish": "Güey",
+      "english": "dude / bro",
+      "pronunciation": "gway",
+      "example": "¿Qué onda, [güey]?",
+      "example_en": "What's up, dude?",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "Also spelled \"wey\". Between friends it's friendly; to a stranger it can be rude."
+    },
+    {
+      "id": "mexican-slang:chido",
+      "spanish": "Chido",
+      "english": "cool",
+      "pronunciation": "CHEE-doh",
+      "example": "¡Qué [chido] tu carro!",
+      "example_en": "Your car is so cool!",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:qué-padre",
+      "spanish": "¡Qué padre!",
+      "english": "How cool! / Awesome!",
+      "pronunciation": "keh PAH-dreh",
+      "example": "¡Qué [padre] está la fiesta!",
+      "example_en": "The party is awesome!",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:chamba",
+      "spanish": "Chamba",
+      "english": "work / job",
+      "pronunciation": "CHAHM-bah",
+      "example": "Tengo mucha [chamba] hoy.",
+      "example_en": "I have a lot of work today.",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "\"Chambear\" = to work."
+    },
+    {
+      "id": "mexican-slang:carnal",
+      "spanish": "Carnal",
+      "english": "bro / close friend",
+      "pronunciation": "kahr-NAHL",
+      "example": "Él es mi [carnal].",
+      "example_en": "He's my bro.",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:cruda",
+      "spanish": "Cruda",
+      "english": "hangover",
+      "pronunciation": "KROO-dah",
+      "example": "Tengo una [cruda] terrible.",
+      "example_en": "I have a terrible hangover.",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "In the Caribbean: \"resaca\" or \"ratón\" (Dominican)."
+    },
+    {
+      "id": "mexican-slang:chela",
+      "spanish": "Chela",
+      "english": "beer",
+      "pronunciation": "CHEH-lah",
+      "example": "¿Vamos por unas [chelas]?",
+      "example_en": "Shall we go for some beers?",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "mexican-slang:mande",
+      "spanish": "¿Mande?",
+      "english": "Pardon? / Excuse me? (polite \"what?\")",
+      "pronunciation": "MAHN-deh",
+      "example": "¿[Mande]? No te escuché.",
+      "example_en": "Pardon? I didn't hear you.",
+      "region": "Mexico",
+      "register": "neutral",
+      "notes": "The polite Mexican way to say \"what?\"."
     }
   ]
 }
