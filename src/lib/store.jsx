@@ -11,6 +11,9 @@ export const DEFAULT_SETTINGS = {
   voiceURI: '',
   autoSpeak: false,
   dailyGoal: 20,
+  conjSet: 'core',
+  conjTenses: ['presente', 'preterito'],
+  conjSize: 15,
 };
 
 const StoreContext = createContext(null);

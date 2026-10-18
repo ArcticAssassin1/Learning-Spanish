@@ -1,0 +1,8 @@
+conjugations.json and decks/top-verbs.json are derived from Fred Jehle's Conjugated Spanish
+Verb Database, compiled by Brian Ghidinelli with permission, in the JSON version published by
+miko3k/verbos (npm "verbos" 0.0.3). Grammar notes were translated to English for this app.
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+These two files stay under that license (non-commercial, share-alike).

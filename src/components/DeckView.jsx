@@ -45,6 +45,7 @@ export default function DeckView({ deckId, onBack, onStart }) {
         <h1>{deck.emoji} {deck.name}</h1>
       </header>
       <p className="muted">{deck.description}</p>
+      {deck.credit && <p className="muted small credit">{deck.credit}</p>}
       {hidden > 0 && <p className="muted small">🔞 {hidden} explicit card{hidden === 1 ? '' : 's'} hidden (Settings).</p>}
 
       <div className="stats">
@@ -75,7 +76,8 @@ export default function DeckView({ deckId, onBack, onStart }) {
         })}
       </div>
       <p className="muted small mode-help">
-        Direction applies to Flashcards, Type it and Multiple choice. Fill the blank and Listen are always in Spanish.
+        Direction applies to Type it, Flashcards and Multiple choice. Build the sentence starts from English;
+        Fill the blank and Listen are all Spanish.
       </p>
 
       <button className="btn btn-ghost btn-wide" onClick={() => setBrowsing((b) => !b)}>

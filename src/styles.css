@@ -1190,3 +1190,215 @@ mark {
   background: var(--bad-soft);
   font-weight: 650;
 }
+
+/* ---------- Practice ---------- */
+
+.panel-title {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.segmented.wrap {
+  flex-wrap: wrap;
+}
+
+.segmented.wrap button {
+  flex: 1 0 30%;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.chip.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.links a {
+  color: var(--accent);
+  font-weight: 650;
+  text-decoration: none;
+  min-height: 28px;
+}
+
+.credit {
+  font-style: italic;
+}
+
+.notes-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ---------- Dialogues ---------- */
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bubble-row {
+  display: flex;
+}
+
+.bubble-row.mine {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 85%;
+  padding: 8px 12px;
+  border-radius: 16px 16px 16px 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.mine .bubble {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  border-radius: 16px 16px 4px 16px;
+}
+
+.bubble-who {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.bubble .speak {
+  vertical-align: middle;
+}
+
+.bubble-en {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.your-turn {
+  align-self: flex-end;
+  max-width: 90%;
+  border: 2px dashed var(--accent);
+  border-radius: 16px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.your-turn-en {
+  font-size: 1.15rem;
+  font-weight: 650;
+}
+
+.your-turn-es {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.heard {
+  font-size: 0.9rem;
+}
+
+.heard.good {
+  color: var(--good);
+}
+
+.heard.bad {
+  color: var(--muted);
+}
+
+/* ---------- Mic & sentence builder ---------- */
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.mic {
+  min-width: 56px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  font-size: 1.3rem;
+}
+
+.mic.on {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.build-line {
+  min-height: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-content: flex-start;
+  padding: 10px 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.tile {
+  min-height: 46px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  border-bottom-width: 3px;
+  background: var(--surface);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.tile.used {
+  visibility: hidden;
+}

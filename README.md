@@ -8,10 +8,10 @@ The full plan is in [BRIEF.md](BRIEF.md).
 
 ## What's in it
 
-**26 decks, 643 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
+**27 decks, 727 cards**, plus a conjugation drill, 8 dialogues and a free library,, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
 a region and a register label.
 
-- **Phase 1, foundations:** core verbs (all 100 forms), watch-out pairs (si/sí, tu/tú...),
+- **Phase 1, foundations:** core verbs (all 100 forms), the top 100 most-used verbs, watch-out pairs (si/sí, tu/tú...),
   pronouns (verte, dámelo, conmigo), helper verb + infinitive, false friends (embarazada ≠ embarrassed),
   regular and irregular preterite, signal words, adjectives, connectors, high-frequency words.
 - **Phase 2, real conversation:** everyday phrases, ser vs estar, por vs para, preterite vs imperfect,
@@ -29,6 +29,20 @@ a region and a register label.
 | 🔘 Multiple choice | Pick from 4. Good for one-handed practice on the go. | Duolingo, Clozemaster |
 | 🧩 Fill the blank | The example sentence with a word missing. Hint shows the first letter and the grammar rule. | Clozemaster |
 | 🎧 Listen & type | Hear it, type what you heard. Trains your ear for fast speech. | Duolingo listening drills |
+| 🧱 Build the sentence | Tap word tiles into the right order. No typing needed. | Duolingo word bank |
+
+On Spanish answers there's also a **🎤 button**: say the answer out loud instead of typing it.
+
+**🏋️ Practice tab:**
+- **Conjugation drill**: pick verbs (your 20, top 25/50/150, irregular) and tenses (present, preterite,
+  imperfect, future, conditional, perfect, subjunctive), then type the right form. Covers 150 verbs.
+  Like SpanishDict / Conjuguemos.
+- **Dialogues**: 8 real-life conversations (the club, a Dominican restaurant, texting, the gym, meeting
+  her mom, an Uber, the colmado, running late). *Listen & read* with play-all, or *Play your part*:
+  she talks, you answer, then compare (the FSI / Pimsleur method).
+- **Free library**: links to free PDF courses (FSI and DLI Spanish, public domain), free open textbooks
+  (Español 101/102, Semillas, ¡Conecta!, El Futuro) and free listening (Language Transfer, Dreaming
+  Spanish, Caribbean Spanish 101, Tatoeba, SpanishDict, Conjuguemos).
 
 **Also:**
 - **Spaced repetition** (Leitner boxes): a missed card comes back right away, then after 1, 3, 7, then 16 days.
@@ -108,10 +122,15 @@ Easiest way: send Claude the word list (or a screenshot) and ask it to add a dec
 Slang meanings, false friends, grammar rules and app ideas were cross-checked against learner
 resources such as Wikipedia's list of Puerto Rican slang, SpeakingLatino, Spanishland School,
 FluentU, Lingopie, StoryLearning, SpanishVIP, Lawless Spanish, StudySpanish, Babbel, Clozemaster's
-FAQ, Anki's docs and Duolingo's blog. All example sentences were written fresh for this app.
+FAQ, Anki's docs and Duolingo's blog. All example sentences and dialogues were written fresh for this app.
 No song lyrics are included.
+
+The conjugation drill and the Top 100 Verbs deck use **Fred Jehle's Conjugated Spanish Verb
+Database** (compiled by Brian Ghidinelli, JSON version by miko3k/verbos), licensed
+[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). Those two data files stay
+under that license; see `src/data/CONJUGATIONS-LICENSE.txt`.
 
 ## Coming next (from the brief)
 
-Conjugation drills · "Fix my sentence" and Quick translate (Claude API) · Quizlet export/import ·
-speech input · streak reminders.
+"Fix my sentence" and Quick translate (Claude API) · Quizlet export/import ·
+streak reminders.

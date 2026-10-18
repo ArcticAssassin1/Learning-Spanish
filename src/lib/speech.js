@@ -48,3 +48,38 @@ export function speak(text, { slow = false, voiceURI = '' } = {}) {
   u.rate = slow ? 0.6 : 0.95;
   synth.speak(u);
 }
+
+/** Speak several lines in a row. Lines with alt: true use a second Spanish voice when there is one. */
+export function speakSequence(lines, { slow = false, voiceURI = '' } = {}) {
+  if (!speechSupported) return;
+  const synth = window.speechSynthesis;
+  synth.cancel();
+  const main = pickVoice(voiceURI);
+  const other = spanishVoices().find((v) => v !== main && v.lang.slice(0, 2) === (main?.lang || 'es').slice(0, 2));
+  for (const { text, alt } of lines) {
+    const u = new SpeechSynthesisUtterance(cleanForSpeech(text));
+    const voice = alt && other ? other : main;
+    if (voice) u.voice = voice;
+    u.lang = voice?.lang || 'es-US';
+    u.rate = slow ? 0.6 : 0.95;
+    synth.speak(u);
+  }
+}
+
+// Speech recognition (speak your answer). Chrome on Android and Safari on iPhone support it.
+const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
+export const recognitionSupported = !!Recognition;
+
+/** Listen once in Spanish. onResult gets the list of possible transcripts. Returns a stop function. */
+export function listen({ onResult, onEnd, lang = 'es-US' }) {
+  if (!Recognition) return () => {};
+  const r = new Recognition();
+  r.lang = lang;
+  r.interimResults = false;
+  r.maxAlternatives = 3;
+  r.onresult = (e) => onResult([...e.results[0]].map((a) => a.transcript));
+  r.onerror = () => onEnd?.();
+  r.onend = () => onEnd?.();
+  r.start();
+  return () => r.abort();
+}

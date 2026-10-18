@@ -1,0 +1,90 @@
+{
+  "note": "Everything here is free. Links open in your browser.",
+  "sections": [
+    {
+      "title": "Free course PDFs (public domain)",
+      "items": [
+        {
+          "name": "FSI Spanish Basic Course",
+          "url": "https://fsi-language-courses.org/fsi-spanish-basic-course/",
+          "what": "The U.S. diplomats' course: 4 volumes, 55 units of dialogues and drills, with audio. Public domain."
+        },
+        {
+          "name": "FSI Spanish Programmatic Course",
+          "url": "https://www.fsi-language-courses.org/fsi-spanish-programmatic-course/",
+          "what": "Self-study FSI course built around listening and pronunciation. Public domain."
+        },
+        {
+          "name": "DLI Spanish Basic Course",
+          "url": "https://www.fsi-language-courses.org/spanish/courses/dli-spanish-basic-course",
+          "what": "Defense Language Institute course, very thorough on grammar. Public domain."
+        }
+      ]
+    },
+    {
+      "title": "Free open textbooks",
+      "items": [
+        {
+          "name": "Español 101",
+          "url": "https://open.maricopa.edu/espanol101/",
+          "what": "First-semester college Spanish. PDF of all activities available."
+        },
+        {
+          "name": "Español 102",
+          "url": "https://open.maricopa.edu/espanol102/",
+          "what": "Second semester: past tenses, more conversation."
+        },
+        {
+          "name": "Semillas: Elementary Spanish I",
+          "url": "https://pressbooks.uiowa.edu/elementary-spanish-i/",
+          "what": "University of Iowa open textbook (CC BY-NC-SA)."
+        },
+        {
+          "name": "¡Conecta! Intermediate Spanish",
+          "url": "https://oer.galileo.usg.edu/languages-textbooks/10",
+          "what": "Intermediate I & II, full-text download (CC BY). Your next level."
+        },
+        {
+          "name": "El Futuro: Intermediate Spanish I",
+          "url": "https://oer.galileo.usg.edu/languages-textbooks/7",
+          "what": "Intermediate course with full-text download (CC BY)."
+        }
+      ]
+    },
+    {
+      "title": "Free listening & practice",
+      "items": [
+        {
+          "name": "Language Transfer: Complete Spanish",
+          "url": "https://www.languagetransfer.org",
+          "what": "Free audio course that teaches you to build sentences by thinking. Perfect for driving."
+        },
+        {
+          "name": "Dreaming Spanish",
+          "url": "https://www.dreamingspanish.com",
+          "what": "Easy videos in Spanish (comprehensible input). Lots are free on YouTube."
+        },
+        {
+          "name": "Caribbean Spanish 101",
+          "url": "https://caribbeanspanish101.com",
+          "what": "Puerto Rican and Caribbean accent, slang and culture."
+        },
+        {
+          "name": "Tatoeba",
+          "url": "https://tatoeba.org",
+          "what": "Millions of real example sentences with translations. Search any word."
+        },
+        {
+          "name": "SpanishDict",
+          "url": "https://www.spanishdict.com",
+          "what": "Dictionary, conjugation tables and audio."
+        },
+        {
+          "name": "Conjuguemos",
+          "url": "https://conjuguemos.com",
+          "what": "Free conjugation games."
+        }
+      ]
+    }
+  ]
+}

@@ -7,9 +7,13 @@ import DeckView from './components/DeckView.jsx';
 import Session, { MODES, eligibleCards } from './components/Session.jsx';
 import ProgressView from './components/ProgressView.jsx';
 import Settings from './components/Settings.jsx';
+import Practice from './components/Practice.jsx';
+import Dialogue from './components/Dialogue.jsx';
+import { drillCards } from './lib/conjugation.js';
 
 const TABS = [
   ['home', '📚', 'Decks'],
+  ['practice', '🏋️', 'Practice'],
   ['progress', '📈', 'Progress'],
   ['settings', '⚙️', 'Settings'],
 ];
@@ -61,8 +65,16 @@ export default function App() {
   const startMistakes = () => {
     push(buildSession({ cards: cardsFor(null), kind: 'quiz', title: 'My mistakes', mode: 'weak' }));
   };
+  const startConjugation = async (opts) => {
+    const { default: data } = await import('./data/conjugations.json');
+    const rebuild = () => {
+      const cards = drillCards(data, opts);
+      return { name: 'session', kind: 'quiz', title: 'Conjugation', direction: 'en-es', pool: cards, cards, rebuild, key: Date.now() };
+    };
+    push(rebuild());
+  };
   const newRound = () => {
-    const next = buildSession({ ...screen, cards: cardsFor(screen.deckId) });
+    const next = screen.rebuild ? screen.rebuild() : buildSession({ ...screen, cards: cardsFor(screen.deckId) });
     setStack((s) => [...s.slice(0, -1), next]);
   };
 
@@ -77,11 +89,15 @@ export default function App() {
         cards={screen.cards}
         pool={screen.pool}
         kind={screen.kind}
-        direction={settings.direction}
+        direction={screen.direction || settings.direction}
         onExit={back}
         onNewRound={newRound}
       />
     );
+  } else if (screen.name === 'practice') {
+    content = <Practice startConjugation={startConjugation} openDialogue={(id) => push({ name: 'dialogue', id })} />;
+  } else if (screen.name === 'dialogue') {
+    content = <Dialogue id={screen.id} onBack={back} />;
   } else if (screen.name === 'progress') {
     content = <ProgressView />;
   } else if (screen.name === 'settings') {
@@ -91,7 +107,7 @@ export default function App() {
   }
 
   const showTabs = screen.name !== 'session';
-  const activeTab = screen.name === 'deck' ? 'home' : screen.name;
+  const activeTab = screen.name === 'deck' ? 'home' : screen.name === 'dialogue' ? 'practice' : screen.name;
 
   return (
     <div className={'app' + (showTabs ? ' has-tabs' : '')}>

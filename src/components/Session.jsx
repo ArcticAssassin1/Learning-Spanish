@@ -2,8 +2,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from '../lib/store.jsx';
 import { checkAnswer, normalize } from '../lib/answer.js';
 import { shuffle, dayKey } from '../lib/srs.js';
-import { speak } from '../lib/speech.js';
+import { speak, listen, recognitionSupported } from '../lib/speech.js';
 import { makeCloze } from '../lib/cloze.js';
+import { buildSource, words as sentenceWords, tileText } from '../lib/sentence.js';
 import Badges from './Badges.jsx';
 import CardDetails from './CardDetails.jsx';
 import Speak from './Speak.jsx';
@@ -15,12 +16,15 @@ export const MODES = {
   flash: { icon: '🃏', label: 'Flashcards' },
   choice: { icon: '🔘', label: 'Multiple choice' },
   cloze: { icon: '🧩', label: 'Fill the blank' },
+  build: { icon: '🧱', label: 'Build the sentence' },
   listen: { icon: '🎧', label: 'Listen & type' },
 };
 
 /** Cards that can be studied in a given mode. */
 export function eligibleCards(cards, kind) {
-  return kind === 'cloze' ? cards.filter((c) => makeCloze(c)) : cards;
+  if (kind === 'cloze') return cards.filter((c) => makeCloze(c));
+  if (kind === 'build') return cards.filter((c) => buildSource(c));
+  return cards;
 }
 
 function buildQueue(cards, direction) {
@@ -73,6 +77,8 @@ export default function Session({ title, cards, pool, kind, direction, onExit, o
         <ChoiceCard {...props} pool={pool} />
       ) : kind === 'cloze' ? (
         <ClozeCard {...props} />
+      ) : kind === 'build' ? (
+        <BuildCard {...props} pool={pool} />
       ) : kind === 'listen' ? (
         <ListenCard {...props} />
       ) : (
@@ -117,6 +123,7 @@ function TypedAnswer({ card, prompt, answer, lang, extra = [], stripSubject = fa
   const [verdict, setVerdict] = useState(null); // { result, expected, gaveUp? }
   const [override, setOverride] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [listening, setListening] = useState(false);
   const inputRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -126,6 +133,18 @@ function TypedAnswer({ card, prompt, answer, lang, extra = [], stripSubject = fa
   const check = (e) => {
     e?.preventDefault();
     setVerdict(checkAnswer(input, answer, lang, extra, { stripSubject }));
+  };
+
+  const speakAnswer = () => {
+    setListening(true);
+    listen({
+      onResult: (alts) => {
+        const best = alts.find((a) => checkAnswer(a, answer, lang, extra, { stripSubject }).result !== 'wrong') || alts[0];
+        setInput(best);
+        setVerdict(checkAnswer(best, answer, lang, extra, { stripSubject }));
+      },
+      onEnd: () => setListening(false),
+    });
   };
 
   const insert = (ch) => {
@@ -148,6 +167,7 @@ function TypedAnswer({ card, prompt, answer, lang, extra = [], stripSubject = fa
       {!verdict ? (
         <form onSubmit={check} className="answer-form">
           {hint && showHint && <div className="hint">💡 {hint}</div>}
+          <div className="input-row">
           <input
             ref={inputRef}
             className="answer-input"
@@ -161,6 +181,10 @@ function TypedAnswer({ card, prompt, answer, lang, extra = [], stripSubject = fa
             spellCheck={false}
             enterKeyHint="done"
           />
+          {lang === 'es' && recognitionSupported && (
+            <button type="button" className={'mic' + (listening ? ' on' : '')} onClick={speakAnswer} aria-label="Say it">🎤</button>
+          )}
+          </div>
           {lang === 'es' && (
             <div className="accent-keys">
               {ACCENT_KEYS.map((k) => (
@@ -336,6 +360,65 @@ function ChoiceCard({ item, pool, onDone }) {
           <div className="verdict">{correct ? '✅ ¡Correcto!' : '❌ Not quite.'}</div>
           <CardDetails card={card} />
           <button ref={nextRef} className="btn btn-primary btn-wide" onClick={() => onDone(correct)}>Next →</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function BuildCard({ item, pool, onDone }) {
+  const { card } = item;
+  const src = useMemo(() => buildSource(card), [card]);
+  const tiles = useMemo(() => {
+    const own = src.words.map((w, i) => tileText(w, i));
+    const lower = new Set(own.map((w) => w.toLowerCase()));
+    const extras = shuffle(pool.filter((c) => c.id !== card.id).flatMap((c) => sentenceWords(c.spanish)))
+      .map((w) => w.toLowerCase())
+      .filter((w) => !lower.has(w) && lower.add(w))
+      .slice(0, 3);
+    return shuffle([...own, ...extras]).map((text, id) => ({ id, text }));
+  }, [src, pool, card]);
+  const [placed, setPlaced] = useState([]);
+  const [checked, setChecked] = useState(null);
+  const nextRef = useRef(null);
+  useEffect(() => { if (checked) nextRef.current?.focus(); }, [checked]);
+
+  const target = normalize(src.words.join(' '), 'es');
+  const check = () => setChecked({ correct: normalize(placed.map((t) => t.text).join(' '), 'es') === target });
+  const used = new Set(placed.map((t) => t.id));
+
+  return (
+    <div className="card-area">
+      <div className="prompt">
+        <Badges card={card} />
+        <div className="prompt-text prompt-en">{src.en}</div>
+        <div className="prompt-hint">Tap the words in order</div>
+      </div>
+      <div className="build-line" aria-label="Your sentence">
+        {placed.map((t) => (
+          <button key={t.id} className="tile" disabled={!!checked} onClick={() => setPlaced(placed.filter((p) => p.id !== t.id))}>{t.text}</button>
+        ))}
+      </div>
+      <div className="bank">
+        {tiles.map((t) => (
+          <button key={t.id} className={'tile' + (used.has(t.id) ? ' used' : '')} disabled={used.has(t.id) || !!checked} onClick={() => setPlaced([...placed, t])}>
+            {t.text}
+          </button>
+        ))}
+      </div>
+      {!checked ? (
+        <div className="row">
+          <button className="btn btn-ghost" onClick={() => setChecked({ correct: false, gaveUp: true })}>Show answer</button>
+          <button className="btn btn-primary" disabled={!placed.length} onClick={check}>Check</button>
+        </div>
+      ) : (
+        <div className={'feedback ' + (checked.correct ? 'is-right' : 'is-wrong')}>
+          <div className="verdict">
+            {checked.correct ? '✅ ¡Correcto!' : <>❌ It's: <strong lang="es">{src.full}</strong></>}{' '}
+            <Speak text={src.full} small />
+          </div>
+          <CardDetails card={card} />
+          <button ref={nextRef} className="btn btn-primary btn-wide" onClick={() => onDone(checked.correct)}>Next →</button>
         </div>
       )}
     </div>

@@ -1,0 +1,475 @@
+[
+  {
+    "id": "pista",
+    "title": "En la pista de baile",
+    "emoji": "💃",
+    "setting": "Asking someone to dance at a Latin club in Ybor.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Yari": "Dominican, from Santiago"
+    },
+    "lines": [
+      {
+        "who": "Dan",
+        "es": "¡Hola! ¿Quieres bailar?",
+        "en": "Hi! Do you want to dance?"
+      },
+      {
+        "who": "Yari",
+        "es": "Dale, pero no me pises.",
+        "en": "Sure, but don't step on me."
+      },
+      {
+        "who": "Dan",
+        "es": "Tranquila, estoy aprendiendo.",
+        "en": "Relax, I'm learning."
+      },
+      {
+        "who": "Yari",
+        "es": "Se nota. ¡Es broma! Bailas bien.",
+        "en": "It shows. Just kidding! You dance well."
+      },
+      {
+        "who": "Dan",
+        "es": "Gracias. ¿De dónde eres?",
+        "en": "Thanks. Where are you from?"
+      },
+      {
+        "who": "Yari",
+        "es": "Soy dominicana, de Santiago. ¿Y tú?",
+        "en": "I'm Dominican, from Santiago. And you?"
+      },
+      {
+        "who": "Dan",
+        "es": "Soy de aquí, de Tampa. Estoy aprendiendo español.",
+        "en": "I'm from here, Tampa. I'm learning Spanish."
+      },
+      {
+        "who": "Yari",
+        "es": "¿En serio? Lo hablas muy bien.",
+        "en": "Really? You speak it really well."
+      },
+      {
+        "who": "Dan",
+        "es": "Poco a poco. ¿Te puedo invitar a un trago?",
+        "en": "Little by little. Can I buy you a drink?"
+      },
+      {
+        "who": "Yari",
+        "es": "Claro que sí.",
+        "en": "Of course."
+      }
+    ],
+    "notes": [
+      "\"Dale\" = sure / let's go. Super common in DR and Puerto Rico.",
+      "\"Invitar\" = to treat / pay for someone."
+    ]
+  },
+  {
+    "id": "restaurante",
+    "title": "En el restaurante dominicano",
+    "emoji": "🍛",
+    "setting": "Ordering food and asking for the check.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Mesera": "the waitress"
+    },
+    "lines": [
+      {
+        "who": "Mesera",
+        "es": "Buenas, mi amor. ¿Qué te traigo?",
+        "en": "Hi, honey. What can I get you?"
+      },
+      {
+        "who": "Dan",
+        "es": "¿Qué me recomienda?",
+        "en": "What do you recommend?"
+      },
+      {
+        "who": "Mesera",
+        "es": "El pollo guisado está buenísimo hoy.",
+        "en": "The stewed chicken is really good today."
+      },
+      {
+        "who": "Dan",
+        "es": "Perfecto. Un pollo guisado con arroz y habichuelas, por favor.",
+        "en": "Perfect. Stewed chicken with rice and beans, please."
+      },
+      {
+        "who": "Mesera",
+        "es": "¿Y para tomar?",
+        "en": "And to drink?"
+      },
+      {
+        "who": "Dan",
+        "es": "Una cerveza bien fría.",
+        "en": "An ice-cold beer."
+      },
+      {
+        "who": "Mesera",
+        "es": "¿Quieres tostones también?",
+        "en": "Do you want tostones too?"
+      },
+      {
+        "who": "Dan",
+        "es": "Sí, dale. ¿Me trae la cuenta cuando pueda?",
+        "en": "Yes, sure. Can you bring me the check when you can?"
+      },
+      {
+        "who": "Mesera",
+        "es": "Claro. Ahorita te la traigo.",
+        "en": "Of course. I'll bring it right now."
+      }
+    ],
+    "notes": [
+      "\"Mi amor\" from a waitress is just friendly, not flirting. Very Caribbean.",
+      "\"Habichuelas\" = beans in DR and Puerto Rico (elsewhere \"frijoles\").",
+      "In the Caribbean \"ahorita\" means right now."
+    ]
+  },
+  {
+    "id": "textos",
+    "title": "Textos después de la fiesta",
+    "emoji": "📱",
+    "setting": "Texting the next day.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Yari": "from the club"
+    },
+    "lines": [
+      {
+        "who": "Dan",
+        "es": "Hola, Yari. Soy Dan, el de la bachata.",
+        "en": "Hi Yari. It's Dan, the bachata guy."
+      },
+      {
+        "who": "Yari",
+        "es": "Jajaja klk. ¿Llegaste bien anoche?",
+        "en": "Hahaha what's up. Did you get home okay last night?"
+      },
+      {
+        "who": "Dan",
+        "es": "Sí, todo bien. La pasé súper bien contigo.",
+        "en": "Yes, all good. I had a great time with you."
+      },
+      {
+        "who": "Yari",
+        "es": "Yo también. Bailas mejor de lo que pensaba.",
+        "en": "Me too. You dance better than I thought."
+      },
+      {
+        "who": "Dan",
+        "es": "Jaja gracias. ¿Cuándo nos vemos otra vez?",
+        "en": "Haha thanks. When can we see each other again?"
+      },
+      {
+        "who": "Yari",
+        "es": "Este sábado hay bachata en Ybor. ¿Vienes?",
+        "en": "This Saturday there's bachata in Ybor. Are you coming?"
+      },
+      {
+        "who": "Dan",
+        "es": "¡Claro! Avísame cuando llegues.",
+        "en": "Of course! Let me know when you get there."
+      },
+      {
+        "who": "Yari",
+        "es": "Dale. Bss.",
+        "en": "Sure. Kisses."
+      }
+    ],
+    "notes": [
+      "\"La pasé bien\" = I had a good time.",
+      "\"Contigo\" = with you (never \"con tú\")."
+    ]
+  },
+  {
+    "id": "gym",
+    "title": "En el gimnasio",
+    "emoji": "🏋️",
+    "setting": "Sharing equipment and spotting someone.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Carlos": "a guy at the gym"
+    },
+    "lines": [
+      {
+        "who": "Carlos",
+        "es": "¿Qué lo qué, mano? ¿Vas a usar esa máquina?",
+        "en": "What's up, bro? Are you going to use that machine?"
+      },
+      {
+        "who": "Dan",
+        "es": "Sí, pero solo me quedan dos series.",
+        "en": "Yes, but I only have two sets left."
+      },
+      {
+        "who": "Carlos",
+        "es": "Tranquilo. ¿Cuánto tiempo llevas entrenando?",
+        "en": "No problem. How long have you been working out?"
+      },
+      {
+        "who": "Dan",
+        "es": "Como seis meses. Vengo todos los días después del trabajo.",
+        "en": "About six months. I come every day after work."
+      },
+      {
+        "who": "Carlos",
+        "es": "Se ve. ¿Me ayudas con el banco?",
+        "en": "It shows. Can you spot me on the bench?"
+      },
+      {
+        "who": "Dan",
+        "es": "Claro, dale. ¿Cuántas vas a hacer?",
+        "en": "Sure, go ahead. How many are you going to do?"
+      },
+      {
+        "who": "Carlos",
+        "es": "Diez. Si no puedo, me ayudas.",
+        "en": "Ten. If I can't, help me."
+      },
+      {
+        "who": "Dan",
+        "es": "¡Vamo' a darle!",
+        "en": "Let's go!"
+      }
+    ],
+    "notes": [
+      "\"Me quedan dos series\" = I have two sets left (literally \"two sets remain to me\").",
+      "\"¿Cuánto tiempo llevas + -ando?\" = How long have you been ...-ing?"
+    ]
+  },
+  {
+    "id": "familia",
+    "title": "Conociendo a la familia",
+    "emoji": "👵",
+    "setting": "Meeting her mom for the first time.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Yari": "your date",
+      "Mamá": "Yari's mom"
+    },
+    "lines": [
+      {
+        "who": "Yari",
+        "es": "Mami, este es Dan.",
+        "en": "Mom, this is Dan."
+      },
+      {
+        "who": "Dan",
+        "es": "Mucho gusto, señora.",
+        "en": "Nice to meet you, ma'am."
+      },
+      {
+        "who": "Mamá",
+        "es": "Bienvenido, mijo. Siéntate. ¿Ya comiste?",
+        "en": "Welcome, dear. Sit down. Have you eaten yet?"
+      },
+      {
+        "who": "Dan",
+        "es": "Todavía no, pero huele delicioso.",
+        "en": "Not yet, but it smells delicious."
+      },
+      {
+        "who": "Mamá",
+        "es": "Hice sancocho. Aquí nadie se va con hambre.",
+        "en": "I made sancocho. Nobody leaves here hungry."
+      },
+      {
+        "who": "Dan",
+        "es": "¡Qué rico! Gracias por invitarme.",
+        "en": "Delicious! Thanks for inviting me."
+      },
+      {
+        "who": "Mamá",
+        "es": "¿Y tú hablas español?",
+        "en": "And you speak Spanish?"
+      },
+      {
+        "who": "Dan",
+        "es": "Un poco. Estoy aprendiendo para hablar con ustedes.",
+        "en": "A little. I'm learning so I can talk with you all."
+      },
+      {
+        "who": "Mamá",
+        "es": "Ay, qué lindo. Yari, este muchacho es un buen partido.",
+        "en": "Aw, how sweet. Yari, this guy is a good catch."
+      }
+    ],
+    "notes": [
+      "Use \"señora\" and \"usted\" with her mom until she tells you otherwise.",
+      "\"Sancocho\" = hearty Dominican meat-and-root-vegetable stew."
+    ]
+  },
+  {
+    "id": "uber",
+    "title": "En el Uber",
+    "emoji": "🚗",
+    "setting": "Riding to the club and chatting with the driver.",
+    "region": "Puerto Rico",
+    "people": {
+      "Dan": "you",
+      "Chofer": "the driver, from Puerto Rico"
+    },
+    "lines": [
+      {
+        "who": "Chofer",
+        "es": "Buenas noches. ¿Para Ybor?",
+        "en": "Good evening. To Ybor?"
+      },
+      {
+        "who": "Dan",
+        "es": "Sí, a la Séptima Avenida, por favor.",
+        "en": "Yes, to Seventh Avenue, please."
+      },
+      {
+        "who": "Chofer",
+        "es": "¿Vas pa' la discoteca?",
+        "en": "Going to the club?"
+      },
+      {
+        "who": "Dan",
+        "es": "Sí, esta noche hay bachata.",
+        "en": "Yes, there's bachata tonight."
+      },
+      {
+        "who": "Chofer",
+        "es": "¡Ay, qué bueno! Yo soy de Puerto Rico. Allá bailamos salsa.",
+        "en": "Oh, nice! I'm from Puerto Rico. Over there we dance salsa."
+      },
+      {
+        "who": "Dan",
+        "es": "¿Me puedes dejar en la esquina?",
+        "en": "Can you drop me off at the corner?"
+      },
+      {
+        "who": "Chofer",
+        "es": "Claro. Que la pases bien.",
+        "en": "Sure. Have a good time."
+      },
+      {
+        "who": "Dan",
+        "es": "Gracias, igualmente.",
+        "en": "Thanks, you too."
+      }
+    ],
+    "notes": [
+      "\"Dejar\" = to drop off (also \"to leave / let\").",
+      "\"Igualmente\" = likewise / you too."
+    ]
+  },
+  {
+    "id": "colmado",
+    "title": "En el colmado",
+    "emoji": "🏪",
+    "setting": "Buying ice and water at the corner store.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Colmadero": "the shop owner"
+    },
+    "lines": [
+      {
+        "who": "Dan",
+        "es": "Buenas. ¿Tienen hielo?",
+        "en": "Hi. Do you have ice?"
+      },
+      {
+        "who": "Colmadero",
+        "es": "Sí, mi pana. ¿Cuántas fundas?",
+        "en": "Yes, my friend. How many bags?"
+      },
+      {
+        "who": "Dan",
+        "es": "Dos, y un paquete de agua.",
+        "en": "Two, and a pack of water."
+      },
+      {
+        "who": "Colmadero",
+        "es": "¿Algo más?",
+        "en": "Anything else?"
+      },
+      {
+        "who": "Dan",
+        "es": "No, eso es to'. ¿Cuánto es?",
+        "en": "No, that's all. How much is it?"
+      },
+      {
+        "who": "Colmadero",
+        "es": "Son trescientos pesos.",
+        "en": "It's three hundred pesos."
+      },
+      {
+        "who": "Dan",
+        "es": "Aquí tiene.",
+        "en": "Here you go."
+      },
+      {
+        "who": "Colmadero",
+        "es": "Gracias. ¡Que Dios te bendiga!",
+        "en": "Thanks. God bless you!"
+      }
+    ],
+    "notes": [
+      "\"Funda\" = plastic bag in DR (elsewhere \"bolsa\").",
+      "\"Buenas\" is the all-purpose greeting: good morning / afternoon / evening."
+    ]
+  },
+  {
+    "id": "tarde",
+    "title": "Llegando tarde",
+    "emoji": "⏰",
+    "setting": "A phone call: you overslept and she is waiting.",
+    "region": "Dominican",
+    "people": {
+      "Dan": "you",
+      "Yari": "waiting for you"
+    },
+    "lines": [
+      {
+        "who": "Yari",
+        "es": "¿Dónde tú etá? Te estoy esperando.",
+        "en": "Where are you? I'm waiting for you."
+      },
+      {
+        "who": "Dan",
+        "es": "Perdón, me quedé dormido. Ya voy saliendo.",
+        "en": "Sorry, I overslept. I'm heading out now."
+      },
+      {
+        "who": "Yari",
+        "es": "¿En serio? Siempre llegas tarde.",
+        "en": "Seriously? You're always late."
+      },
+      {
+        "who": "Dan",
+        "es": "Lo sé, mi culpa. Llego en veinte minutos.",
+        "en": "I know, my bad. I'll be there in twenty minutes."
+      },
+      {
+        "who": "Yari",
+        "es": "Bueno, pero me debes un café.",
+        "en": "Okay, but you owe me a coffee."
+      },
+      {
+        "who": "Dan",
+        "es": "Te invito a lo que tú quieras.",
+        "en": "I'll treat you to whatever you want."
+      },
+      {
+        "who": "Yari",
+        "es": "Jajaja, dale. Maneja con cuidado.",
+        "en": "Hahaha, okay. Drive safe."
+      }
+    ],
+    "notes": [
+      "\"¿Dónde tú etá?\" = ¿Dónde estás tú? with the Caribbean dropped s.",
+      "\"Me quedé dormido\" = I fell asleep / overslept."
+    ]
+  }
+]
