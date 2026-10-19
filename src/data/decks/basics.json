@@ -1,0 +1,361 @@
+{
+  "id": "basics",
+  "name": "Basics I Skipped",
+  "emoji": "🧩",
+  "description": "Question words, tú vs usted, tener expressions, del / al, possessives and family.",
+  "phase": 1,
+  "order": 7,
+  "cards": [
+    {
+      "id": "basics:qué",
+      "spanish": "¿Qué?",
+      "english": "What?",
+      "pronunciation": "keh",
+      "example": "¿[Qué] haces hoy?",
+      "example_en": "What are you doing today?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Question words always carry an accent: qué, quién, cuándo, dónde, cómo, cuánto."
+    },
+    {
+      "id": "basics:quién",
+      "spanish": "¿Quién?",
+      "english": "Who?",
+      "pronunciation": "kyehn",
+      "example": "¿[Quién] es tu amigo?",
+      "example_en": "Who is your friend?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Plural: ¿Quiénes?"
+    },
+    {
+      "id": "basics:cuándo",
+      "spanish": "¿Cuándo?",
+      "english": "When?",
+      "pronunciation": "KWAHN-doh",
+      "example": "¿[Cuándo] trabajas?",
+      "example_en": "When do you work?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:dónde",
+      "spanish": "¿Dónde?",
+      "english": "Where?",
+      "pronunciation": "DOHN-deh",
+      "example": "¿[Dónde] vives?",
+      "example_en": "Where do you live?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"¿Adónde?\" = where to?"
+    },
+    {
+      "id": "basics:por-qué",
+      "spanish": "¿Por qué?",
+      "english": "Why?",
+      "pronunciation": "pohr keh",
+      "example": "¿[Por qué] estudias español?",
+      "example_en": "Why do you study Spanish?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Two words with an accent. The answer \"porque\" (because) is one word."
+    },
+    {
+      "id": "basics:cómo",
+      "spanish": "¿Cómo?",
+      "english": "How? / What? (pardon?)",
+      "pronunciation": "KOH-moh",
+      "example": "¿[Cómo] se dice \"beer\" en español?",
+      "example_en": "How do you say \"beer\" in Spanish?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:cuánto",
+      "spanish": "¿Cuánto?",
+      "english": "How much?",
+      "pronunciation": "KWAHN-toh",
+      "example": "¿[Cuánto] cuesta?",
+      "example_en": "How much does it cost?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Agrees with the noun: cuánto tiempo, cuánta agua."
+    },
+    {
+      "id": "basics:cuántos",
+      "spanish": "¿Cuántos?",
+      "english": "How many?",
+      "pronunciation": "KWAHN-tohs",
+      "example": "¿[Cuántos] idiomas hablas?",
+      "example_en": "How many languages do you speak?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Feminine: ¿cuántas? (cuántas horas)."
+    },
+    {
+      "id": "basics:cuál",
+      "spanish": "¿Cuál?",
+      "english": "Which? / What? (which one)",
+      "pronunciation": "kwahl",
+      "example": "¿[Cuál] es tu nombre?",
+      "example_en": "What's your name?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Use \"¿cuál es...?\" for \"what is your name / number / address\"."
+    },
+    {
+      "id": "basics:tú",
+      "spanish": "tú",
+      "english": "you (informal)",
+      "pronunciation": "too",
+      "example": "[Tú] eres mi amigo.",
+      "example_en": "You're my friend.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "TÚ: friends, family, people your age, kids."
+    },
+    {
+      "id": "basics:usted",
+      "spanish": "usted",
+      "english": "you (formal)",
+      "pronunciation": "oos-TEHD",
+      "example": "¿Cómo está [usted], señora?",
+      "example_en": "How are you, ma'am?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "USTED: older people, strangers, bosses, her parents. Verb like él/ella: usted está, usted es."
+    },
+    {
+      "id": "basics:ustedes",
+      "spanish": "ustedes",
+      "english": "you all",
+      "pronunciation": "oos-TEH-dehs",
+      "example": "¿[Ustedes] vienen a la fiesta?",
+      "example_en": "Are you all coming to the party?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In Latin America \"ustedes\" is used for any group, friends included."
+    },
+    {
+      "id": "basics:tengo-28-años",
+      "spanish": "Tengo 28 años",
+      "english": "I'm 28 years old",
+      "pronunciation": "TEHN-goh 28 AH-nyohs",
+      "example": "[Tengo] veintiocho años.",
+      "example_en": "I'm twenty-eight.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Age uses TENER (to have), not ser."
+    },
+    {
+      "id": "basics:tengo-sed",
+      "spanish": "Tengo sed",
+      "english": "I'm thirsty",
+      "pronunciation": "TEHN-goh sehd",
+      "example": "[Tengo] mucha sed.",
+      "example_en": "I'm really thirsty.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:tengo-sueño",
+      "spanish": "Tengo sueño",
+      "english": "I'm sleepy",
+      "pronunciation": "TEHN-goh SWEH-nyoh",
+      "example": "[Tengo] sueño, me voy a dormir.",
+      "example_en": "I'm sleepy, I'm going to sleep.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:tengo-miedo",
+      "spanish": "Tengo miedo",
+      "english": "I'm scared",
+      "pronunciation": "TEHN-goh MYEH-doh",
+      "example": "[Tengo] miedo de las alturas.",
+      "example_en": "I'm scared of heights.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:tengo-prisa",
+      "spanish": "Tengo prisa",
+      "english": "I'm in a hurry",
+      "pronunciation": "TEHN-goh PREE-sah",
+      "example": "Perdón, [tengo] prisa.",
+      "example_en": "Sorry, I'm in a hurry.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In the Caribbean also \"estoy apurado\"."
+    },
+    {
+      "id": "basics:tengo-frío",
+      "spanish": "Tengo frío",
+      "english": "I'm cold",
+      "pronunciation": "TEHN-goh FREE-oh",
+      "example": "[Tengo] frío, ¿me prestas tu chaqueta?",
+      "example_en": "I'm cold, can I borrow your jacket?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Tengo calor\" = I'm hot. (\"Estoy caliente\" means aroused!)"
+    },
+    {
+      "id": "basics:tengo-razón",
+      "spanish": "Tengo razón",
+      "english": "I'm right",
+      "pronunciation": "TEHN-goh rah-SOHN",
+      "example": "Te dije que [tengo] razón.",
+      "example_en": "I told you I'm right.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:tengo-ganas-de",
+      "spanish": "Tengo ganas de...",
+      "english": "I feel like... / I want to...",
+      "pronunciation": "TEHN-goh GAH-nahs deh",
+      "example": "[Tengo ganas de] bailar.",
+      "example_en": "I feel like dancing.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:del",
+      "spanish": "del",
+      "english": "of the / from the (de + el)",
+      "pronunciation": "dehl",
+      "example": "Vengo [del] gimnasio.",
+      "example_en": "I'm coming from the gym.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "de + el = del. Not with \"la\": \"de la playa\"."
+    },
+    {
+      "id": "basics:al",
+      "spanish": "al",
+      "english": "to the (a + el)",
+      "pronunciation": "ahl",
+      "example": "Voy [al] trabajo.",
+      "example_en": "I'm going to work.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "a + el = al. Not with \"la\": \"a la playa\"."
+    },
+    {
+      "id": "basics:su-sus",
+      "spanish": "su / sus",
+      "english": "his / her / their / your (formal)",
+      "pronunciation": "soo / soos",
+      "example": "Ella vino con [su] novio.",
+      "example_en": "She came with her boyfriend.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Context tells you whose. Plural thing: sus amigos."
+    },
+    {
+      "id": "basics:nuestro-nuestra",
+      "spanish": "nuestro / nuestra",
+      "english": "our",
+      "pronunciation": "NWEHS-troh / NWEHS-trah",
+      "example": "Esta es [nuestra] casa.",
+      "example_en": "This is our house.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Matches the thing owned: nuestro carro, nuestra casa."
+    },
+    {
+      "id": "basics:el-agua",
+      "spanish": "el agua",
+      "english": "the water",
+      "pronunciation": "ehl AH-gwah",
+      "example": "[El agua] está fría.",
+      "example_en": "The water is cold.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Feminine, but takes \"el\" because it starts with a stressed \"a\" (el agua, el águila)."
+    },
+    {
+      "id": "basics:el-abuelo-la-abuela",
+      "spanish": "el abuelo / la abuela",
+      "english": "grandfather / grandmother",
+      "pronunciation": "ehl ah-BWEH-loh / lah ah-BWEH-lah",
+      "example": "Mi [abuela] cocina rico.",
+      "example_en": "My grandma cooks really well.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:el-padre-la-madre",
+      "spanish": "el padre / la madre",
+      "english": "father / mother",
+      "pronunciation": "ehl PAH-dreh / lah MAH-dreh",
+      "example": "Mi [madre] se llama Ana.",
+      "example_en": "My mother's name is Ana.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Everyday: papá / mamá (mami, papi in the Caribbean)."
+    },
+    {
+      "id": "basics:el-hijo-la-hija",
+      "spanish": "el hijo / la hija",
+      "english": "son / daughter",
+      "pronunciation": "ehl EE-hoh / lah EE-hah",
+      "example": "Tiene una [hija] de cinco años.",
+      "example_en": "He has a five-year-old daughter.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:el-esposo-la-esposa",
+      "spanish": "el esposo / la esposa",
+      "english": "husband / wife",
+      "pronunciation": "ehl ehs-POH-soh / lah ehs-POH-sah",
+      "example": "Su [esposa] es dominicana.",
+      "example_en": "His wife is Dominican.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:el-tío-la-tía",
+      "spanish": "el tío / la tía",
+      "english": "uncle / aunt",
+      "pronunciation": "ehl TEE-oh / lah TEE-ah",
+      "example": "Mi [tío] vive en Nueva York.",
+      "example_en": "My uncle lives in New York.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Tío / tía\" is also slang for \"dude\" in Spain."
+    },
+    {
+      "id": "basics:el-primo-la-prima",
+      "spanish": "el primo / la prima",
+      "english": "cousin",
+      "pronunciation": "ehl PREE-moh / lah PREE-mah",
+      "example": "Mi [prima] viene a la fiesta.",
+      "example_en": "My cousin is coming to the party.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "basics:el-novio-la-novia",
+      "spanish": "el novio / la novia",
+      "english": "boyfriend / girlfriend",
+      "pronunciation": "ehl NOH-byoh / lah NOH-byah",
+      "example": "¿Tienes [novio]?",
+      "example_en": "Do you have a boyfriend?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also \"groom / bride\" at a wedding."
+    },
+    {
+      "id": "basics:el-suegro-la-suegra",
+      "spanish": "el suegro / la suegra",
+      "english": "father-in-law / mother-in-law",
+      "pronunciation": "ehl SWEH-groh / lah SWEH-grah",
+      "example": "Mi [suegra] me quiere mucho.",
+      "example_en": "My mother-in-law loves me.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

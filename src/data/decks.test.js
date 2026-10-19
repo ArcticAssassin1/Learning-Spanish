@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const dir = path.join(import.meta.dirname, 'decks');
 const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json'));
-const REGIONS = ['General', 'Mexico', 'Dominican', 'Caribbean', 'Spain', 'Colombia', 'Puerto Rico', 'Cuba'];
+const REGIONS = ['General', 'Mexico', 'Dominican', 'Caribbean', 'Spain', 'Colombia', 'Puerto Rico', 'Cuba', 'Chile'];
 const REGISTERS = ['neutral', 'casual', 'slang', 'vulgar', 'romantic'];
 
 describe('deck files', () => {

@@ -8,17 +8,19 @@ The full plan is in [BRIEF.md](BRIEF.md).
 
 ## What's in it
 
-**27 decks, 727 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
+**33 decks, 992 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
 a region and a register label.
 
-- **Phase 1, foundations:** core verbs (all 100 forms), the top 100 most-used verbs, watch-out pairs (si/sí, tu/tú...),
+- **Phase 1, foundations:** numbers, basics (question words, tú vs usted, tener expressions, del/al,
+  family), core verbs (all 100 forms), the top 100 most-used verbs, watch-out pairs (si/sí, tu/tú...),
   pronouns (verte, dámelo, conmigo), helper verb + infinitive, false friends (embarazada ≠ embarrassed),
   regular and irregular preterite, signal words, adjectives, connectors, high-frequency words.
-- **Phase 2, real conversation:** everyday phrases, ser vs estar, por vs para, preterite vs imperfect,
+- **Phase 2, real conversation:** everyday phrases, **My Words** (your own Word doc and Quizlet lists,
+  corrected), at the restaurant, jobs & hobbies, ser vs estar, por vs para, preterite vs imperfect,
   reflexives and "se me olvidó", subjunctive set phrases.
 - **Phase 3, Caribbean & street:** romance 🔥, bachata and the dance floor, Caribbean pronunciation
   (etá, cansao, pa', amol), Dominican, Puerto Rican, Cuban and Mexican slang, texting abbreviations
-  (tqm, xq, ntp), expletives 🔞.
+  (tqm, xq, ntp), Mexican slang from a comedy talk on free time, expletives 🔞.
 
 **Five ways to study each deck:**
 

@@ -30,7 +30,7 @@ export function allVisibleCards(settings) {
 
 export const REGION_FLAGS = {
   General: '🌎', Mexico: '🇲🇽', Dominican: '🇩🇴', Caribbean: '🌴', Spain: '🇪🇸',
-  Colombia: '🇨🇴', 'Puerto Rico': '🇵🇷', Cuba: '🇨🇺',
+  Colombia: '🇨🇴', 'Puerto Rico': '🇵🇷', Cuba: '🇨🇺', Chile: '🇨🇱',
 };
 
 export const REGISTER_LABELS = {

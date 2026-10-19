@@ -324,6 +324,28 @@
       "region": "General",
       "register": "neutral",
       "notes": "The safe choice in Latin America (vs \"coger\")."
+    },
+    {
+      "id": "watch-out-pairs:pagar",
+      "spanish": "pagar",
+      "english": "to pay",
+      "pronunciation": "pah-GAHR",
+      "example": "Yo voy a [pagar] la cuenta.",
+      "example_en": "I'm going to pay the bill.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "vs \"apagar\" (to turn off). One letter changes everything."
+    },
+    {
+      "id": "watch-out-pairs:apagar",
+      "spanish": "apagar",
+      "english": "to turn off",
+      "pronunciation": "ah-pah-GAHR",
+      "example": "[Apaga] la luz, por favor.",
+      "example_en": "Turn off the light, please.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "vs \"pagar\" (to pay)."
     }
   ]
 }

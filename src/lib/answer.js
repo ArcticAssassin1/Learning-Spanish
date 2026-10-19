@@ -53,9 +53,13 @@ export function alternatives(text, lang, extra = []) {
   } else {
     pieces = base.split(/\s\/\s|[,;]/).flatMap((p) => expandSlashes(p.trim()));
   }
-  const all = [text, ...pieces, ...extra]
+  let all = [text, ...pieces, ...extra]
     .map((p) => normalize(p, lang))
     .filter(Boolean);
+  if (lang === 'es') {
+    // "el maestro" also accepts "maestro"
+    all = all.flatMap((a) => [a, a.replace(/^(el|la|los|las|un|una) (?=\S)/, '')]);
+  }
   return [...new Set(all)];
 }
 

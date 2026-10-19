@@ -1,0 +1,451 @@
+{
+  "id": "restaurant",
+  "name": "At the Restaurant",
+  "emoji": "🍽️",
+  "description": "Get a table, order, ask what's good, and pay. Plus the food words you'll see on the menu.",
+  "phase": 2,
+  "order": 86,
+  "cards": [
+    {
+      "id": "restaurant:mesa-para-cuántos",
+      "spanish": "¿Mesa para cuántos?",
+      "english": "A table for how many?",
+      "pronunciation": "MEH-sah PAH-rah KWAHN-tohs",
+      "example": "—¿[Mesa para cuántos]? —Para dos.",
+      "example_en": "\"A table for how many?\" \"For two.\"",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:una-mesa-para-dos-por-favor",
+      "spanish": "Una mesa para dos, por favor",
+      "english": "A table for two, please",
+      "pronunciation": "OO-nah MEH-sah PAH-rah dohs, pohr fah-BOHR",
+      "example": "Buenas noches, [una mesa para dos], por favor.",
+      "example_en": "Good evening, a table for two, please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:me-trae-la-carta-por-favor",
+      "spanish": "¿Me trae la carta, por favor?",
+      "english": "Can you bring me the menu, please?",
+      "pronunciation": "meh TRAH-eh lah KAHR-tah, pohr fah-BOHR",
+      "example": "¿[Me trae la carta], por favor?",
+      "example_en": "Can you bring me the menu, please?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"La carta\" and \"el menú\" both mean the menu."
+    },
+    {
+      "id": "restaurant:qué-me-recomienda",
+      "spanish": "¿Qué me recomienda?",
+      "english": "What do you recommend?",
+      "pronunciation": "keh meh reh-koh-MYEHN-dah",
+      "example": "¿[Qué me recomienda] de postre?",
+      "example_en": "What do you recommend for dessert?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:listo-para-ordenar",
+      "spanish": "¿Listo para ordenar?",
+      "english": "Ready to order?",
+      "pronunciation": "LEES-toh PAH-rah ohr-deh-NAHR",
+      "example": "¿[Listos para ordenar]?",
+      "example_en": "Ready to order? (to a group)",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:quiero-ordenar",
+      "spanish": "Quiero ordenar...",
+      "english": "I'd like to order...",
+      "pronunciation": "KYEH-roh ohr-deh-NAHR",
+      "example": "[Quiero ordenar] el pollo, por favor.",
+      "example_en": "I'd like to order the chicken, please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:me-gustaría",
+      "spanish": "Me gustaría...",
+      "english": "I would like...",
+      "pronunciation": "meh goos-tah-REE-ah",
+      "example": "[Me gustaría] un jugo de chinola.",
+      "example_en": "I'd like a passion fruit juice.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Chinola\" = passion fruit in the DR (maracuyá elsewhere)."
+    },
+    {
+      "id": "restaurant:para-tomar",
+      "spanish": "Para tomar...",
+      "english": "To drink...",
+      "pronunciation": "PAH-rah toh-MAHR",
+      "example": "[Para tomar], una cerveza.",
+      "example_en": "To drink, a beer.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:me-regala",
+      "spanish": "¿Me regala...?",
+      "english": "Could I have...? (very polite)",
+      "pronunciation": "meh reh-GAH-lah",
+      "example": "¿[Me regala] un vaso de agua?",
+      "example_en": "Could I have a glass of water?",
+      "region": "Colombia",
+      "register": "neutral",
+      "notes": "Common in Colombia and Central America. Doesn't mean \"free\"!"
+    },
+    {
+      "id": "restaurant:tienen",
+      "spanish": "¿Tienen...?",
+      "english": "Do you have...?",
+      "pronunciation": "TYEH-nehn",
+      "example": "¿[Tienen] algo sin carne?",
+      "example_en": "Do you have anything without meat?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-cuenta-por-favor",
+      "spanish": "La cuenta, por favor",
+      "english": "The check, please",
+      "pronunciation": "lah KWEHN-tah, pohr fah-BOHR",
+      "example": "[La cuenta, por favor].",
+      "example_en": "The check, please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:puedo-pagar-con-tarjeta",
+      "spanish": "¿Puedo pagar con tarjeta?",
+      "english": "Can I pay by card?",
+      "pronunciation": "PWEH-doh pah-GAHR kohn tahr-HEH-tah",
+      "example": "¿[Puedo pagar con tarjeta]?",
+      "example_en": "Can I pay by card?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:en-efectivo",
+      "spanish": "En efectivo",
+      "english": "In cash",
+      "pronunciation": "ehn eh-fehk-TEE-boh",
+      "example": "Voy a pagar [en efectivo].",
+      "example_en": "I'm going to pay in cash.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Efectivo\" = cash."
+    },
+    {
+      "id": "restaurant:la-propina",
+      "spanish": "La propina",
+      "english": "the tip",
+      "pronunciation": "lah proh-PEE-nah",
+      "example": "¿Está incluida [la propina]?",
+      "example_en": "Is the tip included?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-mesero-la-mesera",
+      "spanish": "el mesero / la mesera",
+      "english": "waiter / waitress",
+      "pronunciation": "ehl meh-SEH-roh / lah meh-SEH-rah",
+      "example": "La [mesera] es muy amable.",
+      "example_en": "The waitress is very nice.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In Spain \"camarero\"; in DR also \"camarero\"."
+    },
+    {
+      "id": "restaurant:el-tenedor",
+      "spanish": "el tenedor",
+      "english": "fork",
+      "pronunciation": "ehl teh-neh-DOHR",
+      "example": "¿Me trae un [tenedor]?",
+      "example_en": "Can you bring me a fork?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-cuchillo",
+      "spanish": "el cuchillo",
+      "english": "knife",
+      "pronunciation": "ehl koo-CHEE-yoh",
+      "example": "Este [cuchillo] no corta.",
+      "example_en": "This knife doesn't cut.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-cuchara",
+      "spanish": "la cuchara",
+      "english": "spoon",
+      "pronunciation": "lah koo-CHAH-rah",
+      "example": "Necesito una [cuchara] para la sopa.",
+      "example_en": "I need a spoon for the soup.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-servilleta",
+      "spanish": "la servilleta",
+      "english": "napkin",
+      "pronunciation": "lah sehr-bee-YEH-tah",
+      "example": "¿Hay más [servilletas]?",
+      "example_en": "Are there more napkins?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-vaso",
+      "spanish": "el vaso",
+      "english": "glass (to drink from)",
+      "pronunciation": "ehl BAH-soh",
+      "example": "Un [vaso] de agua, por favor.",
+      "example_en": "A glass of water, please.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "A wine glass is \"una copa\"."
+    },
+    {
+      "id": "restaurant:el-plato",
+      "spanish": "el plato",
+      "english": "plate / dish",
+      "pronunciation": "ehl PLAH-toh",
+      "example": "Este [plato] está buenísimo.",
+      "example_en": "This dish is really good.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-entrada",
+      "spanish": "la entrada",
+      "english": "starter / appetizer",
+      "pronunciation": "lah ehn-TRAH-dah",
+      "example": "De [entrada], unos tostones.",
+      "example_en": "Tostones as a starter.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also means \"entrance\" / \"ticket\"."
+    },
+    {
+      "id": "restaurant:el-plato-fuerte",
+      "spanish": "el plato fuerte",
+      "english": "main course",
+      "pronunciation": "ehl PLAH-toh FWEHR-teh",
+      "example": "De [plato fuerte], pescado frito.",
+      "example_en": "Fried fish as the main course.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-postre",
+      "spanish": "el postre",
+      "english": "dessert",
+      "pronunciation": "ehl POHS-treh",
+      "example": "¿Qué hay de [postre]?",
+      "example_en": "What's for dessert?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-desayuno",
+      "spanish": "el desayuno",
+      "english": "breakfast",
+      "pronunciation": "ehl deh-sah-YOO-noh",
+      "example": "El [desayuno] es a las ocho.",
+      "example_en": "Breakfast is at eight.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-almuerzo",
+      "spanish": "el almuerzo",
+      "english": "lunch",
+      "pronunciation": "ehl ahl-MWEHR-soh",
+      "example": "¿Vamos a [almorzar] juntos?",
+      "example_en": "Shall we have lunch together?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In Mexico \"la comida\" is the main midday meal."
+    },
+    {
+      "id": "restaurant:la-cena",
+      "spanish": "la cena",
+      "english": "dinner",
+      "pronunciation": "lah SEH-nah",
+      "example": "Te invito a [cenar].",
+      "example_en": "I'm taking you to dinner.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-pollo",
+      "spanish": "el pollo",
+      "english": "chicken",
+      "pronunciation": "ehl POH-yoh",
+      "example": "Quiero [pollo] guisado.",
+      "example_en": "I want stewed chicken.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-carne",
+      "spanish": "la carne",
+      "english": "meat / beef",
+      "pronunciation": "lah KAHR-neh",
+      "example": "No como [carne].",
+      "example_en": "I don't eat meat.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-pescado",
+      "spanish": "el pescado",
+      "english": "fish (to eat)",
+      "pronunciation": "ehl pehs-KAH-doh",
+      "example": "El [pescado] está fresco.",
+      "example_en": "The fish is fresh.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "A live fish in the water is \"un pez\"."
+    },
+    {
+      "id": "restaurant:el-arroz",
+      "spanish": "el arroz",
+      "english": "rice",
+      "pronunciation": "ehl ah-RROHS",
+      "example": "[Arroz] con habichuelas.",
+      "example_en": "Rice and beans.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:los-frijoles-las-habichuelas",
+      "spanish": "los frijoles / las habichuelas",
+      "english": "beans",
+      "pronunciation": "lohs free-HOH-lehs / lahs ah-bee-CHWEH-lahs",
+      "example": "Me encantan las [habichuelas].",
+      "example_en": "I love beans.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Frijoles\" in Mexico; \"habichuelas\" in DR and Puerto Rico."
+    },
+    {
+      "id": "restaurant:la-ensalada",
+      "spanish": "la ensalada",
+      "english": "salad",
+      "pronunciation": "lah ehn-sah-LAH-dah",
+      "example": "Una [ensalada] verde, por favor.",
+      "example_en": "A green salad, please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-sopa",
+      "spanish": "la sopa",
+      "english": "soup",
+      "pronunciation": "lah SOH-pah",
+      "example": "La [sopa] está caliente.",
+      "example_en": "The soup is hot.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-pan",
+      "spanish": "el pan",
+      "english": "bread",
+      "pronunciation": "ehl pahn",
+      "example": "¿Hay [pan]?",
+      "example_en": "Is there bread?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-jugo",
+      "spanish": "el jugo",
+      "english": "juice",
+      "pronunciation": "ehl HOO-goh",
+      "example": "Un [jugo] de naranja.",
+      "example_en": "An orange juice.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:el-refresco",
+      "spanish": "el refresco",
+      "english": "soda",
+      "pronunciation": "ehl reh-FREHS-koh",
+      "example": "Un [refresco] sin hielo.",
+      "example_en": "A soda with no ice.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:la-cerveza",
+      "spanish": "la cerveza",
+      "english": "beer",
+      "pronunciation": "lah sehr-BEH-sah",
+      "example": "Dos [cervezas], por favor.",
+      "example_en": "Two beers, please.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:dulce",
+      "spanish": "dulce",
+      "english": "sweet",
+      "pronunciation": "DOOL-seh",
+      "example": "El flan es muy [dulce].",
+      "example_en": "The flan is very sweet.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:salado-salada",
+      "spanish": "salado / salada",
+      "english": "salty",
+      "pronunciation": "sah-LAH-doh / sah-LAH-dah",
+      "example": "La comida está [salada].",
+      "example_en": "The food is salty.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:amargo-amarga",
+      "spanish": "amargo / amarga",
+      "english": "bitter",
+      "pronunciation": "ah-MAHR-goh / ah-MAHR-gah",
+      "example": "El café está [amargo].",
+      "example_en": "The coffee is bitter.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:ácido-ácida",
+      "spanish": "ácido / ácida",
+      "english": "sour",
+      "pronunciation": "AH-see-doh / AH-see-dah",
+      "example": "El limón es [ácido].",
+      "example_en": "Lime is sour.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "restaurant:picante",
+      "spanish": "picante",
+      "english": "spicy",
+      "pronunciation": "pee-KAHN-teh",
+      "example": "¿Es [picante]?",
+      "example_en": "Is it spicy?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Dominican food usually isn't spicy; Mexican food often is."
+    }
+  ]
+}

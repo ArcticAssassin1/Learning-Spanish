@@ -52,6 +52,10 @@ describe('checkAnswer', () => {
     expect(checkAnswer('yo soy', 'soy (ser)', 'es', [], { stripSubject: true }).result).toBe('correct');
     expect(checkAnswer('tú vas', 'vas (ir)', 'es', [], { stripSubject: true }).result).toBe('correct');
   });
+  it('makes the Spanish article optional', () => {
+    expect(checkAnswer('maestro', 'el maestro / la maestra', 'es').result).toBe('correct');
+    expect(checkAnswer('la maestra', 'el maestro / la maestra', 'es').result).toBe('correct');
+  });
   it('uses extra accepted answers', () => {
     expect(checkAnswer('klk', '¿Qué lo qué? (KLK)', 'es', ['klk']).result).toBe('correct');
   });

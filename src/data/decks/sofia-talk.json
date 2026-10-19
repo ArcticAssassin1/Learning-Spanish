@@ -1,0 +1,258 @@
+{
+  "id": "sofia-talk",
+  "name": "Mexican Talk: Free Time",
+  "emoji": "🎤",
+  "description": "Mexican Spanish and slang from the comedy talk you studied (Sofía Niño de Rivera on free time).",
+  "credit": "Words picked from the talk; example sentences are original.",
+  "phase": 3,
+  "order": 114,
+  "cards": [
+    {
+      "id": "sofia-talk:echar-la-hueva",
+      "spanish": "echar la hueva",
+      "english": "to laze around / to do nothing",
+      "pronunciation": "eh-CHAHR lah WEH-bah",
+      "example": "Hoy voy a [echar la hueva] todo el día.",
+      "example_en": "Today I'm going to laze around all day.",
+      "region": "Mexico",
+      "register": "slang"
+    },
+    {
+      "id": "sofia-talk:huevón-huevona",
+      "spanish": "huevón / huevona",
+      "english": "lazy (bum)",
+      "pronunciation": "weh-BOHN / weh-BOH-nah",
+      "example": "¡Levántate, no seas [huevón]!",
+      "example_en": "Get up, don't be so lazy!",
+      "region": "Mexico",
+      "register": "vulgar",
+      "notes": "Rude-ish. In Chile \"weón\" means \"dude\"."
+    },
+    {
+      "id": "sofia-talk:godín",
+      "spanish": "godín",
+      "english": "office drone / 9-to-5 worker",
+      "pronunciation": "goh-DEEN",
+      "example": "Soy un [godín], trabajo de nueve a seis.",
+      "example_en": "I'm a 9-to-5 guy, I work nine to six.",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "Mexican slang for office workers."
+    },
+    {
+      "id": "sofia-talk:no-estaría-padre",
+      "spanish": "no estaría padre",
+      "english": "it wouldn't be cool",
+      "pronunciation": "noh ehs-tah-REE-ah PAH-dreh",
+      "example": "Llegar tarde [no estaría padre].",
+      "example_en": "Being late wouldn't be cool.",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "\"Padre\" = cool in Mexico. \"¡Qué padre!\" = how cool!"
+    },
+    {
+      "id": "sofia-talk:me-costó-trabajo",
+      "spanish": "me costó trabajo",
+      "english": "it was hard for me",
+      "pronunciation": "meh kohs-TOH trah-BAH-hoh",
+      "example": "[Me costó trabajo] aprender a bailar.",
+      "example_en": "Learning to dance was hard for me.",
+      "region": "Mexico",
+      "register": "neutral",
+      "notes": "Literally \"it cost me work\"."
+    },
+    {
+      "id": "sofia-talk:estar-de-malas",
+      "spanish": "estar de malas",
+      "english": "to be in a bad mood",
+      "pronunciation": "ehs-TAHR deh MAH-lahs",
+      "example": "Hoy [estoy de malas].",
+      "example_en": "I'm in a bad mood today.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "sofia-talk:con-prisa",
+      "spanish": "con prisa",
+      "english": "in a hurry",
+      "pronunciation": "kohn PREE-sah",
+      "example": "Siempre andas [con prisa].",
+      "example_en": "You're always in a hurry.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:regañar",
+      "spanish": "regañar",
+      "english": "to scold",
+      "pronunciation": "reh-gah-NYAHR",
+      "example": "Mi mamá me [regañaba] mucho.",
+      "example_en": "My mom used to scold me a lot.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:renunciar",
+      "spanish": "renunciar",
+      "english": "to quit / to resign",
+      "pronunciation": "reh-noon-SYAHR",
+      "example": "Voy a [renunciar] a mi trabajo.",
+      "example_en": "I'm going to quit my job.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:me-di-cuenta",
+      "spanish": "me di cuenta",
+      "english": "I realized",
+      "pronunciation": "meh dee KWEHN-tah",
+      "example": "Ayer [me di cuenta] de algo.",
+      "example_en": "Yesterday I realized something.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:desmoronarse",
+      "spanish": "desmoronarse",
+      "english": "to fall apart / to crumble",
+      "pronunciation": "dehs-moh-roh-NAHR-seh",
+      "example": "Todo se [desmoronó].",
+      "example_en": "Everything fell apart.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:que-nadie-te-pele",
+      "spanish": "que nadie te pele",
+      "english": "that nobody pays attention to you",
+      "pronunciation": "keh NAH-dyeh teh PEH-leh",
+      "example": "Es feo [que nadie te pele].",
+      "example_en": "It sucks when nobody pays attention to you.",
+      "region": "Mexico",
+      "register": "slang",
+      "notes": "\"Pelar\" in Mexico = to pay attention to someone. \"No me pela\" = she ignores me."
+    },
+    {
+      "id": "sofia-talk:un-puente",
+      "spanish": "un puente",
+      "english": "a long weekend",
+      "pronunciation": "oon PWEHN-teh",
+      "example": "Este lunes es [puente].",
+      "example_en": "This Monday is a long weekend.",
+      "region": "Mexico",
+      "register": "casual",
+      "notes": "Literally \"a bridge\": a holiday next to the weekend."
+    },
+    {
+      "id": "sofia-talk:de-chiquito-de-chiquita",
+      "spanish": "de chiquito / de chiquita",
+      "english": "as a little kid",
+      "pronunciation": "deh chee-KEE-toh / deh chee-KEE-tah",
+      "example": "[De chiquito] jugaba béisbol.",
+      "example_en": "As a little kid I played baseball.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "sofia-talk:de-grande",
+      "spanish": "de grande",
+      "english": "as a grown-up / when I grow up",
+      "pronunciation": "deh GRAHN-deh",
+      "example": "¿Qué quieres ser [de grande]?",
+      "example_en": "What do you want to be when you grow up?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "sofia-talk:el-tiempo-libre",
+      "spanish": "el tiempo libre",
+      "english": "free time",
+      "pronunciation": "ehl TYEHM-poh LEE-breh",
+      "example": "No tengo [tiempo libre].",
+      "example_en": "I don't have free time.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:sentirse-culpable",
+      "spanish": "sentirse culpable",
+      "english": "to feel guilty",
+      "pronunciation": "sehn-TEER-seh kool-PAH-bleh",
+      "example": "Me [siento culpable] por no ir.",
+      "example_en": "I feel guilty for not going.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:fracasar",
+      "spanish": "fracasar",
+      "english": "to fail",
+      "pronunciation": "frah-kah-SAHR",
+      "example": "Tengo miedo de [fracasar].",
+      "example_en": "I'm afraid of failing.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:el-escenario",
+      "spanish": "el escenario",
+      "english": "the stage",
+      "pronunciation": "ehl ehs-seh-NAH-ryoh",
+      "example": "Se subió al [escenario].",
+      "example_en": "He got up on stage.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:el-sueldo",
+      "spanish": "el sueldo",
+      "english": "salary / pay",
+      "pronunciation": "ehl SWEHL-doh",
+      "example": "Mi [sueldo] es muy bajo.",
+      "example_en": "My salary is really low.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "sofia-talk:vives-de-eso",
+      "spanish": "¿Vives de eso?",
+      "english": "Do you make a living from that?",
+      "pronunciation": "BEE-behs deh EH-soh",
+      "example": "¿Eres comediante? ¿Y [vives de eso]?",
+      "example_en": "You're a comedian? And you make a living from that?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "sofia-talk:cagado-cagada",
+      "spanish": "cagado / cagada",
+      "english": "hilarious (vulgar)",
+      "pronunciation": "kah-GAH-doh / kah-GAH-dah",
+      "example": "Ese video está bien [cagado].",
+      "example_en": "That video is hilarious.",
+      "region": "Mexico",
+      "register": "vulgar",
+      "notes": "Mexico: \"cagado\" = really funny. From \"cagar\" (to sh*t)."
+    },
+    {
+      "id": "sofia-talk:pinche",
+      "spanish": "pinche",
+      "english": "damn / f***ing",
+      "pronunciation": "PEEN-cheh",
+      "example": "[Pinche] tráfico.",
+      "example_en": "Damn traffic.",
+      "region": "Mexico",
+      "register": "vulgar"
+    },
+    {
+      "id": "sofia-talk:güey",
+      "spanish": "güey",
+      "english": "dude",
+      "pronunciation": "gway",
+      "example": "No hice nada, [güey].",
+      "example_en": "I didn't do anything, dude.",
+      "region": "Mexico",
+      "register": "slang"
+    }
+  ]
+}

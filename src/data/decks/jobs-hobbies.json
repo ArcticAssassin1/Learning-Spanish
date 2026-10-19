@@ -1,0 +1,335 @@
+{
+  "id": "jobs-hobbies",
+  "name": "Jobs & Hobbies",
+  "emoji": "💼",
+  "description": "Talk about what you do for work and what you do for fun.",
+  "phase": 2,
+  "order": 88,
+  "cards": [
+    {
+      "id": "jobs-hobbies:en-qué-trabajas",
+      "spanish": "¿En qué trabajas?",
+      "english": "What's your job?",
+      "pronunciation": "ehn keh trah-BAH-hahs",
+      "example": "¿Y tú, [en qué trabajas]?",
+      "example_en": "And you, what do you do for work?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also: ¿A qué te dedicas?"
+    },
+    {
+      "id": "jobs-hobbies:trabajo-en",
+      "spanish": "Trabajo en...",
+      "english": "I work at...",
+      "pronunciation": "trah-BAH-hoh ehn",
+      "example": "[Trabajo en] un hospital.",
+      "example_en": "I work at a hospital.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:soy",
+      "spanish": "Soy...",
+      "english": "I'm a... (job)",
+      "pronunciation": "soy",
+      "example": "[Soy] enfermero.",
+      "example_en": "I'm a nurse.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "No \"un / una\" before a job: \"soy maestro\", not \"soy un maestro\"."
+    },
+    {
+      "id": "jobs-hobbies:el-maestro-la-maestra",
+      "spanish": "el maestro / la maestra",
+      "english": "teacher",
+      "pronunciation": "ehl mah-EHS-troh / lah mah-EHS-trah",
+      "example": "Ella es [maestra] de inglés.",
+      "example_en": "She's an English teacher.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-médico-la-médica",
+      "spanish": "el médico / la médica",
+      "english": "doctor",
+      "pronunciation": "ehl MEH-dee-koh / lah MEH-dee-kah",
+      "example": "Mi hermano es [médico].",
+      "example_en": "My brother is a doctor.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also \"el doctor / la doctora\"."
+    },
+    {
+      "id": "jobs-hobbies:el-enfermero-la-enfermera",
+      "spanish": "el enfermero / la enfermera",
+      "english": "nurse",
+      "pronunciation": "ehl ehn-fehr-MEH-roh / lah ehn-fehr-MEH-rah",
+      "example": "Mi mamá es [enfermera].",
+      "example_en": "My mom is a nurse.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-abogado-la-abogada",
+      "spanish": "el abogado / la abogada",
+      "english": "lawyer",
+      "pronunciation": "ehl ah-boh-GAH-doh / lah ah-boh-GAH-dah",
+      "example": "Necesito un [abogado].",
+      "example_en": "I need a lawyer.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-ingeniero-la-ingeniera",
+      "spanish": "el ingeniero / la ingeniera",
+      "english": "engineer",
+      "pronunciation": "ehl een-heh-NYEH-roh / lah een-heh-NYEH-rah",
+      "example": "Él es [ingeniero].",
+      "example_en": "He's an engineer.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-contador-la-contadora",
+      "spanish": "el contador / la contadora",
+      "english": "accountant",
+      "pronunciation": "ehl kohn-tah-DOHR / lah kohn-tah-DOH-rah",
+      "example": "Mi [contador] hace mis impuestos.",
+      "example_en": "My accountant does my taxes.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-gerente-la-gerente",
+      "spanish": "el gerente / la gerente",
+      "english": "manager",
+      "pronunciation": "ehl heh-REHN-teh / lah heh-REHN-teh",
+      "example": "Quiero hablar con el [gerente].",
+      "example_en": "I want to talk to the manager.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-cocinero-la-cocinera",
+      "spanish": "el cocinero / la cocinera",
+      "english": "cook",
+      "pronunciation": "ehl koh-see-NEH-roh / lah koh-see-NEH-rah",
+      "example": "Mi abuela es la mejor [cocinera].",
+      "example_en": "My grandma is the best cook.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-mecánico",
+      "spanish": "el mecánico",
+      "english": "mechanic",
+      "pronunciation": "ehl meh-KAH-nee-koh",
+      "example": "El [mecánico] arregló mi carro.",
+      "example_en": "The mechanic fixed my car.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-chofer",
+      "spanish": "el chofer",
+      "english": "driver",
+      "pronunciation": "ehl choh-FEHR",
+      "example": "Soy [chofer] de Uber.",
+      "example_en": "I'm an Uber driver.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Also \"el conductor\"."
+    },
+    {
+      "id": "jobs-hobbies:el-agente-de-ventas",
+      "spanish": "el agente de ventas",
+      "english": "sales agent",
+      "pronunciation": "ehl ah-HEHN-teh deh BEHN-tahs",
+      "example": "Trabajo como [agente de ventas].",
+      "example_en": "I work as a sales agent.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-desarrollador-de-software",
+      "spanish": "el desarrollador de software",
+      "english": "software developer",
+      "pronunciation": "ehl deh-sah-rroh-yah-DOHR deh sohft-WAH-reh",
+      "example": "Ella es [desarrolladora de software].",
+      "example_en": "She's a software developer.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-la-estudiante",
+      "spanish": "el / la estudiante",
+      "english": "student",
+      "pronunciation": "ehl / lah ehs-too-DYAHN-teh",
+      "example": "Todavía soy [estudiante].",
+      "example_en": "I'm still a student.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:el-trabajo",
+      "spanish": "el trabajo",
+      "english": "job / work",
+      "pronunciation": "ehl trah-BAH-hoh",
+      "example": "Me gusta mi [trabajo].",
+      "example_en": "I like my job.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:qué-haces-en-tu-tiempo-libre",
+      "spanish": "¿Qué haces en tu tiempo libre?",
+      "english": "What do you do in your free time?",
+      "pronunciation": "keh AH-sehs ehn too TYEHM-poh LEE-breh",
+      "example": "¿[Qué haces en tu tiempo libre]?",
+      "example_en": "What do you do in your free time?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "jobs-hobbies:mi-pasatiempo-favorito",
+      "spanish": "Mi pasatiempo favorito",
+      "english": "My favorite hobby",
+      "pronunciation": "mee pah-sah-TYEHM-poh fah-boh-REE-toh",
+      "example": "Bailar es [mi pasatiempo favorito].",
+      "example_en": "Dancing is my favorite hobby.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:ir-al-gimnasio",
+      "spanish": "ir al gimnasio",
+      "english": "to go to the gym",
+      "pronunciation": "eer ahl heem-NAH-syoh",
+      "example": "Me gusta [ir al gimnasio].",
+      "example_en": "I like going to the gym.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:entrenar",
+      "spanish": "entrenar",
+      "english": "to work out / to train",
+      "pronunciation": "ehn-treh-NAHR",
+      "example": "Voy a [entrenar] después del trabajo.",
+      "example_en": "I'm going to work out after work.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "More natural than \"hacer ejercicio\" for the gym."
+    },
+    {
+      "id": "jobs-hobbies:salir-a-correr",
+      "spanish": "salir a correr",
+      "english": "to go for a run",
+      "pronunciation": "sah-LEER ah koh-RREHR",
+      "example": "Los domingos [salgo a correr].",
+      "example_en": "On Sundays I go for a run.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:ir-a-nadar",
+      "spanish": "ir a nadar",
+      "english": "to go swimming",
+      "pronunciation": "eer ah nah-DAHR",
+      "example": "Vamos a [ir a nadar] a la playa.",
+      "example_en": "Let's go swimming at the beach.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:bailar",
+      "spanish": "bailar",
+      "english": "to dance",
+      "pronunciation": "bye-LAHR",
+      "example": "Me encanta [bailar] bachata.",
+      "example_en": "I love dancing bachata.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:ir-al-cine",
+      "spanish": "ir al cine",
+      "english": "to go to the movies",
+      "pronunciation": "eer ahl SEE-neh",
+      "example": "¿Quieres [ir al cine]?",
+      "example_en": "Do you want to go to the movies?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:pasear-al-perro",
+      "spanish": "pasear al perro",
+      "english": "to walk the dog",
+      "pronunciation": "pah-seh-AHR ahl PEH-rroh",
+      "example": "Voy a [pasear al perro].",
+      "example_en": "I'm going to walk the dog.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:jugar-videojuegos",
+      "spanish": "jugar videojuegos",
+      "english": "to play video games",
+      "pronunciation": "hoo-GAHR bee-deh-oh-HWEH-gohs",
+      "example": "Me gusta [jugar videojuegos].",
+      "example_en": "I like playing video games.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:cocinar",
+      "spanish": "cocinar",
+      "english": "to cook",
+      "pronunciation": "koh-see-NAHR",
+      "example": "Me gusta [cocinar] los fines de semana.",
+      "example_en": "I like to cook on weekends.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:escuchar-música",
+      "spanish": "escuchar música",
+      "english": "to listen to music",
+      "pronunciation": "ehs-koo-CHAHR MOO-see-kah",
+      "example": "Siempre [escucho música] en el carro.",
+      "example_en": "I always listen to music in the car.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:hacer-yoga",
+      "spanish": "hacer yoga",
+      "english": "to do yoga",
+      "pronunciation": "ah-SEHR YOH-gah",
+      "example": "Ella [hace yoga] todas las mañanas.",
+      "example_en": "She does yoga every morning.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:aprender-otro-idioma",
+      "spanish": "aprender otro idioma",
+      "english": "to learn another language",
+      "pronunciation": "ah-prehn-DEHR OH-troh ee-DYOH-mah",
+      "example": "Me gusta [aprender otro idioma].",
+      "example_en": "I like learning another language.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "jobs-hobbies:ir-a-la-playa",
+      "spanish": "ir a la playa",
+      "english": "to go to the beach",
+      "pronunciation": "eer ah lah PLAH-yah",
+      "example": "Los sábados vamos a [ir a la playa].",
+      "example_en": "On Saturdays we're going to the beach.",
+      "region": "General",
+      "register": "neutral"
+    }
+  ]
+}

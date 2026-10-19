@@ -1,0 +1,491 @@
+{
+  "id": "numbers",
+  "name": "Numbers",
+  "emoji": "🔢",
+  "description": "0–100, the patterns (veinti-, treinta y...), and first to tenth.",
+  "phase": 1,
+  "order": 6,
+  "cards": [
+    {
+      "id": "numbers:cero",
+      "spanish": "cero",
+      "english": "0 / zero",
+      "pronunciation": "SEH-roh",
+      "example": "Cuento hasta [cero].",
+      "example_en": "I count to 0.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:uno",
+      "spanish": "uno",
+      "english": "1 / one",
+      "pronunciation": "OO-noh",
+      "example": "Cuento hasta [uno].",
+      "example_en": "I count to 1.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:dos",
+      "spanish": "dos",
+      "english": "2 / two",
+      "pronunciation": "dohs",
+      "example": "Cuento hasta [dos].",
+      "example_en": "I count to 2.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:tres",
+      "spanish": "tres",
+      "english": "3 / three",
+      "pronunciation": "trehs",
+      "example": "Cuento hasta [tres].",
+      "example_en": "I count to 3.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cuatro",
+      "spanish": "cuatro",
+      "english": "4 / four",
+      "pronunciation": "KWAH-troh",
+      "example": "Cuento hasta [cuatro].",
+      "example_en": "I count to 4.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cinco",
+      "spanish": "cinco",
+      "english": "5 / five",
+      "pronunciation": "SEEN-koh",
+      "example": "Cuento hasta [cinco].",
+      "example_en": "I count to 5.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:seis",
+      "spanish": "seis",
+      "english": "6 / six",
+      "pronunciation": "says",
+      "example": "Cuento hasta [seis].",
+      "example_en": "I count to 6.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:siete",
+      "spanish": "siete",
+      "english": "7 / seven",
+      "pronunciation": "SYEH-teh",
+      "example": "Cuento hasta [siete].",
+      "example_en": "I count to 7.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:ocho",
+      "spanish": "ocho",
+      "english": "8 / eight",
+      "pronunciation": "OH-choh",
+      "example": "Cuento hasta [ocho].",
+      "example_en": "I count to 8.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:nueve",
+      "spanish": "nueve",
+      "english": "9 / nine",
+      "pronunciation": "NWEH-beh",
+      "example": "Cuento hasta [nueve].",
+      "example_en": "I count to 9.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:diez",
+      "spanish": "diez",
+      "english": "10 / ten",
+      "pronunciation": "dyehs",
+      "example": "Cuento hasta [diez].",
+      "example_en": "I count to 10.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:once",
+      "spanish": "once",
+      "english": "11 / eleven",
+      "pronunciation": "OHN-seh",
+      "example": "Cuento hasta [once].",
+      "example_en": "I count to 11.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:doce",
+      "spanish": "doce",
+      "english": "12 / twelve",
+      "pronunciation": "DOH-seh",
+      "example": "Cuento hasta [doce].",
+      "example_en": "I count to 12.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:trece",
+      "spanish": "trece",
+      "english": "13 / thirteen",
+      "pronunciation": "TREH-seh",
+      "example": "Cuento hasta [trece].",
+      "example_en": "I count to 13.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:catorce",
+      "spanish": "catorce",
+      "english": "14 / fourteen",
+      "pronunciation": "kah-TOHR-seh",
+      "example": "Cuento hasta [catorce].",
+      "example_en": "I count to 14.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:quince",
+      "spanish": "quince",
+      "english": "15 / fifteen",
+      "pronunciation": "KEEN-seh",
+      "example": "Cuento hasta [quince].",
+      "example_en": "I count to 15.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:dieciséis",
+      "spanish": "dieciséis",
+      "english": "16 / sixteen",
+      "pronunciation": "dyeh-see-SAYS",
+      "example": "Cuento hasta [dieciséis].",
+      "example_en": "I count to 16.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "16–19 are one word: dieci + number."
+    },
+    {
+      "id": "numbers:diecisiete",
+      "spanish": "diecisiete",
+      "english": "17 / seventeen",
+      "pronunciation": "dyeh-see-SYEH-teh",
+      "example": "Cuento hasta [diecisiete].",
+      "example_en": "I count to 17.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:dieciocho",
+      "spanish": "dieciocho",
+      "english": "18 / eighteen",
+      "pronunciation": "dyeh-SYOH-choh",
+      "example": "Cuento hasta [dieciocho].",
+      "example_en": "I count to 18.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:diecinueve",
+      "spanish": "diecinueve",
+      "english": "19 / nineteen",
+      "pronunciation": "dyeh-see-NWEH-beh",
+      "example": "Cuento hasta [diecinueve].",
+      "example_en": "I count to 19.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:veinte",
+      "spanish": "veinte",
+      "english": "20 / twenty",
+      "pronunciation": "BAYN-teh",
+      "example": "Cuento hasta [veinte].",
+      "example_en": "I count to 20.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:veintiuno",
+      "spanish": "veintiuno",
+      "english": "21 / twenty-one",
+      "pronunciation": "bayn-TYOO-noh",
+      "example": "Cuento hasta [veintiuno].",
+      "example_en": "I count to 21.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "21–29 are one word: veinti + number."
+    },
+    {
+      "id": "numbers:veintidós",
+      "spanish": "veintidós",
+      "english": "22 / twenty-two",
+      "pronunciation": "bayn-tee-DOHS",
+      "example": "Cuento hasta [veintidós].",
+      "example_en": "I count to 22.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Accent on dós (and trés, séis in veintitrés, veintiséis)."
+    },
+    {
+      "id": "numbers:veintiocho",
+      "spanish": "veintiocho",
+      "english": "28 / twenty-eight",
+      "pronunciation": "bayn-TYOH-choh",
+      "example": "Cuento hasta [veintiocho].",
+      "example_en": "I count to 28.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:treinta",
+      "spanish": "treinta",
+      "english": "30 / thirty",
+      "pronunciation": "TRAYN-tah",
+      "example": "Cuento hasta [treinta].",
+      "example_en": "I count to 30.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:treinta-y-uno",
+      "spanish": "treinta y uno",
+      "english": "31 / thirty-one",
+      "pronunciation": "TRAYN-tah ee OO-noh",
+      "example": "Cuento hasta [treinta y uno].",
+      "example_en": "I count to 31.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "31–99: tens + \"y\" + number, three words."
+    },
+    {
+      "id": "numbers:cuarenta",
+      "spanish": "cuarenta",
+      "english": "40 / forty",
+      "pronunciation": "kwah-REHN-tah",
+      "example": "Cuento hasta [cuarenta].",
+      "example_en": "I count to 40.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cuarenta-y-cinco",
+      "spanish": "cuarenta y cinco",
+      "english": "45 / forty-five",
+      "pronunciation": "kwah-REHN-tah ee SEEN-koh",
+      "example": "Cuento hasta [cuarenta y cinco].",
+      "example_en": "I count to 45.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cincuenta",
+      "spanish": "cincuenta",
+      "english": "50 / fifty",
+      "pronunciation": "seen-KWEHN-tah",
+      "example": "Cuento hasta [cincuenta].",
+      "example_en": "I count to 50.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:sesenta",
+      "spanish": "sesenta",
+      "english": "60 / sixty",
+      "pronunciation": "seh-SEHN-tah",
+      "example": "Cuento hasta [sesenta].",
+      "example_en": "I count to 60.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:setenta",
+      "spanish": "setenta",
+      "english": "70 / seventy",
+      "pronunciation": "seh-TEHN-tah",
+      "example": "Cuento hasta [setenta].",
+      "example_en": "I count to 70.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:ochenta",
+      "spanish": "ochenta",
+      "english": "80 / eighty",
+      "pronunciation": "oh-CHEHN-tah",
+      "example": "Cuento hasta [ochenta].",
+      "example_en": "I count to 80.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:noventa",
+      "spanish": "noventa",
+      "english": "90 / ninety",
+      "pronunciation": "noh-BEHN-tah",
+      "example": "Cuento hasta [noventa].",
+      "example_en": "I count to 90.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:noventa-y-nueve",
+      "spanish": "noventa y nueve",
+      "english": "99 / ninety-nine",
+      "pronunciation": "noh-BEHN-tah ee NWEH-beh",
+      "example": "Cuento hasta [noventa y nueve].",
+      "example_en": "I count to 99.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cien",
+      "spanish": "cien",
+      "english": "100 / one hundred",
+      "pronunciation": "syehn",
+      "example": "Cuento hasta [cien].",
+      "example_en": "I count to 100.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Exactly 100 is \"cien\". 101+ is \"ciento uno\"."
+    },
+    {
+      "id": "numbers:primero-primera",
+      "spanish": "primero / primera",
+      "english": "first",
+      "pronunciation": "pree-MEH-roh / pree-MEH-rah",
+      "example": "Es mi [primera] vez en Ybor.",
+      "example_en": "It's my first time in Ybor.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Before a masculine noun: \"primer\" (mi primer día)."
+    },
+    {
+      "id": "numbers:segundo-segunda",
+      "spanish": "segundo / segunda",
+      "english": "second",
+      "pronunciation": "seh-GOON-doh / seh-GOON-dah",
+      "example": "Vivo en el [segundo] piso.",
+      "example_en": "I live on the second floor.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:tercero-tercera",
+      "spanish": "tercero / tercera",
+      "english": "third",
+      "pronunciation": "tehr-SEH-roh / tehr-SEH-rah",
+      "example": "Es la [tercera] vez que te llamo.",
+      "example_en": "It's the third time I've called you.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Before a masculine noun: \"tercer\"."
+    },
+    {
+      "id": "numbers:cuarto-cuarta",
+      "spanish": "cuarto / cuarta",
+      "english": "fourth",
+      "pronunciation": "KWAHR-toh / KWAHR-tah",
+      "example": "Quedé en [cuarto] lugar.",
+      "example_en": "I came in fourth place.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "\"Cuarto\" also means \"room\" and \"quarter\"."
+    },
+    {
+      "id": "numbers:quinto-quinta",
+      "spanish": "quinto / quinta",
+      "english": "fifth",
+      "pronunciation": "KEEN-toh / KEEN-tah",
+      "example": "Es el [quinto] día.",
+      "example_en": "It's the fifth day.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:sexto-sexta",
+      "spanish": "sexto / sexta",
+      "english": "sixth",
+      "pronunciation": "SEHKS-toh / SEHKS-tah",
+      "example": "Vive en el [sexto] piso.",
+      "example_en": "She lives on the sixth floor.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:séptimo-séptima",
+      "spanish": "séptimo / séptima",
+      "english": "seventh",
+      "pronunciation": "SEHP-tee-moh / SEHP-tee-mah",
+      "example": "Vamos a la [Séptima] Avenida.",
+      "example_en": "We're going to Seventh Avenue.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Seventh Avenue in Ybor = \"la Séptima\"."
+    },
+    {
+      "id": "numbers:octavo-octava",
+      "spanish": "octavo / octava",
+      "english": "eighth",
+      "pronunciation": "ohk-TAH-boh / ohk-TAH-bah",
+      "example": "Es el [octavo] mes.",
+      "example_en": "It's the eighth month.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:noveno-novena",
+      "spanish": "noveno / novena",
+      "english": "ninth",
+      "pronunciation": "noh-BEH-noh / noh-BEH-nah",
+      "example": "Está en [noveno] grado.",
+      "example_en": "He's in ninth grade.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:décimo-décima",
+      "spanish": "décimo / décima",
+      "english": "tenth",
+      "pronunciation": "DEH-see-moh / DEH-see-mah",
+      "example": "Es la [décima] vez.",
+      "example_en": "It's the tenth time.",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "numbers:cuántos-años-tienes",
+      "spanish": "¿Cuántos años tienes?",
+      "english": "How old are you?",
+      "pronunciation": "KWAHN-tohs AH-nyohs TYEH-nehs",
+      "example": "¿[Cuántos años] tienes?",
+      "example_en": "How old are you?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Age uses TENER: \"Tengo 28 años\", never \"soy 28\"."
+    },
+    {
+      "id": "numbers:cuál-es-tu-número",
+      "spanish": "¿Cuál es tu número?",
+      "english": "What's your number?",
+      "pronunciation": "kwahl ehs too NOO-meh-roh",
+      "example": "¿[Cuál es tu número] de teléfono?",
+      "example_en": "What's your phone number?",
+      "region": "General",
+      "register": "neutral",
+      "notes": "Phone numbers are usually read in pairs: 55-54-23 = cincuenta y cinco, cincuenta y cuatro, veintitrés."
+    }
+  ]
+}

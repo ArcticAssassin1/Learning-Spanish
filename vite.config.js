@@ -31,6 +31,10 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    // All decks are bundled so the app works offline; ~150 KB gzipped is fine.
+    chunkSizeWarningLimit: 800,
+  },
   test: {
     include: ['src/**/*.test.js'],
   },
