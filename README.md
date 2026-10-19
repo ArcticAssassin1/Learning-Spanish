@@ -4,7 +4,7 @@ A personal Spanish trainer for your phone: flashcards, typed quizzes, spaced rep
 pronunciation guides with audio, and real street Spanish (clearly labeled).
 It installs on your home screen and works offline. There's no account; progress is saved on your phone.
 
-The full plan is in [BRIEF.md](BRIEF.md).
+Built for one learner: an English speaker focused on Caribbean (especially Dominican) Spanish.
 
 ## What's in it
 
