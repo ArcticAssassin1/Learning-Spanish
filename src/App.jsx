@@ -9,6 +9,7 @@ import ProgressView from './components/ProgressView.jsx';
 import Settings from './components/Settings.jsx';
 import Practice from './components/Practice.jsx';
 import Dialogue from './components/Dialogue.jsx';
+import FixSentence from './components/FixSentence.jsx';
 import { drillCards } from './lib/conjugation.js';
 
 const TABS = [
@@ -95,7 +96,15 @@ export default function App() {
       />
     );
   } else if (screen.name === 'practice') {
-    content = <Practice startConjugation={startConjugation} openDialogue={(id) => push({ name: 'dialogue', id })} />;
+    content = (
+      <Practice
+        startConjugation={startConjugation}
+        openDialogue={(id) => push({ name: 'dialogue', id })}
+        openFix={() => push({ name: 'fix' })}
+      />
+    );
+  } else if (screen.name === 'fix') {
+    content = <FixSentence onBack={back} openSettings={() => switchTab('settings')} />;
   } else if (screen.name === 'dialogue') {
     content = <Dialogue id={screen.id} onBack={back} />;
   } else if (screen.name === 'progress') {
@@ -107,7 +116,7 @@ export default function App() {
   }
 
   const showTabs = screen.name !== 'session';
-  const activeTab = screen.name === 'deck' ? 'home' : screen.name === 'dialogue' ? 'practice' : screen.name;
+  const activeTab = screen.name === 'deck' ? 'home' : screen.name === 'dialogue' || screen.name === 'fix' ? 'practice' : screen.name;
 
   return (
     <div className={'app' + (showTabs ? ' has-tabs' : '')}>

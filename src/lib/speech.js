@@ -80,6 +80,10 @@ export function listen({ onResult, onEnd, lang = 'es-US' }) {
   r.onresult = (e) => onResult([...e.results[0]].map((a) => a.transcript));
   r.onerror = () => onEnd?.();
   r.onend = () => onEnd?.();
-  r.start();
+  try {
+    r.start();
+  } catch {
+    onEnd?.(); // e.g. microphone blocked or already listening
+  }
   return () => r.abort();
 }

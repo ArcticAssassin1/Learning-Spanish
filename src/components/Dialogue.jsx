@@ -124,7 +124,7 @@ function PlayMode({ d }) {
       {done ? (
         <div className="panel">
           <div className="verdict">🎉 ¡Muy bien! Conversation complete.</div>
-          <button className="btn btn-primary btn-wide" onClick={() => { setI(0); setRevealed(false); }}>Again</button>
+          <button className="btn btn-primary btn-wide" onClick={() => { setI(0); setRevealed(false); setHeard(null); }}>Again</button>
         </div>
       ) : yourTurn && !revealed ? (
         <div className="row">

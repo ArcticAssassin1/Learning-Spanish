@@ -35,6 +35,12 @@ a region and a register label.
 
 On Spanish answers there's also a **🎤 button**: say the answer out loud instead of typing it.
 
+**✍️ Fix my sentence** (Practice tab): write a sentence in Spanish and Claude sends back
+❌ your version, ✅ the corrected version with pronunciation and 🔊, the English translation, a
+**You wrote / Correct / Why** table, how a Caribbean speaker would casually say it, and a tip.
+It knows your usual mistakes (sí/si, verte, conmigo/contigo, "quiero voy"...). Your last 10 fixes
+are saved. Needs your own Claude API key (Settings → Claude API key), about a cent per sentence.
+
 **🏋️ Practice tab:**
 - **Conjugation drill**: pick verbs (your 20, top 25/50/150, irregular) and tenses (present, preterite,
   imperfect, future, conditional, perfect, subjunctive), then type the right form. Covers 150 verbs.
@@ -73,6 +79,17 @@ The app is hosted free on GitHub Pages. One-time setup:
 From then on it opens like a normal app, works with no signal, and updates itself when new decks are pushed.
 
 > GitHub Pages is free for public repos. For a private repo it needs a paid GitHub plan.
+
+## Privacy & security
+
+- No account and no server: your progress, settings and API key stay in your phone's browser storage.
+- The API key is only ever sent to Anthropic (`api.anthropic.com`), when you tap **Fix it**.
+  Use a separate key just for this app with a low monthly spend limit, and remove it in Settings
+  if you lose your phone. Anyone who can unlock your phone and open the app could use the key.
+- A Content Security Policy only lets the app run its own code and only talk to Anthropic.
+- Nothing from Claude is ever run as code or HTML; it's shown as plain text.
+- The deploy workflow pins every GitHub Action to an exact commit and has minimal permissions.
+- The repository is public: don't commit API keys or anything private to it.
 
 ## Run it on a computer (optional)
 
@@ -134,5 +151,5 @@ under that license; see `src/data/CONJUGATIONS-LICENSE.txt`.
 
 ## Coming next (from the brief)
 
-"Fix my sentence" and Quick translate (Claude API) · Quizlet export/import ·
+Quick translate (Claude API) · Quizlet export/import ·
 streak reminders.

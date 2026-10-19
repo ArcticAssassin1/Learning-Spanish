@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../lib/store.jsx';
 import { spanishVoices, onVoicesChanged, speak, speechSupported } from '../lib/speech.js';
+import { load, save, remove } from '../lib/storage.js';
+import { looksLikeApiKey } from '../lib/fixSentence.js';
 
 function Toggle({ checked, onChange, label, hint }) {
   return (
@@ -82,6 +84,8 @@ export default function Settings() {
         )}
       </section>
 
+      <ApiKeyPanel />
+
       <section className="panel">
         <div className="field-label">Install on your phone</div>
         <p className="small">
@@ -97,5 +101,65 @@ export default function Settings() {
         <button className="btn btn-danger" onClick={reset}>Reset all progress</button>
       </section>
     </div>
+  );
+}
+
+function ApiKeyPanel() {
+  const [saved, setSaved] = useState(() => load('apiKey', ''));
+  const [draft, setDraft] = useState('');
+  const [msg, setMsg] = useState('');
+
+  const store = (e) => {
+    e.preventDefault();
+    const key = draft.trim();
+    if (!looksLikeApiKey(key)) {
+      setMsg('That doesn\'t look like a Claude API key (it starts with "sk-ant-").');
+      return;
+    }
+    save('apiKey', key);
+    setSaved(key);
+    setDraft('');
+    setMsg('Saved on this phone.');
+  };
+  const clear = () => {
+    if (!window.confirm('Remove the API key from this phone?')) return;
+    remove('apiKey');
+    remove('fixHistory');
+    setSaved('');
+    setMsg('Removed.');
+  };
+
+  return (
+    <section className="panel">
+      <div className="field-label">Claude API key (for Fix my sentence)</div>
+      {saved ? (
+        <>
+          <p className="small">Key saved: <code>sk-ant-…{saved.slice(-4)}</code></p>
+          <button className="btn btn-danger" onClick={clear}>Remove key</button>
+        </>
+      ) : (
+        <form onSubmit={store} className="answer-form">
+          <input
+            type="password"
+            className="answer-input"
+            value={draft}
+            onChange={(e) => setDraft(e.target.value)}
+            placeholder="sk-ant-…"
+            autoComplete="off"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
+            aria-label="Claude API key"
+          />
+          <button type="submit" className="btn btn-primary" disabled={!draft.trim()}>Save key</button>
+        </form>
+      )}
+      {msg && <p className="small" role="status">{msg}</p>}
+      <p className="muted small">
+        Get a key at console.anthropic.com → API keys. Make a separate key just for this app and set a
+        low monthly spending limit. The key stays on this phone only and is sent only to Anthropic.
+        Each check costs roughly a cent.
+      </p>
+    </section>
   );
 }

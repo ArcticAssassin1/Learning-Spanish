@@ -6,7 +6,7 @@ import LIBRARY from '../data/library.json';
 
 const SIZES = [[10, '10'], [15, '15'], [25, '25']];
 
-export default function Practice({ startConjugation, openDialogue }) {
+export default function Practice({ startConjugation, openDialogue, openFix }) {
   const { settings, updateSettings } = useStore();
   const [loading, setLoading] = useState(false);
   const tenses = settings.conjTenses;
@@ -28,6 +28,11 @@ export default function Practice({ startConjugation, openDialogue }) {
   return (
     <div className="page">
       <header className="page-head"><h1>🏋️ Practice</h1></header>
+
+      <button className="review-btn" onClick={openFix}>
+        <span className="review-title">✍️ Fix my sentence</span>
+        <span className="review-sub">Write in Spanish, Claude corrects it and explains why</span>
+      </button>
 
       <section className="panel">
         <h2 className="panel-title">🔤 Conjugation drill</h2>

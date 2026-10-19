@@ -18,10 +18,28 @@ export const DEFAULT_SETTINGS = {
 
 const StoreContext = createContext(null);
 
+const isPlainObject = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
+
+/** Keep only saved settings whose type matches the default, so bad stored data can't crash the app. */
+export function sanitizeSettings(saved) {
+  const out = { ...DEFAULT_SETTINGS };
+  if (!isPlainObject(saved)) return out;
+  for (const [k, def] of Object.entries(DEFAULT_SETTINGS)) {
+    const v = saved[k];
+    if (Array.isArray(def) ? Array.isArray(v) && v.every((x) => typeof x === 'string') : typeof v === typeof def) out[k] = v;
+  }
+  return out;
+}
+
+function loadObject(key) {
+  const v = load(key, {});
+  return isPlainObject(v) ? v : {};
+}
+
 export function StoreProvider({ children }) {
-  const [settings, setSettings] = useState(() => ({ ...DEFAULT_SETTINGS, ...load('settings', {}) }));
-  const [progress, setProgress] = useState(() => load('progress', {}));
-  const [activity, setActivity] = useState(() => load('activity', {}));
+  const [settings, setSettings] = useState(() => sanitizeSettings(load('settings', {})));
+  const [progress, setProgress] = useState(() => loadObject('progress'));
+  const [activity, setActivity] = useState(() => loadObject('activity'));
 
   useEffect(() => save('settings', settings), [settings]);
   useEffect(() => save('progress', progress), [progress]);
