@@ -1558,3 +1558,126 @@ code {
   min-height: 36px;
   font-size: 1rem;
 }
+
+/* ---------- Learn path ---------- */
+
+.units {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.unit {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.unit.current {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.unit-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  min-height: 80px;
+  border: none;
+  background: transparent;
+  text-align: left;
+}
+
+.unit-emoji {
+  font-size: 1.8rem;
+  width: 40px;
+  text-align: center;
+}
+
+.unit-num {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+
+.unit.complete .unit-num {
+  color: var(--good);
+}
+
+.chev {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.unit-body {
+  padding: 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.unit-goal {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.lessons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.lesson {
+  min-height: 64px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px;
+}
+
+.lesson-num {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.lesson-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.lesson.done {
+  border-color: var(--good);
+  background: var(--good-soft);
+}
+
+.lesson.done .lesson-num {
+  color: var(--good);
+}
+
+.lesson.next {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
+.lesson.next .lesson-label {
+  color: var(--accent-text);
+}
+
+.tabs button {
+  font-size: 0.72rem;
+}

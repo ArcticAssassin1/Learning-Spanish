@@ -1,0 +1,277 @@
+{
+  "id": "fillers",
+  "name": "Fillers & Reactions",
+  "emoji": "💬",
+  "description": "The little words natives drop into every sentence. Using these is what makes you sound real.",
+  "phase": 2,
+  "order": 74,
+  "cards": [
+    {
+      "id": "fillers:pues",
+      "spanish": "Pues",
+      "english": "Well / So",
+      "pronunciation": "pwehs",
+      "example": "[Pues], no sé qué decirte.",
+      "example_en": "Well, I don't know what to tell you.",
+      "region": "General",
+      "register": "casual",
+      "notes": "In the Caribbean often shortened to \"pue\"."
+    },
+    {
+      "id": "fillers:bueno",
+      "spanish": "Bueno",
+      "english": "Okay / Well",
+      "pronunciation": "BWEH-noh",
+      "example": "[Bueno], me voy.",
+      "example_en": "Okay, I'm leaving.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Used to start, end or change a conversation."
+    },
+    {
+      "id": "fillers:o-sea",
+      "spanish": "O sea",
+      "english": "I mean / Like / So",
+      "pronunciation": "oh SEH-ah",
+      "example": "Es lejos. [O sea], como una hora.",
+      "example_en": "It's far. I mean, like an hour.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:este",
+      "spanish": "Este...",
+      "english": "Um... / Uh...",
+      "pronunciation": "EHS-teh",
+      "example": "[Este...] ¿cómo se dice?",
+      "example_en": "Um... how do you say it?",
+      "region": "General",
+      "register": "casual",
+      "notes": "The Spanish \"um\". Stretch it: \"esteee...\""
+    },
+    {
+      "id": "fillers:ya",
+      "spanish": "Ya",
+      "english": "Already / Okay / Enough / Got it",
+      "pronunciation": "yah",
+      "example": "—Llego en cinco. —[Ya], te espero.",
+      "example_en": "\"Be there in five.\" \"Okay, I'll wait.\"",
+      "region": "General",
+      "register": "casual",
+      "notes": "Tiny word, many jobs: \"ya llegué\" (I'm here), \"¡ya!\" (enough!)."
+    },
+    {
+      "id": "fillers:claro",
+      "spanish": "Claro",
+      "english": "Of course / Sure",
+      "pronunciation": "KLAH-roh",
+      "example": "—¿Me ayudas? —[Claro].",
+      "example_en": "\"Will you help me?\" \"Of course.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:exacto",
+      "spanish": "Exacto",
+      "english": "Exactly",
+      "pronunciation": "ehk-SAHK-toh",
+      "example": "—¿Lo hacemos mañana? —[Exacto].",
+      "example_en": "\"We do it tomorrow?\" \"Exactly.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:verdad",
+      "spanish": "¿Verdad?",
+      "english": "Right?",
+      "pronunciation": "behr-DAHD",
+      "example": "Hace calor, ¿[verdad]?",
+      "example_en": "It's hot, right?",
+      "region": "General",
+      "register": "casual",
+      "notes": "Also \"¿no?\" at the end: \"Es bonito, ¿no?\""
+    },
+    {
+      "id": "fillers:qué-bueno",
+      "spanish": "¡Qué bueno!",
+      "english": "That's great!",
+      "pronunciation": "keh BWEH-noh",
+      "example": "¿Conseguiste el trabajo? ¡[Qué bueno]!",
+      "example_en": "You got the job? That's great!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:qué-bien",
+      "spanish": "¡Qué bien!",
+      "english": "How nice! / Great!",
+      "pronunciation": "keh byehn",
+      "example": "¡[Qué bien] bailas!",
+      "example_en": "You dance so well!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:qué-chévere",
+      "spanish": "¡Qué chévere!",
+      "english": "How cool!",
+      "pronunciation": "keh CHEH-beh-reh",
+      "example": "¿Vas a Punta Cana? ¡[Qué chévere]!",
+      "example_en": "You're going to Punta Cana? How cool!",
+      "region": "Caribbean",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:ay-no",
+      "spanish": "¡Ay, no!",
+      "english": "Oh no!",
+      "pronunciation": "eye, noh",
+      "example": "¡[Ay, no]! Se me olvidó.",
+      "example_en": "Oh no! I forgot.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:uy",
+      "spanish": "¡Uy!",
+      "english": "Oops! / Whoa!",
+      "pronunciation": "wee",
+      "example": "¡[Uy], perdón!",
+      "example_en": "Oops, sorry!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:qué-va",
+      "spanish": "¡Qué va!",
+      "english": "No way! / Not at all!",
+      "pronunciation": "keh bah",
+      "example": "—¿Estás cansado? —¡[Qué va]!",
+      "example_en": "\"Are you tired?\" \"Not at all!\"",
+      "region": "Caribbean",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:mira",
+      "spanish": "¡Mira!",
+      "english": "Look! / Listen!",
+      "pronunciation": "MEE-rah",
+      "example": "¡[Mira], ahí está!",
+      "example_en": "Look, there it is!",
+      "region": "General",
+      "register": "casual",
+      "notes": "Also used to start an explanation: \"Mira, te explico...\""
+    },
+    {
+      "id": "fillers:oye",
+      "spanish": "¡Oye!",
+      "english": "Hey!",
+      "pronunciation": "OH-yeh",
+      "example": "¡[Oye], ven acá!",
+      "example_en": "Hey, come here!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:igual",
+      "spanish": "Igual",
+      "english": "Anyway / Still / Same",
+      "pronunciation": "ee-GWAHL",
+      "example": "[Igual], vamos a ir.",
+      "example_en": "We're going anyway.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:en-fin",
+      "spanish": "En fin",
+      "english": "Anyway / Long story short",
+      "pronunciation": "ehn feen",
+      "example": "[En fin], la pasamos bien.",
+      "example_en": "Anyway, we had a good time.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:me-da-igual",
+      "spanish": "Me da igual",
+      "english": "I don't mind / Whatever",
+      "pronunciation": "meh dah ee-GWAHL",
+      "example": "—¿Pizza o tacos? —[Me da igual].",
+      "example_en": "\"Pizza or tacos?\" \"I don't mind.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:ni-modo",
+      "spanish": "Ni modo",
+      "english": "Oh well / Nothing you can do",
+      "pronunciation": "nee MOH-doh",
+      "example": "Se canceló el concierto. [Ni modo].",
+      "example_en": "The concert got canceled. Oh well.",
+      "region": "Mexico",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:ojo",
+      "spanish": "¡Ojo!",
+      "english": "Careful! / Watch out!",
+      "pronunciation": "OH-hoh",
+      "example": "[¡Ojo!] Esa calle es peligrosa.",
+      "example_en": "Careful! That street is dangerous.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:tranquilo",
+      "spanish": "Tranquilo",
+      "english": "Relax / No worries",
+      "pronunciation": "trahn-KEE-loh",
+      "example": "[Tranquilo], yo lo arreglo.",
+      "example_en": "Relax, I'll fix it.",
+      "region": "General",
+      "register": "casual",
+      "notes": "To a woman: \"tranquila\"."
+    },
+    {
+      "id": "fillers:ándale",
+      "spanish": "¡Ándale!",
+      "english": "Come on! / Hurry up! / Right!",
+      "pronunciation": "AHN-dah-leh",
+      "example": "¡[Ándale], que se hace tarde!",
+      "example_en": "Come on, it's getting late!",
+      "region": "Mexico",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:vaya",
+      "spanish": "¡Vaya!",
+      "english": "Wow! / Well, well",
+      "pronunciation": "BAH-yah",
+      "example": "¡[Vaya], qué sorpresa!",
+      "example_en": "Wow, what a surprise!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:ahí-vamos",
+      "spanish": "Ahí vamos",
+      "english": "Getting there / Hanging in there",
+      "pronunciation": "ah-EE BAH-mohs",
+      "example": "—¿Cómo va el español? —[Ahí vamos].",
+      "example_en": "\"How's the Spanish going?\" \"Getting there.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "fillers:sí-sí-sí",
+      "spanish": "Sí, sí, sí",
+      "english": "Yeah, yeah, yeah (I know)",
+      "pronunciation": "see, see, see",
+      "example": "[Sí, sí, sí], ya sé.",
+      "example_en": "Yeah, yeah, I know.",
+      "region": "General",
+      "register": "casual"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "plans",
+  "name": "Making Plans",
+  "emoji": "📅",
+  "description": "Invite people, set a time and place, and handle running late.",
+  "phase": 2,
+  "order": 76,
+  "cards": [
+    {
+      "id": "plans:qué-vas-a-hacer-hoy",
+      "spanish": "¿Qué vas a hacer hoy?",
+      "english": "What are you doing today?",
+      "pronunciation": "keh bahs ah ah-SEHR oy",
+      "example": "¿[Qué vas a hacer hoy]? ¿Salimos?",
+      "example_en": "What are you doing today? Shall we go out?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:tienes-planes-para-el-sábado",
+      "spanish": "¿Tienes planes para el sábado?",
+      "english": "Do you have plans for Saturday?",
+      "pronunciation": "TYEH-nehs PLAH-nehs PAH-rah ehl SAH-bah-doh",
+      "example": "¿[Tienes planes para el sábado]?",
+      "example_en": "Do you have plans for Saturday?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:quieres-ir-a",
+      "spanish": "¿Quieres ir a...?",
+      "english": "Do you want to go to...?",
+      "pronunciation": "KYEH-rehs eer ah",
+      "example": "¿[Quieres ir a] bailar conmigo?",
+      "example_en": "Do you want to go dancing with me?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:vamos",
+      "spanish": "¿Vamos?",
+      "english": "Shall we go?",
+      "pronunciation": "BAH-mohs",
+      "example": "Hay bachata esta noche. ¿[Vamos]?",
+      "example_en": "There's bachata tonight. Shall we go?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:a-qué-hora",
+      "spanish": "¿A qué hora?",
+      "english": "What time?",
+      "pronunciation": "ah keh OH-rah",
+      "example": "¿[A qué hora] nos vemos?",
+      "example_en": "What time are we meeting?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:dónde-nos-vemos",
+      "spanish": "¿Dónde nos vemos?",
+      "english": "Where are we meeting?",
+      "pronunciation": "DOHN-deh nohs BEH-mohs",
+      "example": "¿[Dónde nos vemos], allá o en tu casa?",
+      "example_en": "Where do we meet, there or at your place?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:a-las-ocho",
+      "spanish": "A las ocho",
+      "english": "At eight",
+      "pronunciation": "ah lahs OH-choh",
+      "example": "Nos vemos [a las ocho].",
+      "example_en": "See you at eight.",
+      "region": "General",
+      "register": "casual",
+      "notes": "\"A la una\" (1:00), \"a las dos y media\" (2:30)."
+    },
+    {
+      "id": "plans:te-parece",
+      "spanish": "¿Te parece?",
+      "english": "Sound good? / What do you think?",
+      "pronunciation": "teh pah-REH-seh",
+      "example": "Vamos el viernes, ¿[te parece]?",
+      "example_en": "Let's go on Friday, sound good?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:me-parece-bien",
+      "spanish": "Me parece bien",
+      "english": "Sounds good",
+      "pronunciation": "meh pah-REH-seh byehn",
+      "example": "—¿A las nueve? —[Me parece bien].",
+      "example_en": "\"At nine?\" \"Sounds good.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:cuenta-conmigo",
+      "spanish": "Cuenta conmigo",
+      "english": "Count me in",
+      "pronunciation": "KWEHN-tah kohn-MEE-goh",
+      "example": "¿Fiesta el sábado? [Cuenta conmigo].",
+      "example_en": "Party on Saturday? Count me in.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:no-puedo-hoy",
+      "spanish": "No puedo hoy",
+      "english": "I can't today",
+      "pronunciation": "noh PWEH-doh oy",
+      "example": "[No puedo hoy], tengo que trabajar.",
+      "example_en": "I can't today, I have to work.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:mejor-otro-día",
+      "spanish": "Mejor otro día",
+      "english": "Better another day / Rain check",
+      "pronunciation": "meh-HOHR OH-troh DEE-ah",
+      "example": "Estoy cansado. [Mejor otro día].",
+      "example_en": "I'm tired. Let's do another day.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:te-paso-a-buscar",
+      "spanish": "Te paso a buscar",
+      "english": "I'll pick you up",
+      "pronunciation": "teh PAH-soh ah boos-KAHR",
+      "example": "[Te paso a buscar] a las ocho.",
+      "example_en": "I'll pick you up at eight.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:voy-en-camino",
+      "spanish": "Voy en camino",
+      "english": "I'm on my way",
+      "pronunciation": "boy ehn kah-MEE-noh",
+      "example": "[Voy en camino], llego en diez.",
+      "example_en": "I'm on my way, I'll be there in ten.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:ya-llegué",
+      "spanish": "Ya llegué",
+      "english": "I'm here / I arrived",
+      "pronunciation": "yah yeh-GEH",
+      "example": "[Ya llegué], estoy afuera.",
+      "example_en": "I'm here, I'm outside.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:estoy-afuera",
+      "spanish": "Estoy afuera",
+      "english": "I'm outside",
+      "pronunciation": "ehs-TOY ah-FWEH-rah",
+      "example": "[Estoy afuera], ¿me abres?",
+      "example_en": "I'm outside, can you open up?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:voy-tarde",
+      "spanish": "Voy tarde",
+      "english": "I'm running late",
+      "pronunciation": "boy TAHR-deh",
+      "example": "Perdón, [voy tarde]. Hay mucho tráfico.",
+      "example_en": "Sorry, I'm running late. There's a lot of traffic.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Also \"voy a llegar tarde\"."
+    },
+    {
+      "id": "plans:quién-más-va",
+      "spanish": "¿Quién más va?",
+      "english": "Who else is going?",
+      "pronunciation": "kyehn mahs bah",
+      "example": "¿[Quién más va] a la fiesta?",
+      "example_en": "Who else is going to the party?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:te-escribo-luego",
+      "spanish": "Te escribo luego",
+      "english": "I'll text you later",
+      "pronunciation": "teh ehs-KREE-boh LWEH-goh",
+      "example": "Ahora no puedo. [Te escribo luego].",
+      "example_en": "I can't right now. I'll text you later.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:ahí-nos-vemos",
+      "spanish": "Ahí nos vemos",
+      "english": "See you there",
+      "pronunciation": "ah-EE nohs BEH-mohs",
+      "example": "Perfecto, [ahí nos vemos].",
+      "example_en": "Perfect, see you there.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:qué-te-parece-si",
+      "spanish": "¿Qué te parece si...?",
+      "english": "How about if...?",
+      "pronunciation": "keh teh pah-REH-seh see",
+      "example": "¿[Qué te parece si] vamos a la playa?",
+      "example_en": "How about we go to the beach?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "plans:dale-nos-vemos",
+      "spanish": "Dale, nos vemos",
+      "english": "Okay, see you",
+      "pronunciation": "DAH-leh, nohs BEH-mohs",
+      "example": "—A las nueve en Ybor. —[Dale, nos vemos].",
+      "example_en": "\"Nine o'clock in Ybor.\" \"Okay, see you.\"",
+      "region": "Caribbean",
+      "register": "casual"
+    }
+  ]
+}

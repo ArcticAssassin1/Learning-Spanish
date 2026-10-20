@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from './lib/store.jsx';
 import { visibleCards, allVisibleCards } from './lib/decks.js';
 import { pickSession } from './lib/srs.js';
@@ -13,8 +13,11 @@ import FixSentence from './components/FixSentence.jsx';
 import QuickTranslate from './components/QuickTranslate.jsx';
 import ImportDeck from './components/ImportDeck.jsx';
 import { drillCards } from './lib/conjugation.js';
+import { PATH, lessonsOf, lessonMode, lessonAfter } from './lib/path.js';
+import PathView from './components/PathView.jsx';
 
 const TABS = [
+  ['path', '🗺️', 'Learn'],
   ['home', '📚', 'Decks'],
   ['practice', '🏋️', 'Practice'],
   ['progress', '📈', 'Progress'],
@@ -24,7 +27,7 @@ const TABS = [
 export default function App() {
   const { settings, progress, decks } = useStore();
   // A small screen stack, synced with browser history so the phone's back button works.
-  const [stack, setStack] = useState([{ name: 'home' }]);
+  const [stack, setStack] = useState([{ name: 'path' }]);
   const screen = stack[stack.length - 1];
 
   useEffect(() => {
@@ -76,6 +79,43 @@ export default function App() {
     };
     push(rebuild());
   };
+  // Learn path lessons. progressRef keeps "New round" / "Next lesson" using the latest progress.
+  const progressRef = useRef(progress);
+  progressRef.current = progress;
+  const cardIndex = useMemo(() => new Map(decks.flatMap((d) => d.cards.map((c) => [c.id, c]))), [decks]);
+  const pathCards = (ids) => ids.map((id) => cardIndex.get(id)).filter((c) => c && (settings.showVulgar || c.register !== 'vulgar'));
+
+  const lessonScreen = (u, l) => {
+    const ids = lessonsOf(PATH[u])[l];
+    const mode = lessonMode(ids, progressRef.current);
+    const after = lessonAfter(u, l);
+    return {
+      name: 'session',
+      kind: mode.kind,
+      direction: mode.direction,
+      title: `Unit ${u + 1} · Lesson ${l + 1} · ${mode.label}`,
+      cards: pathCards(ids),
+      pool: pathCards(PATH[u].cards),
+      rebuild: () => lessonScreen(u, l),
+      next: after ? () => lessonScreen(after.unit, after.lesson) : null,
+      key: Date.now(),
+    };
+  };
+  const startLesson = (u, l) => push(lessonScreen(u, l));
+  const startUnitReview = (u) => {
+    const unitReview = () => {
+      const pool = pathCards(PATH[u].cards);
+      const practiced = pool.filter((c) => progressRef.current[c.id]?.right > 0);
+      return {
+        name: 'session', kind: 'quiz', direction: 'mixed', title: `Unit ${u + 1} · Review`,
+        cards: pickSession(practiced.length ? practiced : pool, progressRef.current, { mode: 'smart', size: 12 }),
+        pool, rebuild: unitReview, key: Date.now(),
+      };
+    };
+    push(unitReview());
+  };
+  const goNext = () => setStack((s) => [...s.slice(0, -1), screen.next()]);
+
   const newRound = () => {
     const next = screen.rebuild ? screen.rebuild() : buildSession({ ...screen, cards: cardsFor(screen.deckId) });
     setStack((s) => [...s.slice(0, -1), next]);
@@ -95,6 +135,7 @@ export default function App() {
         direction={screen.direction || settings.direction}
         onExit={back}
         onNewRound={newRound}
+        onNext={screen.next ? goNext : undefined}
       />
     );
   } else if (screen.name === 'practice') {
@@ -123,6 +164,14 @@ export default function App() {
     content = <ProgressView />;
   } else if (screen.name === 'settings') {
     content = <Settings />;
+  } else if (screen.name === 'path') {
+    content = (
+      <PathView
+        startLesson={startLesson}
+        startUnitReview={startUnitReview}
+        openDeck={(deckId) => push({ name: 'deck', deckId })}
+      />
+    );
   } else {
     content = <Home openDeck={(deckId) => push({ name: 'deck', deckId })} startReview={startReview} startMistakes={startMistakes} openImport={() => push({ name: 'import' })} />;
   }

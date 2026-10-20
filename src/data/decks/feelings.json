@@ -1,0 +1,235 @@
+{
+  "id": "feelings",
+  "name": "Feelings & Opinions",
+  "emoji": "💭",
+  "description": "Say how you feel, what you like and hate, and what you think.",
+  "phase": 2,
+  "order": 78,
+  "cards": [
+    {
+      "id": "feelings:me-gusta-mucho",
+      "spanish": "Me gusta mucho",
+      "english": "I really like it",
+      "pronunciation": "meh GOOS-tah MOO-choh",
+      "example": "Esta canción [me gusta mucho].",
+      "example_en": "I really like this song.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:no-me-gusta-para-nada",
+      "spanish": "No me gusta para nada",
+      "english": "I don't like it at all",
+      "pronunciation": "noh meh GOOS-tah PAH-rah NAH-dah",
+      "example": "El frío [no me gusta para nada].",
+      "example_en": "I don't like the cold at all.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:me-molesta",
+      "spanish": "Me molesta",
+      "english": "It bothers me",
+      "pronunciation": "meh moh-LEHS-tah",
+      "example": "[Me molesta] cuando llegas tarde.",
+      "example_en": "It bothers me when you show up late.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:me-da-pena",
+      "spanish": "Me da pena",
+      "english": "I feel bad / I'm embarrassed",
+      "pronunciation": "meh dah PEH-nah",
+      "example": "[Me da pena] hablar en español.",
+      "example_en": "I'm embarrassed to speak Spanish.",
+      "region": "General",
+      "register": "casual",
+      "notes": "In much of Latin America it means embarrassed or shy; in Spain, \"I feel sorry\"."
+    },
+    {
+      "id": "feelings:me-da-miedo",
+      "spanish": "Me da miedo",
+      "english": "It scares me",
+      "pronunciation": "meh dah MYEH-doh",
+      "example": "[Me da miedo] manejar de noche.",
+      "example_en": "Driving at night scares me.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:estoy-harto",
+      "spanish": "Estoy harto",
+      "english": "I'm fed up",
+      "pronunciation": "ehs-TOY AHR-toh",
+      "example": "[Estoy harto] del tráfico.",
+      "example_en": "I'm fed up with the traffic.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Woman: \"estoy harta\"."
+    },
+    {
+      "id": "feelings:estoy-contento",
+      "spanish": "Estoy contento",
+      "english": "I'm happy",
+      "pronunciation": "ehs-TOY kohn-TEHN-toh",
+      "example": "[Estoy contento] de verte.",
+      "example_en": "I'm happy to see you.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Woman: \"contenta\"."
+    },
+    {
+      "id": "feelings:estoy-nervioso",
+      "spanish": "Estoy nervioso",
+      "english": "I'm nervous",
+      "pronunciation": "ehs-TOY nehr-BYOH-soh",
+      "example": "[Estoy nervioso] por la cita.",
+      "example_en": "I'm nervous about the date.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:estoy-emocionado",
+      "spanish": "Estoy emocionado",
+      "english": "I'm excited",
+      "pronunciation": "ehs-TOY eh-moh-syoh-NAH-doh",
+      "example": "[Estoy emocionado] por el viaje.",
+      "example_en": "I'm excited about the trip.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Not \"excitado\" (that means aroused)!"
+    },
+    {
+      "id": "feelings:creo-que-sí",
+      "spanish": "Creo que sí",
+      "english": "I think so",
+      "pronunciation": "KREH-oh keh see",
+      "example": "—¿Viene ella? —[Creo que sí].",
+      "example_en": "\"Is she coming?\" \"I think so.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:creo-que-no",
+      "spanish": "Creo que no",
+      "english": "I don't think so",
+      "pronunciation": "KREH-oh keh noh",
+      "example": "—¿Va a llover? —[Creo que no].",
+      "example_en": "\"Is it going to rain?\" \"I don't think so.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:para-mí",
+      "spanish": "Para mí...",
+      "english": "For me... / In my opinion...",
+      "pronunciation": "PAH-rah mee",
+      "example": "[Para mí], la bachata es lo mejor.",
+      "example_en": "For me, bachata is the best.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:la-verdad-es-que",
+      "spanish": "La verdad es que...",
+      "english": "The truth is...",
+      "pronunciation": "lah behr-DAHD ehs keh",
+      "example": "[La verdad es que] no me acuerdo.",
+      "example_en": "The truth is I don't remember.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:tienes-razón",
+      "spanish": "Tienes razón",
+      "english": "You're right",
+      "pronunciation": "TYEH-nehs rah-SOHN",
+      "example": "Sí, [tienes razón].",
+      "example_en": "Yeah, you're right.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:no-estoy-de-acuerdo",
+      "spanish": "No estoy de acuerdo",
+      "english": "I don't agree",
+      "pronunciation": "noh ehs-TOY deh ah-KWEHR-doh",
+      "example": "Perdón, pero [no estoy de acuerdo].",
+      "example_en": "Sorry, but I don't agree.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:depende",
+      "spanish": "Depende",
+      "english": "It depends",
+      "pronunciation": "deh-PEHN-deh",
+      "example": "—¿Vas a salir? —[Depende].",
+      "example_en": "\"Are you going out?\" \"It depends.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:qué-rabia",
+      "spanish": "¡Qué rabia!",
+      "english": "How annoying! / That makes me so mad!",
+      "pronunciation": "keh RAH-byah",
+      "example": "Perdí el vuelo. ¡[Qué rabia]!",
+      "example_en": "I missed the flight. So annoying!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:te-entiendo",
+      "spanish": "Te entiendo",
+      "english": "I understand you / I get it",
+      "pronunciation": "teh ehn-TYEHN-doh",
+      "example": "[Te entiendo], a mí también me pasó.",
+      "example_en": "I get it, it happened to me too.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:me-siento-solo",
+      "spanish": "Me siento solo",
+      "english": "I feel lonely",
+      "pronunciation": "meh SYEHN-toh SOH-loh",
+      "example": "A veces [me siento solo] aquí.",
+      "example_en": "Sometimes I feel lonely here.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:me-alegro",
+      "spanish": "Me alegro",
+      "english": "I'm glad",
+      "pronunciation": "meh ah-LEH-groh",
+      "example": "[Me alegro] por ti.",
+      "example_en": "I'm happy for you.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "feelings:me-cae-bien",
+      "spanish": "Me cae bien",
+      "english": "I like him / her (as a person)",
+      "pronunciation": "meh KAH-eh byehn",
+      "example": "Tu prima [me cae bien].",
+      "example_en": "I like your cousin.",
+      "region": "General",
+      "register": "casual",
+      "notes": "\"Me cae mal\" = I don't like him / her."
+    },
+    {
+      "id": "feelings:estoy-muerto",
+      "spanish": "Estoy muerto",
+      "english": "I'm dead tired",
+      "pronunciation": "ehs-TOY MWEHR-toh",
+      "example": "Después del gym [estoy muerto].",
+      "example_en": "After the gym I'm dead tired.",
+      "region": "General",
+      "register": "casual"
+    }
+  ]
+}

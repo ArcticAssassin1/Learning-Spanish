@@ -1,0 +1,254 @@
+{
+  "id": "small-talk",
+  "name": "Greetings & Small Talk",
+  "emoji": "👋",
+  "description": "Say hi, ask how someone is, and keep a light conversation going.",
+  "phase": 2,
+  "order": 72,
+  "cards": [
+    {
+      "id": "small-talk:hola-qué-tal",
+      "spanish": "¡Hola! ¿Qué tal?",
+      "english": "Hi! How's it going?",
+      "pronunciation": "OH-lah keh tahl",
+      "example": "[¡Hola! ¿Qué tal?] ¿Todo bien?",
+      "example_en": "Hi! How's it going? All good?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:buenas",
+      "spanish": "Buenas",
+      "english": "Hi (any time of day)",
+      "pronunciation": "BWEH-nahs",
+      "example": "[Buenas], ¿cómo están?",
+      "example_en": "Hi, how are you all?",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "Short for buenos días / buenas tardes / buenas noches. Super common in the Caribbean."
+    },
+    {
+      "id": "small-talk:cómo-estás",
+      "spanish": "¿Cómo estás?",
+      "english": "How are you?",
+      "pronunciation": "KOH-moh ehs-TAHS",
+      "example": "Hola, mami, [¿cómo estás?]",
+      "example_en": "Hi, babe, how are you?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:bien-y-tú",
+      "spanish": "Bien, ¿y tú?",
+      "english": "Good, and you?",
+      "pronunciation": "byehn, ee too",
+      "example": "—¿Cómo estás? —[Bien, ¿y tú?]",
+      "example_en": "\"How are you?\" \"Good, and you?\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:aquí-tranquilo",
+      "spanish": "Aquí, tranquilo",
+      "english": "Here, chilling / Not much",
+      "pronunciation": "ah-KEE, trahn-KEE-loh",
+      "example": "—¿Qué haces? —[Aquí, tranquilo].",
+      "example_en": "\"What are you doing?\" \"Not much, chilling.\"",
+      "region": "General",
+      "register": "casual",
+      "notes": "A woman says \"tranquila\". Very common answer to \"¿qué haces?\"."
+    },
+    {
+      "id": "small-talk:cómo-te-llamas",
+      "spanish": "¿Cómo te llamas?",
+      "english": "What's your name?",
+      "pronunciation": "KOH-moh teh YAH-mahs",
+      "example": "Hola, [¿cómo te llamas?]",
+      "example_en": "Hi, what's your name?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:me-llamo",
+      "spanish": "Me llamo...",
+      "english": "My name is...",
+      "pronunciation": "meh YAH-moh",
+      "example": "[Me llamo] Dan, ¿y tú?",
+      "example_en": "My name is Dan, and you?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:mucho-gusto",
+      "spanish": "Mucho gusto",
+      "english": "Nice to meet you",
+      "pronunciation": "MOO-choh GOOS-toh",
+      "example": "[Mucho gusto], Yari.",
+      "example_en": "Nice to meet you, Yari.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:igualmente",
+      "spanish": "Igualmente",
+      "english": "Likewise / You too",
+      "pronunciation": "ee-gwahl-MEHN-teh",
+      "example": "—Mucho gusto. —[Igualmente].",
+      "example_en": "\"Nice to meet you.\" \"Likewise.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:de-dónde-eres",
+      "spanish": "¿De dónde eres?",
+      "english": "Where are you from?",
+      "pronunciation": "deh DOHN-deh EH-rehs",
+      "example": "Tu acento es lindo. [¿De dónde eres?]",
+      "example_en": "Your accent is nice. Where are you from?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:de-qué-parte",
+      "spanish": "¿De qué parte?",
+      "english": "From what part?",
+      "pronunciation": "deh keh PAHR-teh",
+      "example": "—Soy dominicana. —¿[De qué parte]?",
+      "example_en": "\"I'm Dominican.\" \"From what part?\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:qué-cuentas",
+      "spanish": "¿Qué cuentas?",
+      "english": "What's new? / What's up?",
+      "pronunciation": "keh KWEHN-tahs",
+      "example": "Hola, mano, ¿[qué cuentas]?",
+      "example_en": "Hey, bro, what's new?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:qué-haces-por-aquí",
+      "spanish": "¿Qué haces por aquí?",
+      "english": "What are you doing around here?",
+      "pronunciation": "keh AH-sehs pohr ah-KEE",
+      "example": "¡Oye! ¿[Qué haces por aquí]?",
+      "example_en": "Hey! What are you doing around here?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:vienes-mucho-aquí",
+      "spanish": "¿Vienes mucho aquí?",
+      "english": "Do you come here a lot?",
+      "pronunciation": "BYEH-nehs MOO-choh ah-KEE",
+      "example": "¿[Vienes mucho aquí] los viernes?",
+      "example_en": "Do you come here a lot on Fridays?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:cuánto-tiempo-llevas-aquí",
+      "spanish": "¿Cuánto tiempo llevas aquí?",
+      "english": "How long have you been here?",
+      "pronunciation": "KWAHN-toh TYEHM-poh YEH-bahs ah-KEE",
+      "example": "¿[Cuánto tiempo llevas] en Tampa?",
+      "example_en": "How long have you been in Tampa?",
+      "region": "General",
+      "register": "casual",
+      "notes": "\"Llevar + time\" = to have been somewhere for that long."
+    },
+    {
+      "id": "small-talk:qué-hiciste-el-fin-de-semana",
+      "spanish": "¿Qué hiciste el fin de semana?",
+      "english": "What did you do on the weekend?",
+      "pronunciation": "keh ee-SEES-teh ehl feen deh seh-MAH-nah",
+      "example": "¿[Qué hiciste el fin de semana]? ¿Saliste?",
+      "example_en": "What did you do this weekend? Did you go out?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:estudias-o-trabajas",
+      "spanish": "¿Estudias o trabajas?",
+      "english": "Do you study or work?",
+      "pronunciation": "ehs-TOO-dyahs oh trah-BAH-hahs",
+      "example": "Y tú, ¿[estudias o trabajas]?",
+      "example_en": "And you, do you study or work?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:qué-calor",
+      "spanish": "¡Qué calor!",
+      "english": "It's so hot!",
+      "pronunciation": "keh kah-LOHR",
+      "example": "¡[Qué calor] hace hoy!",
+      "example_en": "It's so hot today!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:qué-casualidad",
+      "spanish": "¡Qué casualidad!",
+      "english": "What a coincidence!",
+      "pronunciation": "keh kah-swah-lee-DAHD",
+      "example": "¿Tú también eres de Santiago? ¡[Qué casualidad]!",
+      "example_en": "You're from Santiago too? What a coincidence!",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:fue-un-placer",
+      "spanish": "Fue un placer",
+      "english": "It was a pleasure",
+      "pronunciation": "fweh oon plah-SEHR",
+      "example": "[Fue un placer] conocerte.",
+      "example_en": "It was a pleasure meeting you.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:saludos-a-tu-familia",
+      "spanish": "Saludos a tu familia",
+      "english": "Say hi to your family",
+      "pronunciation": "sah-LOO-dohs ah too fah-MEE-lyah",
+      "example": "Bueno, me voy. [Saludos a tu familia].",
+      "example_en": "Okay, I'm leaving. Say hi to your family.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:cuídate",
+      "spanish": "Cuídate",
+      "english": "Take care",
+      "pronunciation": "KWEE-dah-teh",
+      "example": "Nos vemos. [Cuídate].",
+      "example_en": "See you. Take care.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:nos-vemos",
+      "spanish": "Nos vemos",
+      "english": "See you",
+      "pronunciation": "nohs BEH-mohs",
+      "example": "[Nos vemos] el sábado.",
+      "example_en": "See you on Saturday.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "small-talk:hasta-luego",
+      "spanish": "Hasta luego",
+      "english": "See you later",
+      "pronunciation": "AHS-tah LWEH-goh",
+      "example": "Bueno, [hasta luego].",
+      "example_en": "Okay, see you later.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In the Caribbean often just \"luego\" or even \"lueguito\"."
+    }
+  ]
+}

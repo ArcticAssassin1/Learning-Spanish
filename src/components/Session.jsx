@@ -38,7 +38,7 @@ function buildQueue(cards, direction) {
  * A study round in one of the MODES. Ends with a score summary and a "Retake missed" button.
  * `pool` is the full deck, used for multiple-choice distractors.
  */
-export default function Session({ title, cards, pool, kind, direction, onExit, onNewRound }) {
+export default function Session({ title, cards, pool, kind, direction, onExit, onNewRound, onNext }) {
   const [queue, setQueue] = useState(() => buildQueue(cards, direction));
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState([]);
@@ -70,7 +70,7 @@ export default function Session({ title, cards, pool, kind, direction, onExit, o
       <div className="bar"><div className="bar-fill" style={{ width: `${(Math.min(index, queue.length) / queue.length) * 100}%` }} /></div>
 
       {done ? (
-        <Summary results={results} onRetake={retake} onNewRound={onNewRound} onExit={onExit} />
+        <Summary results={results} onRetake={retake} onNewRound={onNewRound} onNext={onNext} onExit={onExit} />
       ) : kind === 'flash' ? (
         <FlashCard {...props} />
       ) : kind === 'choice' ? (
@@ -464,7 +464,7 @@ function FlashCard({ item, onDone }) {
   );
 }
 
-function Summary({ results, onRetake, onNewRound, onExit }) {
+function Summary({ results, onRetake, onNewRound, onNext, onExit }) {
   const { activity, settings } = useStore();
   const missed = useMemo(() => {
     const seen = new Set();
@@ -490,7 +490,10 @@ function Summary({ results, onRetake, onNewRound, onExit }) {
             🔁 Retake missed cards ({missed.length})
           </button>
         )}
-        <button className="btn btn-wide" onClick={onNewRound}>New round</button>
+        {onNext && (
+          <button className={'btn btn-wide' + (missed.length ? '' : ' btn-primary')} onClick={onNext}>Next lesson ▶</button>
+        )}
+        <button className="btn btn-wide" onClick={onNewRound}>{onNext ? 'Do this lesson again' : 'New round'}</button>
         <button className="btn btn-ghost btn-wide" onClick={onExit}>Done</button>
       </div>
 

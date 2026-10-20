@@ -1,0 +1,211 @@
+{
+  "id": "survival",
+  "name": "Conversation Survival",
+  "emoji": "🛟",
+  "description": "What to say when you don't understand, forget a word, or need them to slow down. The most useful deck when you're actually talking.",
+  "phase": 2,
+  "order": 73,
+  "cards": [
+    {
+      "id": "survival:no-entiendo",
+      "spanish": "No entiendo",
+      "english": "I don't understand",
+      "pronunciation": "noh ehn-TYEHN-doh",
+      "example": "Perdón, [no entiendo].",
+      "example_en": "Sorry, I don't understand.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:puedes-repetir",
+      "spanish": "¿Puedes repetir?",
+      "english": "Can you repeat that?",
+      "pronunciation": "PWEH-dehs reh-peh-TEER",
+      "example": "Perdón, ¿[puedes repetir]?",
+      "example_en": "Sorry, can you repeat that?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:qué-dijiste",
+      "spanish": "¿Qué dijiste?",
+      "english": "What did you say?",
+      "pronunciation": "keh dee-HEES-teh",
+      "example": "Había mucho ruido. ¿[Qué dijiste]?",
+      "example_en": "It was loud. What did you say?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:más-despacio-por-favor",
+      "spanish": "Más despacio, por favor",
+      "english": "Slower, please",
+      "pronunciation": "mahs dehs-PAH-syoh, pohr fah-BOHR",
+      "example": "Hablas muy rápido. [Más despacio, por favor].",
+      "example_en": "You talk really fast. Slower, please.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:cómo-se-dice",
+      "spanish": "¿Cómo se dice...?",
+      "english": "How do you say...?",
+      "pronunciation": "KOH-moh seh DEE-seh",
+      "example": "¿[Cómo se dice] \"hangover\" en español?",
+      "example_en": "How do you say \"hangover\" in Spanish?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:qué-significa",
+      "spanish": "¿Qué significa...?",
+      "english": "What does... mean?",
+      "pronunciation": "keh seeg-nee-FEE-kah",
+      "example": "¿[Qué significa] \"jevi\"?",
+      "example_en": "What does \"jevi\" mean?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:cómo-se-escribe",
+      "spanish": "¿Cómo se escribe?",
+      "english": "How do you spell it?",
+      "pronunciation": "KOH-moh seh ehs-KREE-beh",
+      "example": "Lindo nombre. ¿[Cómo se escribe]?",
+      "example_en": "Nice name. How do you spell it?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:estoy-aprendiendo-español",
+      "spanish": "Estoy aprendiendo español",
+      "english": "I'm learning Spanish",
+      "pronunciation": "ehs-TOY ah-prehn-DYEHN-doh ehs-pah-NYOHL",
+      "example": "Perdón, [estoy aprendiendo español].",
+      "example_en": "Sorry, I'm learning Spanish.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:hablo-un-poquito",
+      "spanish": "Hablo un poquito",
+      "english": "I speak a little",
+      "pronunciation": "AH-bloh oon poh-KEE-toh",
+      "example": "[Hablo un poquito], pero entiendo más.",
+      "example_en": "I speak a little, but I understand more.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:no-sé-cómo-se-dice",
+      "spanish": "No sé cómo se dice",
+      "english": "I don't know how to say it",
+      "pronunciation": "noh seh KOH-moh seh DEE-seh",
+      "example": "[No sé cómo se dice], pero es como...",
+      "example_en": "I don't know how to say it, but it's like...",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:es-como",
+      "spanish": "Es como...",
+      "english": "It's like...",
+      "pronunciation": "ehs KOH-moh",
+      "example": "[Es como] una fiesta, pero en la playa.",
+      "example_en": "It's like a party, but at the beach.",
+      "region": "General",
+      "register": "casual",
+      "notes": "Your best friend when you're missing a word: describe it."
+    },
+    {
+      "id": "survival:quiero-decir",
+      "spanish": "Quiero decir...",
+      "english": "I mean...",
+      "pronunciation": "KYEH-roh deh-SEER",
+      "example": "Mañana. Bueno, [quiero decir], el lunes.",
+      "example_en": "Tomorrow. Well, I mean, Monday.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:me-entiendes",
+      "spanish": "¿Me entiendes?",
+      "english": "Do you understand me? / Get me?",
+      "pronunciation": "meh ehn-TYEHN-dehs",
+      "example": "Mi español no es perfecto, ¿[me entiendes]?",
+      "example_en": "My Spanish isn't perfect, you get me?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:está-bien-dicho",
+      "spanish": "¿Está bien dicho?",
+      "english": "Did I say that right?",
+      "pronunciation": "ehs-TAH byehn DEE-choh",
+      "example": "\"Me quedé dormido.\" ¿[Está bien dicho]?",
+      "example_en": "\"Me quedé dormido.\" Did I say that right?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:corrígeme-por-favor",
+      "spanish": "Corrígeme, por favor",
+      "english": "Correct me, please",
+      "pronunciation": "koh-RREE-heh-meh, pohr fah-BOHR",
+      "example": "Si digo algo mal, [corrígeme, por favor].",
+      "example_en": "If I say something wrong, correct me, please.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:un-momento",
+      "spanish": "Un momento",
+      "english": "One moment / Hold on",
+      "pronunciation": "oon moh-MEHN-toh",
+      "example": "[Un momento], déjame pensar.",
+      "example_en": "Hold on, let me think.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:déjame-pensar",
+      "spanish": "Déjame pensar",
+      "english": "Let me think",
+      "pronunciation": "DEH-hah-meh pehn-SAHR",
+      "example": "Mmm, [déjame pensar].",
+      "example_en": "Hmm, let me think.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:hablas-inglés",
+      "spanish": "¿Hablas inglés?",
+      "english": "Do you speak English?",
+      "pronunciation": "AH-blahs een-GLEHS",
+      "example": "Perdón, ¿[hablas inglés]?",
+      "example_en": "Sorry, do you speak English?",
+      "region": "General",
+      "register": "neutral"
+    },
+    {
+      "id": "survival:más-o-menos",
+      "spanish": "Más o menos",
+      "english": "More or less / So-so",
+      "pronunciation": "mahs oh MEH-nohs",
+      "example": "—¿Entendiste? —[Más o menos].",
+      "example_en": "\"Did you get it?\" \"More or less.\"",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "survival:ah-ya-entendí",
+      "spanish": "Ah, ya entendí",
+      "english": "Oh, now I get it",
+      "pronunciation": "ah, yah ehn-tehn-DEE",
+      "example": "¡[Ah, ya entendí]! Gracias.",
+      "example_en": "Oh, now I get it! Thanks.",
+      "region": "General",
+      "register": "casual"
+    }
+  ]
+}

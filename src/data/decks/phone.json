@@ -1,0 +1,153 @@
+{
+  "id": "phone",
+  "name": "On the Phone",
+  "emoji": "📞",
+  "description": "Answer calls, deal with bad signal, and send voice notes like everyone does.",
+  "phase": 2,
+  "order": 80,
+  "cards": [
+    {
+      "id": "phone:aló",
+      "spanish": "¿Aló?",
+      "english": "Hello? (answering the phone)",
+      "pronunciation": "ah-LOH",
+      "example": "[¿Aló?] ¿Quién habla?",
+      "example_en": "Hello? Who is this?",
+      "region": "Caribbean",
+      "register": "casual",
+      "notes": "DR, Puerto Rico and much of Latin America. Mexico: \"¿Bueno?\". Spain: \"¿Diga?\"."
+    },
+    {
+      "id": "phone:quién-habla",
+      "spanish": "¿Quién habla?",
+      "english": "Who is this? (on the phone)",
+      "pronunciation": "kyehn AH-blah",
+      "example": "Hola, ¿[quién habla]?",
+      "example_en": "Hello, who is this?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:me-escuchas",
+      "spanish": "¿Me escuchas?",
+      "english": "Can you hear me?",
+      "pronunciation": "meh ehs-KOO-chahs",
+      "example": "¿[Me escuchas]? Hay mucho ruido.",
+      "example_en": "Can you hear me? It's really loud.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:no-te-escucho-bien",
+      "spanish": "No te escucho bien",
+      "english": "I can't hear you well",
+      "pronunciation": "noh teh ehs-KOO-choh byehn",
+      "example": "[No te escucho bien], se está cortando.",
+      "example_en": "I can't hear you well, it's breaking up.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:se-cortó-la-llamada",
+      "spanish": "Se cortó la llamada",
+      "english": "The call dropped",
+      "pronunciation": "seh kohr-TOH lah yah-MAH-dah",
+      "example": "Perdón, [se cortó la llamada].",
+      "example_en": "Sorry, the call dropped.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:te-llamo-ahorita",
+      "spanish": "Te llamo ahorita",
+      "english": "I'll call you in a bit",
+      "pronunciation": "teh YAH-moh ah-oh-REE-tah",
+      "example": "Estoy manejando, [te llamo ahorita].",
+      "example_en": "I'm driving, I'll call you in a bit.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:te-devuelvo-la-llamada",
+      "spanish": "Te devuelvo la llamada",
+      "english": "I'll call you back",
+      "pronunciation": "teh deh-BWEHL-boh lah yah-MAH-dah",
+      "example": "Estoy ocupado, [te devuelvo la llamada].",
+      "example_en": "I'm busy, I'll call you back.",
+      "region": "General",
+      "register": "neutral",
+      "notes": "In the US you'll also hear \"te llamo pa'trás\" (Spanglish)."
+    },
+    {
+      "id": "phone:mándame-un-audio",
+      "spanish": "Mándame un audio",
+      "english": "Send me a voice note",
+      "pronunciation": "MAHN-dah-meh oon OW-dyoh",
+      "example": "Si estás manejando, [mándame un audio].",
+      "example_en": "If you're driving, send me a voice note.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:te-mando-la-ubicación",
+      "spanish": "Te mando la ubicación",
+      "english": "I'll send you the location",
+      "pronunciation": "teh MAHN-doh lah oo-bee-kah-SYOHN",
+      "example": "No sé llegar. [Te mando la ubicación].",
+      "example_en": "I don't know how to get there. I'll send you the location.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:me-pasas-tu-número",
+      "spanish": "¿Me pasas tu número?",
+      "english": "Can you give me your number?",
+      "pronunciation": "meh PAH-sahs too NOO-meh-roh",
+      "example": "Me caes bien. ¿[Me pasas tu número]?",
+      "example_en": "I like you. Can I get your number?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:me-quedé-sin-batería",
+      "spanish": "Me quedé sin batería",
+      "english": "My phone died",
+      "pronunciation": "meh keh-DEH seen bah-teh-REE-ah",
+      "example": "Perdón, [me quedé sin batería].",
+      "example_en": "Sorry, my phone died.",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:te-dejé-un-mensaje",
+      "spanish": "Te dejé un mensaje",
+      "english": "I left you a message",
+      "pronunciation": "teh deh-HEH oon mehn-SAH-heh",
+      "example": "[Te dejé un mensaje], ¿lo viste?",
+      "example_en": "I left you a message, did you see it?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:por-qué-no-contestas",
+      "spanish": "¿Por qué no contestas?",
+      "english": "Why aren't you answering?",
+      "pronunciation": "pohr keh noh kohn-TEHS-tahs",
+      "example": "Te llamé tres veces. ¿[Por qué no contestas]?",
+      "example_en": "I called you three times. Why aren't you answering?",
+      "region": "General",
+      "register": "casual"
+    },
+    {
+      "id": "phone:hablamos",
+      "spanish": "Hablamos",
+      "english": "Talk soon",
+      "pronunciation": "ah-BLAH-mohs",
+      "example": "Bueno, [hablamos].",
+      "example_en": "Okay, talk soon.",
+      "region": "General",
+      "register": "casual",
+      "notes": "A very common way to end a call or chat."
+    }
+  ]
+}

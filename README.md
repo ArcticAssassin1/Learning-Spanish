@@ -8,7 +8,7 @@ Built for one learner: an English speaker focused on Caribbean (especially Domin
 
 ## What's in it
 
-**33 decks, 992 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
+**39 decks, 1120 cards**, each with a pronunciation guide (*koh-rah-SOHN*), an example sentence,
 a region and a register label.
 
 - **Phase 1, foundations:** numbers, basics (question words, tú vs usted, tener expressions, del/al,
@@ -21,6 +21,31 @@ a region and a register label.
 - **Phase 3, Caribbean & street:** romance 🔥, bachata and the dance floor, Caribbean pronunciation
   (etá, cansao, pa', amol), Dominican, Puerto Rican, Cuban and Mexican slang, texting abbreviations
   (tqm, xq, ntp), Mexican slang from a comedy talk on free time, expletives 🔞.
+
+**🗺️ Learn path** (the first tab): 11 units of everyday phrases in a clear order, each with a
+real-life goal. It's phrases first, because that's how adults learn to talk; grammar comes as optional
+⚡ boosts attached to the unit where you need it.
+
+| # | Unit | You'll be able to | ⚡ Boost |
+|---|---|---|---|
+| 1 | Hi! Who are you? | Greet people, say who you are, ask about them | Ser vs Estar |
+| 2 | Survive any conversation | Keep talking when you don't understand or can't find a word | Pronouns |
+| 3 | React like a native | Use the little words (pues, o sea, ya, ¡qué va!) that make you sound real | |
+| 4 | Make plans | Invite someone out, set a time and place, handle running late | Helper verbs |
+| 5 | Tell what happened | Talk about yesterday, last night and the weekend | Preterite vs Imperfect |
+| 6 | Food & going out | Order, pay, and get around the club | |
+| 7 | Say how you feel | Share feelings and opinions, agree and disagree | Subjunctive phrases |
+| 8 | Flirting & dating | Compliment, flirt and keep it going over text | |
+| 9 | Phone & texting | Calls, voice notes and texts like a local | |
+| 10 | Sound Dominican | Everyday Dominican slang and accent | |
+| 11 | Street Spanish everywhere | Puerto Rican, Cuban and Mexican slang you hear in Tampa | |
+
+Each unit is split into lessons of 6 phrases. The first time through you **recognize** them
+(multiple choice, Spanish → English, with audio); after that the lesson becomes **practice** where you
+**produce** them (type English → Spanish). "Continue" always takes you to your next lesson.
+
+New everyday decks behind the path: **Greetings & Small Talk**, **Conversation Survival**,
+**Fillers & Reactions**, **Making Plans**, **Feelings & Opinions**, **On the Phone**.
 
 **Five ways to study each deck:**
 
