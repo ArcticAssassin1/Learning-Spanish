@@ -2,10 +2,10 @@ import { useStore } from '../lib/store.jsx';
 import { visibleDecks, visibleCards, allVisibleCards, PHASES } from '../lib/decks.js';
 import { dueCount, isLearned, streakInfo, dayKey } from '../lib/srs.js';
 
-export default function Home({ openDeck, startReview, startMistakes }) {
-  const { settings, progress, activity } = useStore();
-  const decks = visibleDecks(settings);
-  const all = allVisibleCards(settings);
+export default function Home({ openDeck, startReview, startMistakes, openImport }) {
+  const { settings, progress, activity, decks: allDecks } = useStore();
+  const decks = visibleDecks(settings, allDecks);
+  const all = allVisibleCards(settings, allDecks);
   const due = dueCount(all, progress);
   const mistakes = all.filter((c) => progress[c.id]?.wrong > 0 && !isLearned(progress[c.id])).length;
   const today = activity[dayKey()]?.reviews || 0;
@@ -75,6 +75,8 @@ export default function Home({ openDeck, startReview, startMistakes }) {
           </ul>
         </section>
       ))}
+
+      <button className="btn btn-ghost btn-wide" onClick={openImport}>📥 Import a word list (Quizlet, etc.)</button>
     </div>
   );
 }

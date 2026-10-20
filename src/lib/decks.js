@@ -11,6 +11,7 @@ export const DECKS = Object.values(modules)
   .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 
 export const PHASES = {
+  0: '📌 My decks',
   1: 'Phase 1 · Lock in the foundations',
   2: 'Phase 2 · Real conversation',
   3: 'Phase 3 · Caribbean & street Spanish',
@@ -20,12 +21,13 @@ export function visibleCards(deck, settings) {
   return settings.showVulgar ? deck.cards : deck.cards.filter((c) => c.register !== 'vulgar');
 }
 
-export function visibleDecks(settings) {
-  return DECKS.filter((d) => visibleCards(d, settings).length > 0);
+/** `decks` = built-in + custom decks (from the store). */
+export function visibleDecks(settings, decks = DECKS) {
+  return decks.filter((d) => visibleCards(d, settings).length > 0);
 }
 
-export function allVisibleCards(settings) {
-  return visibleDecks(settings).flatMap((d) => visibleCards(d, settings));
+export function allVisibleCards(settings, decks = DECKS) {
+  return visibleDecks(settings, decks).flatMap((d) => visibleCards(d, settings));
 }
 
 export const REGION_FLAGS = {

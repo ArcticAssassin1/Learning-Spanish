@@ -1473,3 +1473,88 @@ code {
   padding: 1px 6px;
   border-radius: 6px;
 }
+
+/* ---------- Quick translate ---------- */
+
+.translate-btn {
+  border-color: var(--border);
+  background: var(--surface);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px 18px;
+}
+
+.translate {
+  gap: 12px;
+}
+
+.t-row {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.t-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.t-def {
+  margin: 0;
+}
+
+.t-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.street {
+  border-left: 3px solid #6aa8ff;
+}
+
+.street-vulgar {
+  border-left-color: var(--bad);
+}
+
+/* ---------- Import / export ---------- */
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.import-input {
+  min-height: 160px;
+}
+
+.import-preview {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.export-preview {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 120px;
+  overflow: auto;
+}
+
+.small-icon {
+  min-width: 36px;
+  min-height: 36px;
+  font-size: 1rem;
+}

@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { useStore } from '../lib/store.jsx';
+import { useEffect, useRef, useState } from 'react';
+import { useStore, makeBackup, BACKUP_APP } from '../lib/store.jsx';
 import { spanishVoices, onVoicesChanged, speak, speechSupported } from '../lib/speech.js';
 import { load, save, remove } from '../lib/storage.js';
 import { looksLikeApiKey } from '../lib/fixSentence.js';
@@ -95,6 +95,8 @@ export default function Settings() {
         </p>
       </section>
 
+      <BackupPanel />
+
       <section className="panel">
         <div className="field-label">Progress</div>
         <p className="muted small">Your progress is saved on this device only.</p>
@@ -160,6 +162,67 @@ function ApiKeyPanel() {
         low monthly spending limit. The key stays on this phone only and is sent only to Anthropic.
         Each check costs roughly a cent.
       </p>
+    </section>
+  );
+}
+
+const MAX_BACKUP_BYTES = 5 * 1024 * 1024;
+
+function BackupPanel() {
+  const store = useStore();
+  const fileRef = useRef(null);
+  const [msg, setMsg] = useState('');
+
+  const backup = () => {
+    const data = makeBackup(store);
+    const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `spanish-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setMsg('Backup downloaded. Keep it somewhere safe (Files, Google Drive, email it to yourself).');
+  };
+
+  const restore = async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    if (file.size > MAX_BACKUP_BYTES) {
+      setMsg('That file is too big to be a backup from this app.');
+      return;
+    }
+    let data;
+    try {
+      data = JSON.parse(await file.text());
+    } catch {
+      setMsg("That file isn't a backup from this app.");
+      return;
+    }
+    if (!data || data.app !== BACKUP_APP) {
+      setMsg("That file isn't a backup from this app.");
+      return;
+    }
+    if (!window.confirm('Replace your current progress, settings and your own decks with this backup?')) return;
+    store.restoreBackup(data);
+    setMsg('Backup restored.');
+  };
+
+  return (
+    <section className="panel">
+      <div className="field-label">Back up your progress</div>
+      <p className="muted small">
+        Progress, streaks, settings and your own decks live only on this phone. Save a backup now and
+        then, so you don't lose them if you switch phones or clear the browser. (Your API key is not
+        included.)
+      </p>
+      <div className="row">
+        <button className="btn" onClick={backup}>💾 Back up</button>
+        <button className="btn" onClick={() => fileRef.current?.click()}>📂 Restore</button>
+      </div>
+      <input ref={fileRef} type="file" accept="application/json,.json" hidden onChange={restore} />
+      {msg && <p className="small" role="status">{msg}</p>}
     </section>
   );
 }

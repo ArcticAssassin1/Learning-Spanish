@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useStore } from './lib/store.jsx';
-import { DECKS, visibleCards, allVisibleCards } from './lib/decks.js';
+import { visibleCards, allVisibleCards } from './lib/decks.js';
 import { pickSession } from './lib/srs.js';
 import Home from './components/Home.jsx';
 import DeckView from './components/DeckView.jsx';
@@ -10,6 +10,8 @@ import Settings from './components/Settings.jsx';
 import Practice from './components/Practice.jsx';
 import Dialogue from './components/Dialogue.jsx';
 import FixSentence from './components/FixSentence.jsx';
+import QuickTranslate from './components/QuickTranslate.jsx';
+import ImportDeck from './components/ImportDeck.jsx';
 import { drillCards } from './lib/conjugation.js';
 
 const TABS = [
@@ -20,7 +22,7 @@ const TABS = [
 ];
 
 export default function App() {
-  const { settings, progress } = useStore();
+  const { settings, progress, decks } = useStore();
   // A small screen stack, synced with browser history so the phone's back button works.
   const [stack, setStack] = useState([{ name: 'home' }]);
   const screen = stack[stack.length - 1];
@@ -53,11 +55,11 @@ export default function App() {
     return { name: 'session', kind, title, deckId, mode, pool, cards: picked, key: Date.now() };
   };
   const cardsFor = (deckId) => (deckId
-    ? visibleCards(DECKS.find((d) => d.id === deckId), settings)
-    : allVisibleCards(settings));
+    ? visibleCards(decks.find((d) => d.id === deckId) || { cards: [] }, settings)
+    : allVisibleCards(settings, decks));
 
   const startDeck = (deckId, kind) => {
-    const title = `${DECKS.find((d) => d.id === deckId).name} · ${MODES[kind].label}`;
+    const title = `${decks.find((d) => d.id === deckId)?.name ?? 'Deck'} · ${MODES[kind].label}`;
     push(buildSession({ cards: cardsFor(deckId), kind, title, deckId, mode: settings.cardMode }));
   };
   const startReview = () => {
@@ -101,6 +103,16 @@ export default function App() {
         startConjugation={startConjugation}
         openDialogue={(id) => push({ name: 'dialogue', id })}
         openFix={() => push({ name: 'fix' })}
+        openTranslate={() => push({ name: 'translate' })}
+      />
+    );
+  } else if (screen.name === 'translate') {
+    content = <QuickTranslate onBack={back} openSettings={() => switchTab('settings')} />;
+  } else if (screen.name === 'import') {
+    content = (
+      <ImportDeck
+        onBack={back}
+        openDeck={(deckId) => setStack((s) => [...s.slice(0, -1), { name: 'deck', deckId }])}
       />
     );
   } else if (screen.name === 'fix') {
@@ -112,11 +124,11 @@ export default function App() {
   } else if (screen.name === 'settings') {
     content = <Settings />;
   } else {
-    content = <Home openDeck={(deckId) => push({ name: 'deck', deckId })} startReview={startReview} startMistakes={startMistakes} />;
+    content = <Home openDeck={(deckId) => push({ name: 'deck', deckId })} startReview={startReview} startMistakes={startMistakes} openImport={() => push({ name: 'import' })} />;
   }
 
   const showTabs = screen.name !== 'session';
-  const activeTab = screen.name === 'deck' ? 'home' : screen.name === 'dialogue' || screen.name === 'fix' ? 'practice' : screen.name;
+  const activeTab = screen.name === 'deck' || screen.name === 'import' ? 'home' : ['dialogue', 'fix', 'translate'].includes(screen.name) ? 'practice' : screen.name;
 
   return (
     <div className={'app' + (showTabs ? ' has-tabs' : '')}>

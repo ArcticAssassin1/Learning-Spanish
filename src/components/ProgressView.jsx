@@ -14,8 +14,8 @@ function lastDays(n) {
 }
 
 export default function ProgressView() {
-  const { settings, progress, activity } = useStore();
-  const all = allVisibleCards(settings);
+  const { settings, progress, activity, decks } = useStore();
+  const all = allVisibleCards(settings, decks);
   const learned = all.filter((c) => isLearned(progress[c.id])).length;
   const records = all.map((c) => progress[c.id]).filter(Boolean);
   const right = records.reduce((n, r) => n + r.right, 0);
@@ -51,7 +51,7 @@ export default function ProgressView() {
 
       <h2 className="phase">By deck</h2>
       <ul className="deck-stats">
-        {visibleDecks(settings).map((deck) => {
+        {visibleDecks(settings, decks).map((deck) => {
           const cards = visibleCards(deck, settings);
           const recs = cards.map((c) => progress[c.id]).filter(Boolean);
           const r = recs.reduce((n, x) => n + x.right, 0);

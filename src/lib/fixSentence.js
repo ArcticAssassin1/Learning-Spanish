@@ -2,8 +2,9 @@
 // with a fix table, in the format from the brief. Runs in the browser with the
 // learner's own API key (stored only on their device).
 import { pronounce } from './pronounce.js';
+import { askClaude, escapeTag } from './claude.js';
 
-export const MODEL = 'claude-opus-5-5';
+export { looksLikeApiKey } from './claude.js';
 export const MAX_INPUT = 500;
 
 const SYSTEM = `You are a friendly Spanish tutor correcting sentences written by Dan.
@@ -81,53 +82,19 @@ export function parseResult(text) {
   };
 }
 
-export function looksLikeApiKey(key) {
-  return /^sk-ant-[A-Za-z0-9_-]{20,}$/.test(key.trim());
-}
-
 /**
  * @returns {Promise<{ result?: object, error?: string }>} error is a friendly message for the UI.
  */
 export async function fixSentence(sentence, apiKey, { signal } = {}) {
   const text = sentence.trim().slice(0, MAX_INPUT);
   if (!text) return { error: 'Type a sentence first.' };
-  if (!apiKey) return { error: 'Add your Claude API key in Settings first.' };
-
-  // Loaded only when this feature is used, so the rest of the app stays small.
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic({ apiKey, dangerouslyAllowBrowser: true, maxRetries: 1 });
-
-  try {
-    const response = await client.beta.messages.create(
-      {
-        model: MODEL,
-        max_tokens: 16000,
-        betas: ['server-side-fallback-2026-07-01'],
-        fallbacks: 'default',
-        output_config: { effort: 'low', format: { type: 'json_schema', schema: RESULT_SCHEMA } },
-        system: SYSTEM,
-        messages: [{ role: 'user', content: `<sentence>${text}</sentence>` }],
-      },
-      { signal },
-    );
-
-    if (response.stop_reason === 'refusal') {
-      return { error: "Claude couldn't check this one. Try rewording the sentence." };
-    }
-    if (response.stop_reason === 'max_tokens') {
-      return { error: 'The answer got cut off. Try a shorter sentence.' };
-    }
-    const block = response.content.find((b) => b.type === 'text');
-    if (!block) return { error: 'No answer came back. Try again.' };
-    return { result: parseResult(block.text) };
-  } catch (e) {
-    if (e instanceof Anthropic.APIUserAbortError) return { error: '' };
-    if (e instanceof Anthropic.AuthenticationError) return { error: 'Your API key was rejected. Check it in Settings.' };
-    if (e instanceof Anthropic.PermissionDeniedError) return { error: "This API key isn't allowed to use Claude. Check it in the Claude Console." };
-    if (e instanceof Anthropic.RateLimitError) return { error: 'Too many requests (or the key is out of credit). Wait a bit and try again.' };
-    if (e instanceof Anthropic.APIConnectionError) return { error: 'No connection. Fix my sentence needs internet.' };
-    if (e instanceof Anthropic.APIError) return { error: `Claude had a problem (${e.status ?? 'error'}). Try again.` };
-    if (e instanceof SyntaxError || e?.message === 'bad shape') return { error: 'The answer came back garbled. Try again.' };
-    return { error: 'Something went wrong. Try again.' };
-  }
+  return askClaude({
+    apiKey,
+    system: SYSTEM,
+    user: `<sentence>${escapeTag(text)}</sentence>`,
+    schema: RESULT_SCHEMA,
+    parse: parseResult,
+    signal,
+    what: 'this sentence',
+  });
 }

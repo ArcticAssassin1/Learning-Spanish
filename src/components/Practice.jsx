@@ -6,7 +6,7 @@ import LIBRARY from '../data/library.json';
 
 const SIZES = [[10, '10'], [15, '15'], [25, '25']];
 
-export default function Practice({ startConjugation, openDialogue, openFix }) {
+export default function Practice({ startConjugation, openDialogue, openFix, openTranslate }) {
   const { settings, updateSettings } = useStore();
   const [loading, setLoading] = useState(false);
   const tenses = settings.conjTenses;
@@ -32,6 +32,10 @@ export default function Practice({ startConjugation, openDialogue, openFix }) {
       <button className="review-btn" onClick={openFix}>
         <span className="review-title">✍️ Fix my sentence</span>
         <span className="review-sub">Write in Spanish, Claude corrects it and explains why</span>
+      </button>
+      <button className="mistakes-btn translate-btn" onClick={openTranslate}>
+        <span>🔎 Quick translate</span>
+        <span className="muted small">English ⇄ Spanish + street version</span>
       </button>
 
       <section className="panel">

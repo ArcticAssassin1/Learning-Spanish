@@ -41,6 +41,21 @@ On Spanish answers there's also a **🎤 button**: say the answer out loud inste
 It knows your usual mistakes (sí/si, verte, conmigo/contigo, "quiero voy"...). Your last 10 fixes
 are saved. Needs your own Claude API key (Settings → Claude API key), about a cent per sentence.
 
+**🔎 Quick translate** (Practice tab): type English or Spanish and get the translation with
+pronunciation, a short definition, 2–3 examples with 🔊, a word-by-word breakdown, how other countries
+say it, and the street version (🔞 ones hidden when explicit cards are off). Same API key as Fix my sentence.
+
+**📌 Your own decks:**
+- **Save as a card** from Quick translate or Fix my sentence → it goes into a **My Cards** deck.
+- **📥 Import a word list** (bottom of the Decks tab): paste a Quizlet export or any
+  `spanish - english` list (Tab, ` - `, ` = ` and ` | ` all work) and it becomes a new deck.
+- **⬇️ Export** any deck (on its page) as `term - definition`, Tab-separated, or CSV; copy or download.
+  Quizlet import: Tab (or custom " - ") between term and definition, new line between cards.
+- Delete your own decks or single cards from the deck page.
+
+**💾 Back up / restore** (Settings): download all your progress, streaks, settings and own decks as one
+file, and restore it on a new phone. The API key is never included.
+
 **🏋️ Practice tab:**
 - **Conjugation drill**: pick verbs (your 20, top 25/50/150, irregular) and tenses (present, preterite,
   imperfect, future, conditional, perfect, subjunctive), then type the right form. Covers 150 verbs.
@@ -82,7 +97,8 @@ From then on it opens like a normal app, works with no signal, and updates itsel
 
 ## Privacy & security
 
-- No account and no server: your progress, settings and API key stay in your phone's browser storage.
+- No account and no server: your progress, settings, own decks and API key stay in your phone's
+  browser storage. Use 💾 Back up in Settings to keep a copy.
 - The API key is only ever sent to Anthropic (`api.anthropic.com`), when you tap **Fix it**.
   Use a separate key just for this app with a low monthly spend limit, and remove it in Settings
   if you lose your phone. Anyone who can unlock your phone and open the app could use the key.
@@ -149,7 +165,9 @@ Database** (compiled by Brian Ghidinelli, JSON version by miko3k/verbos), licens
 [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). Those two data files stay
 under that license; see `src/data/CONJUGATIONS-LICENSE.txt`.
 
-## Coming next (from the brief)
+## About reminders
 
-Quick translate (Claude API) · Quizlet export/import ·
-streak reminders.
+Every feature from the brief is built except daily streak reminders. Phone notifications at a set
+time need a push server that wakes the app, and this app deliberately has no server (that's what
+keeps your data private and the hosting free). The simplest option is a daily alarm or reminder in
+your phone's Clock / Reminders app that says "Spanish 🔥".

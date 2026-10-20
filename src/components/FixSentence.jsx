@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { fixSentence, MAX_INPUT } from '../lib/fixSentence.js';
 import { load, save } from '../lib/storage.js';
 import Speak from './Speak.jsx';
+import { useSaveCard } from '../lib/store.jsx';
 
 const ACCENT_KEYS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', '¿', '¡'];
 const HISTORY_SIZE = 10;
@@ -97,7 +98,7 @@ export default function FixSentence({ onBack, openSettings }) {
         </form>
       )}
 
-      {shown && <FixResult entry={shown} />}
+      {shown && <FixResult key={shown.at} entry={shown} />}
 
       {history.length > 0 && (
         <>
@@ -120,6 +121,13 @@ export default function FixSentence({ onBack, openSettings }) {
 
 function FixResult({ entry }) {
   const { original, result: r } = entry;
+  const saveCard = useSaveCard();
+  const [saved, setSaved] = useState('');
+  const onSave = () => {
+    const why = r.fixes.map((f) => `${f.wrong} → ${f.right}: ${f.why}`).join(' ');
+    const added = saveCard({ spanish: r.corrected, english: r.translation || '(my sentence)', notes: why, register: 'casual' });
+    setSaved(added ? 'Saved to 📌 My Cards.' : 'Already in 📌 My Cards.');
+  };
   return (
     <section className={'feedback ' + (r.is_correct ? 'is-right' : 'is-wrong')} aria-live="polite">
       {r.is_correct ? (
@@ -160,6 +168,8 @@ function FixResult({ entry }) {
         </div>
       )}
       {r.tip && <div className="notes">💡 {r.tip}</div>}
+      <button className="btn btn-wide" onClick={onSave}>📌 Save as a card</button>
+      {saved && <p className="small" role="status">{saved}</p>}
     </section>
   );
 }
